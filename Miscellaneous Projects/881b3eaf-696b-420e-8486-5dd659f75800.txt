@@ -1,0 +1,23 @@
+"`!hurt <target> <damage#> [type (optional)] [source (flavor)]`
+
+Rolls and applies damage in init, or displays damage outside of init. Applies correct damage for relevant resistances, vulnerabilities, and immunities currently in effect on the target, including magical damage.
+
+__Valid Arguments__
+
+`<target>` - Required: Name of the target to apply damage to as written in init. If not in Init this will be what displays in the Embed.
+
+`<damage#>` - Required: Accepts rolls in XdY format or just a number for the amount of damage to apply. (i.e. `2d6+5` or `12`)
+
+`[type]` - Optional: Applies a valid damage type to the damage to automatically apply any modifiers according to the target's current resistances, vulnerabilities, and immunities including magical.
+*Note: if applying magical damage wrap the damage in `""` ex. `"magical slashinig"`
+
+`-phrase [flavor text for source of damage]` - Displays all further arguments after this flag to use as flavor for the source of the damage.
+
+__Example__
+`!hurt GO1 1d6 piercing -phrase sneak attack`
+Would display as:
+`GO1 is dealt 1d6 piercing damage from effect 'sneak attack'.`
+
+`!hurt GO1 1d6 "magical piercing" -phrase sneak attack`
+Would display as:
+`GO1 is dealt 1d6 magical piercing damage from effect 'sneak attack'.`"
