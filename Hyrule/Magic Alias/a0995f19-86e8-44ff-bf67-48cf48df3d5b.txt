@@ -1,0 +1,21 @@
+embed -title 'Casting Spells using Magic Meter' -desc "Casts a spell using Magic Meter.
+__Valid Arguments:__
+`-i` - Ignores Spellbook restrictions, for demonstrations or rituals.
+`-l` [level] - Specifies the level to cast the spell at.
+**__Save Spells__**
+`-dc` [Save DC] - Default: Pulls a cvar called dc.
+`-save` [Save type] - Default: The spell's default save.
+`-d` [damage] - adds additional damage.
+**__Attack Spells__**
+See `!a`.
+**__All Spells__**
+`-phrase [phrase]` - adds flavor text.
+`-title [title]` - changes the title of the cast. Replaces [sname] with spell name.
+`-dur [duration]` - changes the duration of any effect applied by the spell.
+`int/wis/cha` - different skill base for DC/AB (will not account for extra bonuses)
+**__Special__**
+`-mp [cost]` - modifies the magic meter cost by the entered amount. (Example: 3rd level fireball with -mp -6 will only cost 7 - 6 = 1 magic meter)"
+-f "Homebrew|To add homebrew spells, go to [Avrae Dashboard's Homebrew Spells](https://avrae.io/dashboard/homebrew/spells), find the tome you want, and **Export to Json**. Through the [gvar Dashboard](https://avrae.io/dashboard/gvars), create a new gvar and paste the json into it. Copy the gvar address. Within discord, create a uvar called `brewspells` containing the gvar address as a list:
+`!uvar brewspells ["a814abc1-acc9-4d3e-a73e-92f586b16138","4d090ea7-d3ad-4d22-8b95-dee1af3b02f9"]`
+
+Note: To successfully cast a homebrew spell, you must also have the correct tome active. See `!help tome` for more information on this."
