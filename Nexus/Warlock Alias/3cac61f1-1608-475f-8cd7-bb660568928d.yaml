@@ -1,0 +1,26 @@
+name: Celestial Resistance
+automation:
+  - type: variable
+    name: warlock
+    value: caster.levels.get('Warlock')
+    onError: "0"
+  - type: target
+    target: self
+    effects:
+      - type: temphp
+        amount: "{warlock}+{intelligenceMod}"
+  - type: target
+    target: all
+    effects:
+      - type: temphp
+        amount: "{warlock//2}+{intelligenceMod}"
+  - type: text
+    text: You gain temporary hit points whenever you finish a short or long rest.
+      These temporary hit points equal your warlock level + your Intelligence
+      modifier. Additionally, choose up to five creatures you can see at the end
+      of the rest. Those creatures each gain temporary hit points equal to half
+      your warlock level + your Intelligence modifier.
+    title: Effect
+_v: 2
+verb: has
+activation_type: 8

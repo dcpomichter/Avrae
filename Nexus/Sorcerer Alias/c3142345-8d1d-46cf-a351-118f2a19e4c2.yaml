@@ -1,0 +1,23 @@
+- name: Sorcerous Recovery
+  automation:
+    - type: target
+      target: self
+      effects:
+        - type: counter
+          counter: Sorcery Points
+          amount: "-20"
+          allowOverflow: true
+          errorBehaviour: warn
+    - type: text
+      text: You are a font of sorcerous power. Once per long rest, when you finish a
+        short rest, you may recover all of your expended sorcery points.
+      title: Effect
+    - type: counter
+      counter: Sorcerous Recovery
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+  _v: 2
+  proper: true
+  verb: uses their
+  activation_type: 2

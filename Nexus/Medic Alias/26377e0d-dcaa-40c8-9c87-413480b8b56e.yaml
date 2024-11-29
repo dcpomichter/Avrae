@@ -1,0 +1,379 @@
+- _v: 2
+  name: Primary Target
+  automation:
+    - type: variable
+      name: medic
+      value: caster.levels.get('Medic')
+    - type: condition
+      condition: medic>=5
+      onTrue:
+        - type: target
+          target: self
+          effects:
+            - type: ieffect2
+              name: Primary Target
+              effects:
+                ac_bonus: "3"
+              attacks: []
+              buttons:
+                - automation:
+                    - type: remove_ieffect
+                  label: Attack
+                  verb: makes an Attack
+                  style: "4"
+              end: false
+              conc: false
+              desc: >-
+                You have a +3 bonus to AC
+
+                -This bonus lasts until the start of your next turn unless you do not take the Attack Action
+              stacking: false
+              target_self: false
+              tick_on_caster: false
+        - type: text
+          text: At 5th level, this bonus increases to +3.
+          title: Advanced
+      onFalse:
+        - type: target
+          target: self
+          effects:
+            - type: ieffect2
+              name: Primary Target
+              effects:
+                ac_bonus: "2"
+              attacks: []
+              buttons:
+                - automation: []
+                  label: Attack
+                  verb: makes an Attack
+                  style: "4"
+              end: false
+              conc: false
+              desc: >-
+                You have a +2 bonus to AC
+
+                - This bonus lasts until the start of your next turn, unless you do not try ake the Attack Action
+              stacking: false
+              target_self: false
+              tick_on_caster: false
+      errorBehaviour: "false"
+    - type: text
+      text: |-
+        Starting at 1st level, if you don’t make an Attack action on
+        your turn, you gain a +2 bonus to AC until the start of your
+        next turn.
+      title: Effect
+  verb: is the
+  proper: true
+  activation_type: 2
+- _v: 2
+  name: Evasive Overdrive
+  automation:
+    - type: target
+      target: all
+      effects:
+        - type: ieffect2
+          name: Evaded
+          duration: "1"
+          attacks: []
+          buttons: []
+          end: false
+          conc: false
+          desc: >-
+            The target takes a -1 penalty to attacks against {{caster.name}}
+
+            - {{caster.name}} does not provoke opportunity attacks with their movement.
+          stacking: false
+          target_self: false
+          tick_on_caster: true
+    - type: target
+      target: self
+      effects:
+        - type: ieffect2
+          name: Evasive Overdrive
+          duration: "1"
+          attacks: []
+          buttons: []
+          end: false
+          conc: false
+          desc: >-
+            You have a +1 bonus to AC against {{target.name}}
+
+            - In addition your movement does not provoke opportunity attacks from them.
+          stacking: false
+          target_self: false
+          tick_on_caster: false
+    - type: text
+      text: |-
+        You’re able to do everything in your power to avoid getting
+        hit. You gain a +1 bonus to AC against one creature you can
+        see, and you don't provoke opportunity attacks from the
+        target. Both effects last until the beginning of your next
+        turn. You can only gain this bonus once per turn.
+      title: Effect
+  verb: applies an
+  proper: true
+  activation_type: 3
+- _v: 2
+  name: Anatomy Expert
+  automation:
+    - type: target
+      target: all
+      effects:
+        - type: damage
+          damage: 0 [firearm]
+          overheal: false
+    - type: text
+      text: Firearm
+      title: Components
+    - type: text
+      text: Target one creature you scored a critical hit on this turn— double the
+        amount of dice rolled for damage.
+      title: Effect
+    - type: counter
+      counter:
+        slot: 1
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+  verb: is an
+  proper: true
+  activation_type: 3
+- _v: 2
+  name: Emergency Patch
+  automation:
+    - type: variable
+      name: medic
+      value: caster.levels.get('Medic')
+      onError: "0"
+    - type: condition
+      condition: medic>=10
+      onTrue:
+        - type: condition
+          condition: len(target)>=2
+          onTrue:
+            - type: target
+              target: all
+              effects:
+                - type: damage
+                  damage: -{proficiencyBonus+wisdomMod+medic} [healing]
+                  overheal: false
+          onFalse:
+            - type: target
+              target: all
+              effects:
+                - type: damage
+                  damage: -{proficiencyBonus+(wisdomMod*3)+medic} [healing]
+                  overheal: false
+          errorBehaviour: "true"
+        - type: text
+          text: At 10th level, you can either increase hit points recovered to triple your
+            Wisdom bonus, or you can target two creatures instead of one.
+          title: Advanced
+      onFalse:
+        - type: target
+          target: all
+          effects:
+            - type: damage
+              damage: -{proficiencyBonus+wisdomMod+medic} [healing]
+              overheal: false
+      errorBehaviour: "false"
+    - type: text
+      text: Medical kit
+      title: Components
+    - type: text
+      text: The target regains hit points equal to your proficiency bonus + your
+        Wisdom modifier + your level.
+      title: Effect
+    - type: counter
+      counter:
+        slot: 1
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+    - type: counter
+      counter: Medical Kit
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+  verb: exploits an
+  proper: true
+  activation_type: 1
+- _v: 2
+  name: Imperative Escape
+  automation:
+    - type: counter
+      counter: I do not exist
+      amount: "0"
+      allowOverflow: false
+      errorBehaviour: ignore
+    - type: target
+      target: self
+      effects:
+        - type: damage
+          damage: -({lastCounterRequestedAmount}//2) [halved]
+          overheal: false
+    - type: text
+      text: As a reaction to suffering damage from a hit while already below half hit
+        points, you halve the attack’s damage.
+      title: Effect
+  verb: reacts with an
+  proper: true
+  activation_type: 4
+- _v: 2
+  name: Clamp the Artery
+  automation:
+    - type: target
+      target: all
+      effects:
+        - type: roll
+          dice: "0"
+          name: damage
+          hidden: false
+          displayName: Previous Damage
+        - type: damage
+          damage: -{damage} [healing]
+          overheal: false
+    - type: text
+      text: Medical Kit
+      title: Components
+    - type: text
+      text: Target one living creature. The target is healed of any damage incurred by
+        the last hit it received since the end of your previous turn.
+      title: Effect
+    - type: counter
+      counter: Medical Kit
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+    - type: counter
+      counter:
+        slot: 1
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+  verb: exploits
+  proper: true
+  activation_type: 1
+- _v: 2
+  name: Stanozolol Injection
+  automation:
+    - type: variable
+      name: medic
+      value: caster.levels.get('Medic')
+      onError: "0"
+    - type: condition
+      condition: medic>=10
+      onTrue:
+        - type: condition
+          condition: len(targets)>=2
+          onTrue:
+            - type: target
+              target: self
+              effects:
+                - type: ieffect2
+                  name: Injecting
+                  duration: "1"
+                  attacks: []
+                  buttons: []
+                  end: true
+                  conc: false
+                  desc: You sacrificed your Action for your Injection
+                  stacking: false
+                  target_self: false
+                  tick_on_caster: false
+            - type: target
+              target: all
+              effects:
+                - type: ieffect2
+                  name: Stanozolol Injection
+                  duration: "600"
+                  effects:
+                    save_adv:
+                      - dex
+                    check_adv:
+                      - dexterity
+                  attacks: []
+                  buttons: []
+                  end: false
+                  conc: false
+                  desc: >-
+                    You have advantage on Dexterity saving throws and ability checks.
+
+                    - You also have a 10 ft bonus to your speed
+                  stacking: false
+                  target_self: false
+                  tick_on_caster: false
+          onFalse:
+            - type: target
+              target: all
+              effects:
+                - type: ieffect2
+                  name: Stanozolol Injection
+                  duration: "600"
+                  effects:
+                    save_adv:
+                      - dex
+                    check_adv:
+                      - dexterity
+                  attacks: []
+                  buttons: []
+                  end: false
+                  conc: false
+                  desc: >-
+                    You have advantage on Dexterity saving throws and ability checks.
+
+                    - You also have a 10 ft bonus to your speed
+                  stacking: false
+                  target_self: false
+                  tick_on_caster: false
+          errorBehaviour: "false"
+        - type: text
+          text: At 10th level, you can target up to 2 creatures, but each requires an
+            action. You can sacrifice the action on your next turn to administer
+            both injections this turn.
+          title: Advancement
+      onFalse:
+        - type: target
+          target: all
+          effects:
+            - type: ieffect2
+              name: Stanozolol Injection
+              duration: "600"
+              effects:
+                save_adv:
+                  - dex
+                check_adv:
+                  - dexterity
+              attacks: []
+              buttons: []
+              end: false
+              conc: false
+              desc: >-
+                You have advantage on Dexterity saving throws and ability checks.
+
+                - You also have a 10 ft bonus to your speed
+              stacking: false
+              target_self: false
+              tick_on_caster: false
+      errorBehaviour: "false"
+    - type: text
+      text: Drug kit
+      title: Components
+    - type: text
+      text: The target has advantage on Dexterity ability checks and saving throws and
+        gains a +10 feet bonus to speed for the duration.
+      title: Effect
+    - type: counter
+      counter:
+        slot: 1
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+    - type: counter
+      counter: Drug Kit
+      amount: "1"
+      allowOverflow: false
+      errorBehaviour: warn
+  verb: exploits
+  activation_type: 1

@@ -1,0 +1,11 @@
+name: Hunter's Mark
+automation:
+  - type: spell
+    id: 2149
+  - type: counter
+    counter: Hunter's Mark
+    amount: "1"
+_v: 2
+proper: true
+verb: casts
+activation_type: 3

@@ -1,0 +1,1 @@
+-d1 {{intelligenceMod}} -f "Radiant Soul| When you cast a spell that deals radiant or fire damage, you can add your Intelligence modifier to one radiant or fire damage roll of that spell against one of its targets."

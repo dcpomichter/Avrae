@@ -1,0 +1,82 @@
+name: Hungry Jaws
+automation:
+  - type: variable
+    name: total
+    value: caster.levels.total_level
+    onError: "0"
+  - type: condition
+    condition: if total>=16
+    onTrue:
+      - type: target
+        target: all
+        effects:
+          - type: attack
+            hit:
+              - type: damage
+                damage: 4d6+{strengthMod} [piercing]
+            miss: []
+            attackBonus: strengthMod+proficiencyBonus
+    onFalse:
+      - type: condition
+        condition: if total>=11
+        onTrue:
+          - type: target
+            target: all
+            effects:
+              - type: attack
+                hit:
+                  - type: damage
+                    damage: 3d6+{strengthMod} [piercing]
+                miss: []
+                attackBonus: strengthMod+proficiencyBonus
+        onFalse:
+          - type: condition
+            condition: if total>=6
+            onTrue:
+              - type: target
+                target: all
+                effects:
+                  - type: attack
+                    hit:
+                      - type: damage
+                        damage: 2d6+{strengthMod} [piercing]
+                    miss: []
+                    attackBonus: strengthMod+proficiencyBonus
+            onFalse:
+              - type: target
+                target: all
+                effects:
+                  - type: attack
+                    hit:
+                      - type: damage
+                        damage: 1d6+{strengthMod} [piercing]
+                    miss: []
+                    attackBonus: strengthMod+proficiencyBonus
+            errorBehaviour: "false"
+        errorBehaviour: "false"
+    errorBehaviour: "false"
+  - type: condition
+    condition: lastAttackDidHit
+    onTrue:
+      - type: condition
+        condition: target.creature_type=="construct"
+        onTrue: []
+        onFalse:
+          - type: condition
+            condition: target.creature_type=="undead"
+            onTrue: []
+            onFalse:
+              - type: target
+                target: self
+                effects:
+                  - type: temphp
+                    amount: "{max(caster.temp_hp,lastDamage)}"
+            errorBehaviour: "false"
+        errorBehaviour: "false"
+    onFalse: []
+    errorBehaviour: "false"
+  - type: counter
+    counter: Hungry Jaws
+    amount: "1"
+_v: 2
+proper: true

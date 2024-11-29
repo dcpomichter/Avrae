@@ -1,0 +1,59 @@
+[
+    {
+        "gend": "Downtime activities are tasks that take several days to complete. They are typically resolved with a few skill checks and reward characters with resources such as information, allied contacts, and gold.\n\nDowntime can usually be used whenever your character is in town.\n\nUse `!downtime <activity>` to learn more about each activity:\n\n**Work for Coin :moneybag:**\n**Find a Rare Merchant :alembic:** (WIP)\n**Sell an Exotic Item :star2:** (WIP)\n**Craft an Item :hammer_and_wrench:** (WIP)\n**Research :mag:**\n**Training :crossed_swords:** (WIP)\n**Rest & Relaxation :person_getting_massage:**\n**Volunteer Work :scroll:** (WIP)\n**Religious Service :church:**\n\nTip: `!dt` can be used instead of `!downtime` for all commands."
+    },
+    {
+        "name": "Work for Coin :moneybag:",
+        "desc": "",
+        "iurl": "https://img.photouploads.com/file/PhotoUploads-com/SdTl.png",
+        "thum": ""
+    },
+    {
+        "name": "Find a Rare Merchant :alembic: WIP",
+        "desc": "This downtime activity is the only way to gain access to items that are not available to the public market.\n\nYou spend time searching Nexus for specific Merchants who sell specialized stuff that Nexus doesnt have in public. These items can be illegal or not. But you can buy anything except magic items. This should be something you talk with the dm to determine the nature of the item you need.\n\n**Resources**. Typically, a character needs access to lots of places in Nexus in order to reach more people.\n\nAssuming such access is available, doing the activity requires one week of effort and at least 20 gp spent on materials, bribes, gifts, and other expenses.\n\n**Resolution**. The character declares the item they need.\n\nAfter one week, the character makes an Intelligence check with a +1 bonus per 20 gp spent beyond the initial 20 gp, to a maximum of +6. In addition, a character who has at least 100 reputation points with a single guild, gains advantage on the check.\n\nDetermine success rate of a character using the Outcomes table below.\n```\nCheck Total| Outcome\n-----------+------------------\n1–5        | No effect.\n6–10       | You find a Merchant who has the item but he charges double the price.\n11–20      | You find a Merchant who has the item and charges the full price.\n21+        | You find a Merchant who has the item and charges half the price.\n```",
+        "iurl": "",
+        "thum": ""
+    },
+    {
+        "name": "Sell an Exotic Item :star2: WIP",
+        "desc": "Selling an exotic item is by no means an easy task. Con artists and thieves are always looking out for an easy score, and there’s no guarantee that a character will receive a good offer even if a legitimate buyer is found.\n\n**Resources**. A character can find a buyer for one exotic item by spending one week and 25 gp, which is used to spread word of the desired sale. A character must pick one item at a time to sell.\n\n**Resolution**. A character who wants to sell an item must make a Charisma (Persuasion) check to determine what kind of offer comes in. The character can always opt not to sell, instead forfeiting the week of effort and trying again later. Use the Exotic Item Base Prices and Exotic Item Offer tables to determine the sale price.\n\n**Exotic Item Base Prices**\n```\nRarity   | Base Price^\n---------+--------------------\nCommon   | 100 gp\nUncommon | 400 gp\nRare     | 4,000 gp\nVery rare| 40,000 gp\nLegendary| 200,000 gp\n```\n^Halved for a consumable item like a potion or scroll\n\n**Exotic Item Offer Prices**\n```\nCheck Total| Offer\n-----------+------------------\n1–10       | 50% of base price\n11–20      | 100% of base price\n21+        | 150% of base price\n```",
+        "iurl": "",
+        "thum": ""
+    },
+    {
+        "name": "Craft an Item :hammer_and_wrench: WIP",
+        "desc": "This activity is all about crafting items. You will need materials found from the wilds or bought from settlements.\n\nCheck [Crafting Rules](https://discord.com/channels/779208086627811361/1163471758242877440) for more information.\n\n**Resources**\n**Crafting Materials**\n\nFor crafting, you will need Crafting Materials that you can find in 4 ways:\n- Purchase. Purchasing them from markets in various settlements. Some settlements have specific materials that others dont.\n- [Harvest](https://discord.com/channels/779208086627811361/1163495531499229244). Harvesting them from creatures found in the wilds.\n- [Looting](https://discord.com/channels/779208086627811361/1163491313992335461). Looting them from humanoids found in the wilds.\n- [Gathering](https://discord.com/channels/779208086627811361/1163498554577408070). Gathering them from the many biomes in the wilds.\n\n**Time**\nDuring Downtime, the crafting downtime activity, assumes you use a whole week for crafting. Which means that a character can make two [Crafting Checks](https://discord.com/channels/779208086627811361/1163499985753616456) every day for 8 days. (Mystara's calendar has 8 days in a week.) If you manage to craft your item or you fail three times in a row (thus the crafting fails and materials wasted) and you still have days left, you can use those days to craft the same item or start crafting a new one. If you decide to stop, the days are wasted. Each item has its own crafting check number requirement.",
+        "iurl": "",
+        "thum": ""
+    },
+    {
+        "name": "Research :mag:",
+        "desc": "",
+        "iurl": "https://img.photouploads.com/file/PhotoUploads-com/SdTk.png",
+        "thum": ""
+    },
+    {
+        "name": "Training :crossed_swords: WIP",
+        "desc": "Given enough free time and the services of an instructor, a character can learn a language or pick up proficiency with a tool.\n\nGuilds, provide training even to skills and weapons. But you need to be at least rank level 3 on a guild in order to gain access to that kind of specialized training.\n\n**Resources**. Receiving training in a language or tool typically takes at least ten weeks, but this time is reduced by a number of weeks equal to the character’s Intelligence modifier (an Intelligence penalty doesn’t increase the time needed). Training costs 25 gp per week.\n\nReceiving training for skills and weapons takes the same amount of time but it costs double the amount of gold. 50 gold per week.",
+        "iurl": "",
+        "thum": ""
+    },
+    {
+        "name": "Rest & Relaxation :person_getting_massage:",
+        "desc": "",
+        "iurl": "https://img.photouploads.com/file/PhotoUploads-com/SdTg.png",
+        "thum": ""
+    },
+    {
+        "name": "Volunteer Work :scroll: WIP",
+        "desc": "With this downtime, an explorer can use one week of effort to work for the community of The Nexus. This will provide the character with reputation points.\n\n**Resources**. 1 week of effort\n\n**Resolution**. To determine how much reputation a character earns, the character needs to choose one guild from Nexus and then they make an ability check: Strength (Athletics), Dexterity (Acrobatics), Intelligence using a set of tools, Charisma (Performance), or Charisma using a musical instrument. Consult the Reputation Earned table to see how much reputation is generated according to the total of the check.\n\n**Reputation Earned**\n```\nCheck Total| Reputation Earned\n-----------+------------------\n9 or lower | 0 reputation\n10–14      | 1 point of reputation\n15–20      | 2 points of reputation\n21+        | 4 points of reputation\n```",
+        "iurl": "",
+        "thum": ""
+    },
+    {
+        "name": "Religious Service :church:",
+        "desc": "",
+        "iurl": "https://img.photouploads.com/file/PhotoUploads-com/SdTI.png",
+        "thum": ""
+    }
+]

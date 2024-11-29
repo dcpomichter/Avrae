@@ -1,0 +1,18 @@
+name: Dark One's Blessing
+automation:
+  - type: variable
+    name: warlock
+    value: caster.levels.get('Warlock')
+    onError: "0"
+  - type: target
+    target: self
+    effects:
+      - type: temphp
+        amount: ({intelligenceMod}+{warlock})
+  - type: text
+    text: When you reduce a hostile creature to 0 hit points, you gain temporary hit
+      points equal to {{intelligenceMod+warlock}}
+    title: Effect
+_v: 2
+verb: enacts
+activation_type: 2
