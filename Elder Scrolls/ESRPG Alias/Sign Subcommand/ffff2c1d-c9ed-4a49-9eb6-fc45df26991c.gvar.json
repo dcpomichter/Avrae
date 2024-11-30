@@ -1,0 +1,83 @@
+[
+    {
+        "gend": "**THE CONSTELLATIONS**\n\n   There are thirteen named constellations in the sky. There are three Guardian signs; The Warrior, The Mage, and The Thief, each of which protects three charges. Each of these twelve signs corresponds to one of the twelve months in the Tamrielic year. The thirteenth sign, The Serpent, has no guardian or month and moves around the sky, usually threatening the other signs.\n\n   You can decide your character's birthsign, using your class and intended playstyle to determine what sign best suits your character.\n\n   If you want to randomly choose what birthsign you were born under, you can use the table to the side to determine the month of your birth. Roll a d12 to determine what month you were born in, and then a second d12. If your second roll matches your first roll, the Serpent intervenes and becomes your birthsign. For example, if you roll a 6 on your first die, indicating you were born in Mid Year. On your second roll, if you roll another 6, your birthsign is The Serpent. If you roll any other number, your birthsign is The Steed.\n\n```\nRoll  | Constellation | Month\n-------------------------\n1     | The Ritual    | Morning Star\n2     | The Lover     | Sun's Dawn\n3     | The Lord      | First Seed\n4     | The Mage      | Rain's Hand\n5     | The Shadow    | Second Seed\n6     | The Steed     | Mid Year\n7     | The Apprentice| Sun's Height\n8     | The Warrior   | Last Seed\n9     | The Lady      | Hearthfire\n10    | The Tower     | Forstfall\n11    | The Atronach  | Sun's Dusk\n12    | The Thief     | Evening Star\nDouble| The Serpent```\n\nUse `!esrpg sign <birthsign>` to lookup the description and features of a specific Birthsign"
+    },
+    {
+        "name": "The Serpent",
+        "desc": "You were born under the Birthsign of the Serpent and gain the Serpent power.\n\n**Serpent.** The power of the serpent can protect yourself from destruction or allow you to bring destruction to others. Once each day, you can use the power to create one of the following effects:\n- As an action, you cure yourself from one non-magical disease and dispel one magical effect from yourself.\n- As an action, you touch a creature and infect them with a slow but potent poison, You instantly deal 1d4 poison damage, and an additional 1d4 poison damage at the start of each turn of your turns for the next minute. This damage ignores resistance. This damage increases by 1d4 when you reach 5th level (2d4). 11th level (3d4), and 17th level (4d4).\n\nOnce you use this ability, you can't use it again until the next dawn.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTJ.jpg"
+    },
+    {
+        "name": "The Ritual",
+        "desc": "*Morning Star*\n   You were born under the Birthsign of the Ritual and gain the Mara's Gift power and the Blessed Word power.\n\n**Mara's Gift.** As an action, you regain hit points equal to 1d8 + your Endurance modifier.\n\n   This power's healing increases by 1d8 when you reach 5th level (2d8). 11th level (3d8), and 17th level (4d8).\n\n   Once you use this ability, you can't use it again until the next dawn.\n\n**Blessed Word.** As an action, you speak a prayer censuring the undead. Choose one undead creature within 30 feet of you to make a Willpower saving throw. The DC for this saving throw equals 8 + your proficiency bonus + your Willpower or Personality modifier (your choice). If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\n   A turned creature must spend its turn trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.\n\n   Once you use this ability, you can't use it again until the next dawn.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTP.jpg"
+    },
+    {
+        "name": "The Lover",
+        "desc": "*Sun's Dawn*\n   You were born under the Birthsign of the Lover and gain the Lover's Kiss power.\n\n**Lover's Kiss.** As an action, you touch a humanoid in an attempt to paralyze them. The target must make a Willpower saving throw or be paralyzed for 1 minute. The DC is determined by 8 + your proficiency bonus + your Endurance or Willpower modifier (your choice). The paralysis ends early if the target takes damage. At the end of each of its turns, the target can make another Willpower saving throw. On a success, the spell ends on the target.\n\n   Once you use this ability, you can't use it again until the next dawn.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTh.jpg"
+    },
+    {
+        "name": "The Lord",
+        "desc": "*First Seed*\n   You were born under the Birthsign of the Lord and gain the Blood of the North power and the Trollkin curse.\n\n**Blood of the North.** As an action, you regain hit points equal to twice your level + your Endurance modifier. If the amount of hit points you gain exceeds your hit point maximum, you gain the remainder as temporary hit points which last for up to 1 hour.\n\n   Once you use this ability, you can't use it again until the next dawn.\n\n**Trollkin.** You have a natural curse and weakness to fire. Whenever you take fire damage, the damage is increased by an amount equal to half your level.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTt.jpg"
+    },
+    {
+        "name": "The Mage",
+        "desc": "*Rain's Hand*\n   You were born under the Birthsign of The Mage and gain the following benefits:\n- Your Intelligence or Willpower score increases by 1, to a maximum of 20.\n- You gain advantage on Endurance saving throws to maintain concentration on a spell.\n\n   Additionally, you learn one cantrip and one 1st level spell of your choice from the mage spell list. Intelligence is your spellcasting ability for these spells. If you can cast spells, they are added to your spell list for you.\n\n   You can cast the 1st level spell once without expending magicka points each day, regaining the ability to do so again at the next dawn.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTd.jpg"
+    },
+    {
+        "name": "The Shadow",
+        "desc": "*Second Seed*\n   You were born under the Birthsign of the Shadow and gain the following benefits:\n- Your Intelligence, Personality, or Willpower score increases by 1, to a maximum of 20.\n- You gain the Moonshadow power.\n\n**Moonshadow.** As an action, you can cast the spell Invisibility on yourself without expending magicka.\n\n   Once you use this ability, you can't use it again until the next dawn.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTu.jpg"
+    },
+    {
+        "name": "The Steed",
+        "desc": "*Mid Year*\n   You were born under the Birthsign of the Steed and gain the following benefits:\n- Your Endurance score increases by 1.\n- Your speed increases by 10 feet.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTs.jpg"
+    },
+    {
+        "name": "The Apprentice",
+        "desc": "*Sun's Height*\n   You were born under the Birthsign of the Apprentice and gain the following benefits:\n- Your magicka point maximum increases by 1, and it increases by 1 every time you gain a level.\n- You are weakened to one type of magical damage determined by rolling on the Apprentice Magic Weakness table below. Whenever you take damage from your weakened damage type, the damage is increased by an amount equal to half your level.\n\n**THE APPRENTICE MAGIC WEAKNESS**```\nd4 | Weakness\n-------------\n1  | Cold\n2  | Fire\n3  | Poison\n4  | Lightning```",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTC.jpg"
+    },
+    {
+        "name": "The Warrior",
+        "desc": "*Last Seed*\n   You were born under the Birthsign of the Warrior and gain the following benefits:\n- Your Strength and Endurance attributes are increased by 1, to a maximum of 20.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTF.jpg"
+    },
+    {
+        "name": "The Lady",
+        "desc": "*Hearthfire*\n   You were born under the Birthsign of the Lady and gain the following benefits:\n- Your Willpower and Endurance attributes are increased by 1, to a maximum of 20.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTy.jpg"
+    },
+    {
+        "name": "The Tower",
+        "desc": "*Frostfall*\n   You were born under the Birthsign of the Tower and gain the Tower Key power and the Tower Warden power.\n\n**Tower Key.** As an action you can cast the knock spell without expending magicka.\n\n   Once you use this ability, you can't use it again until the next dawn.\n\n**Tower Warden.** As a reaction, when you take damage from an attack, you can reflect some or all of the damage back to the attacker. The damage you can reflect is equal to 1d6.\n\n   This power's reflected damage increases by 1d6 when you reach 5th level (2d6). 11th level (3d6), and 17th level (4d6).\n\n   Once you use this ability, you can't use it again until the next dawn.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTH.jpg"
+    },
+    {
+        "name": "The Atronach",
+        "desc": "*Sun's Dusk*\n   You were born under the Birthsign of the Atronach and gain the following benefits:\n- Your magicka point maximum increases by 2, and it increases by 2 every time you gain a level.\n- You gain the Stunted Magicka feature, described below.\n\n**Stunted Magicka.** The Atronach birthsign has gifted you with a large pool of magicka, but your natural gift is stunted by reduced regeneration.\n\n   Unlike other spellcasters, you do not regain all of your magicka at the end of a long rest, instead, you only regain half of your expended magicka, rounding up (minimum of 1).\n\n   Additionally, whenever you are targeted by a spell that requires you to make a saving throw, you have a chance to absorb magicka, replenishing your magicka points. On a successful save you also absorb magicka equal to the level of the spell. On a failed save, you do not absorb any magicka and are effected by the spell as normal.\n\n   You cannot increase your magicka points beyond your maximum magicka point total through this feature.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdT1.jpg"
+    },
+    {
+        "name": "The Thief",
+        "desc": "*Evening Star*\n   You were born under the Birthsign of the Thief and gain the following benefits:\n- Your Agility score increases by 1, to a maximum of 20.\n- Your speed increases by 5 feet.\n- You gain one Luck Point. Your Luck Point is a d6. You can add your Luck Point to one ability check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Luck Point, but must decided before the DM says whether the roll succeeds or fails. You regain your expended Luck Point at the next dawn, and you can never have more that one Luck Point from this feature at a time.",
+        "iurl": "",
+        "thum": "https://img.photouploads.com/file/PhotoUploads-com/SdTN.jpg"
+    }
+]

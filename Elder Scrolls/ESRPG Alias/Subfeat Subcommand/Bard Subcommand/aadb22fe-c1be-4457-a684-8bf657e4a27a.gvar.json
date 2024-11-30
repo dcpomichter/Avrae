@@ -1,0 +1,161 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat bard <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/BR:Bard#Bard_Colleges"
+    },
+    {
+        "name": "**__Bard__**\n**__Reveries: Bonus Proficiencies__**",
+        "desc": "*3rd Level College of Reveries feature*\n\nWhen you join the College of Reveries at 3rd level, you gain proficiency in disguise kits, forgery kits, and an artisan tool of your choice. You also learn one language of your choice.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/08/Reveries-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Reveries: Performer's Vainglory__**",
+        "desc": "*3rd Level College of Reveries feature*\n\nAt 3rd level, you become invigorated when you witness someone being inspired by your own performances. When at least one creature you have inspired with your Bardic Inspiration is within 30 feet of you and they still have their Bardic Inspiration die, you gain a bonus to your attacks. When your attack hits a target, roll a die equal to your Bardic Inspiration die and add that number to the attacks damage roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/08/Reveries-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Reveries: Player's Muse__**",
+        "desc": "*3rd Level College of Reveries feature*\n\nAdditionally at 3rd level, adventurer's of the College of Reveries gain a persona that represents their performing act. This persona is a disguise that includes a mask and garb that hides the wearer's original identity. While wearing this disguise, other bards and patrons recognize you as your persona. You have advantage on Personality (Persuasion) and Personality (Performance) checks when speaking with fans of your work.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/08/Reveries-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Reveries: Flexible Performance__**",
+        "desc": "*6th Level College of Reveries feature*\n\nWhen you reach 6th level, you weave in the pageantry and pomposity of your performances into your everyday conversations. You can use your Performance skill instead of Deception when trying to impersonate someone, and instead of Intimidation when trying to demoralize someone. You can also use Performance instead of Persuasion when trying to flatter someone.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/08/Reveries-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Reveries: Compelling Inspiration__**",
+        "desc": "*14th Level College of Reveries feature*\n\nAt 14th level, your inspiring performances can compel even your harshest critics. You can use your Bardic Inspiration on a creature within 60 feet of you and force it to make a Willpower saving throw. On a failed save, the creature is compelled by you until the start of your next turn. The compelled creature has disadvantage on all attack rolls, and all attacks made against the compelled creature have advantage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/08/Reveries-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Solitude: Bonus Proficiencies__**",
+        "desc": "*3rd Level College of Solitude feature*\n\nWhen you join the College of Solitude at 3rd level, you gain proficiency with medium armor, as well as axe and blunt weapons.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Solitude-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Solitude: Fighting Style__**",
+        "desc": "*3rd Level College of Solitude feature*\n\nAt 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.\n\n*Archery*. You gain a +2 bonus to your attack rolls you make with ranged weapons.\n\n*Dueling*. When you are wielding a melee weapon in one hand and no other weapons, you gain +2 bonus to damage rolls with that weapon.\n\n*Great Weapon Fighting*. When you roll a 1 or a 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if it is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n*Two-Weapon Fighting*. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Solitude-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Solitude: Disarming Charm__**",
+        "desc": "*6th Level College of Solitude feature*\n\nWhen you reach 6th level, you gain the ability to use your charisma to cause your enemies to falter. As a reaction, when a creature attacks you with a melee strike, you gain a +2 bonus to your AC until the start of your next turn.\n\nYou can use this feature an amount of times equal to your personality modifier. You regain any expended uses when you finish a long rest.\n\nBeginning at 17th level, you gain a +4 bonus to your AC when you use this feature.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Solitude-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Solitude: Battle Anthem__**",
+        "desc": "*14th Level College of Solitude feature*\n\nAt 14th level, you gain the ability to use your instruments or voice to inspire your allies in the heat of battle. As an action, all allies or enemies within 60 feet of you that can see and hear you, gain one effect of your choice for the duration of the anthem. The effect lasts up to 1 minute, as though you are concentrating on a spell. As an action on your following turns you can change the effect of your Battle Anthem.\n\n*Anthem of War.* Each ally that can see and hear you gains advantage on attack rolls for the duration.\n\n*Anthem of Protection.* Each ally that can see and hear you gains a +2 bonus to their AC for the duration.\n\n*Anthem of Intimidation.* Each enemy that can see and hear you has disadvantage on saving throws for the duration.\n\nOnce you use this feature, you must finish a long rest to be able to use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Solitude-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Courtesy: Courtly Manners__**",
+        "desc": "*3rd-level College of Courtesy feature*\n\nYou have been trained in the ways of court to understand the world around you and have an undeniable understanding of etiquette. You gain proficiency in the Insight or Persuasion skill (your choice), and you have advantage on Willpower (Insight) or Intelligence (History) checks to understand or recall cultures or social norms, and to gain insight in people’s agendas.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Courtesy-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Courtesy: Battlefield Etiquette__**",
+        "desc": "*3rd-level College of Courtesy feature*\n\nYou learn how to manipulate the battlefield through the use of militaristic traditions and polite suggestions. As a bonus action, you can expend one of your Bardic Inspiration dice in order to produce one of the following options:\n\n*Parley.* You cast calm emotions without expending magicka.\n\n*Duel.* You force a number of hostile creatures up to your Personality attribute modifier (minimum of 1) that can hear and understand you to duel an ally of your choice. Each target must make a Willpower saving throw equal to your spell save DC. On a failed save, the target has disadvantage on attacks made against any creature that isn’t that ally for the next minute.\n\n*Discipline.* You bestow your allies with temporary hit points equal to your bard level + your Personality modifier for the next minute.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Courtesy-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Courtesy: Graceful Redress__**",
+        "desc": "*6th-level College of Courtesy feature*\n\nWhen you or an ally that you can see and hear fails a Deception, Intimidation, or Persuasion skill check, you can use your reaction to expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to the skill check, using the new result in place of the failed one, possibly changing the result.\n\nAdditionally, you when you make any Personality skill check, you can add a Bardic Inspiration die to the roll without expending a use. Once you use this feature in this way, you can’t use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Courtesy-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Courtesy: Diplomatic Immunity__**",
+        "desc": "*14th-level College of Courtesy feature*\n\nYour reputation will keep hostile humanoids reluctant from attacking you and your allies. If you or one of your allies hasn’t attacked yet, an enemy must succeed on a Personality saving throw equal to your spellcasting save DC to be able to attack you or your allies on that turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Courtesy-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines: Bonus Proficiencies__**",
+        "desc": "*3rd-level College of Divines feature*\n\nYou gain proficiency with the Religion skill. Your proficiency bonus is doubled for any attribute check you make that uses that skill.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines: Speaker of the Divine__**",
+        "desc": "*3rd-level College of Divines feature*\n\nYou proclaim yourself under a divine, learning a Speaker Prayer for the deity and gaining its benefits, as listed below. You can choose an additional prayer from another deity at 11th level, and again at 17th.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines: Blessing of Music__**",
+        "desc": "*6th-level College of Divines feature*\n\nWhen a creature you can see uses your Bardic Inspiration, you can use your reaction to have them gain the effects of your choice of the divine favor or heroism spell. These effects use your spellcasting modifier and they do not require concentration to maintain them.\n\nOnce you use this feature, you can’t do so again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines: Song of the Divine__**",
+        "desc": "*14th-level College of Divines feature*\n\nYou can spend 1 minute to recite a holy ritual. Any creature of your choice that is within 30 feet that can hear you becomes proficient in all saving throws for the next hour or until they take a short or long rest. In addition, a creature who is under this effect can choose to spend 10 minutes meditating on your ritual, ending the effect early to gain the benefits as though they had finished a short rest.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Akatosh__**",
+        "desc": "When you use your Bardic Inspiration, you can also gain magicka points equal to your Personality modifier. Once you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Arkay__**",
+        "desc": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Dibella. __**",
+        "desc": "You gain proficiency in either the Deception, Intimidation, Performance, or Persuasion skill. Your proficiency bonus is doubled for any attribute check you make that uses that skill.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Julianos__**",
+        "desc": "When you make an attribute check that would normally use Intelligence or Willpower, you can add your Personality modifier instead. Once you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Kynareth__**",
+        "desc": "You can communicate with beasts and plants as if they shared a language with you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Mara__**",
+        "desc": "When you use a spell that restores hit points, target receives additional hit points equal to a roll of your Bardic Inspiration die, and it can cure one disease currently afflicting the target. Once you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Stendarr__**",
+        "desc": "As an action, you expend one Bardic Inspiration die and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Willpower saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action. Once you use this feature, you can’t use it again until you finish a short rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Talos__**",
+        "desc": "When you hit a creature with a weapon attack, you can force that creature to make a Strength saving throw against your spell save DC. On a failed save, the creature is pushed back 15 feet and takes an additional 2d6 bludgeoning damage. Once you successfully use this feature, you can’t use it again until finishing a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    },
+    {
+        "name": "**__Bard__**\n**__Divines Prayers: Zenithar__**",
+        "desc": "You gain proficiency with two artisan’s tools of your choice.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/97/Divines-banner.png"
+    }
+]

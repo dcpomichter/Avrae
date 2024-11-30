@@ -1,0 +1,299 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat warden <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of Options see:\nhttps://wiki.uestrpg.com/wiki/BR:Warden#Warden_Conclaves"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Companions: Beast Companion__**",
+        "desc": "*2nd-Level Conclave of Companions feature*\n\nYou learn to use your magic to create a powerful bond with a creature of the natural world. With 8 hours of work and the expenditure of 200 septims worth of rare herbs and fine food, you call forth an animal from the wilderness to serve as your faithful companion from any beast with a CR of ½ or lower, such as an ape, a black bear, a boar, a giant badger, a giant weasel, a mule, a panther, or a wolf. However, your GM might pick one of these animals for you, based on the surrounding terrain and on what types of creatures would be logically present in the area.\n\nAt the end of 8 hours, your animal companion appears and gains all the benefits of your Companion's Bond ability. You can have only one animal companion at a time.\n\nIf your animal companion is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 100 septims worth of rare herbs and fine food you call forth your companion's spirit and use your magic to create a new body for it. You can return an animal companion to life in this manner even if you do not possess any part of its body.\n\nIf you use this ability to return a former animal companion to life while you have a current animal companion, your current companion leaves you and is replaced by the restored companion.\n\nIf you gain a new animal companion at higher levels, you can choose from any beast with a CR as shown on the Beast Companions At Higher Levels table.\n\n*Companion's Bond*\n- Your animal companion gains a variety of benefits while it is linked to you.\n- The animal companion loses it's Multiattack action, if it has one.\n- The companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own.\n- Your animal companion has abilities and game statistics determined in part by your level. Your companion uses your proficiency bonus rather than its own. In addition to areas where it normally uses its proficiency bonus to its AC and to its damage rolls.\n- Your animal companions gain proficiency in two skills of your choice. It also becomes proficient with all saving throws.\n- For each level you gain after 2nd, your animal companion gains an additional hit die and increases its hit points accordingly.\n- Whenever you gain the Attribute Score Improvement class feature, your companion's attributes also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can't increase an ability score above 20 using this feature unless its description specifies otherwise.\n\nYour companion shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your companion shares your ideal, and its bond is always, “The warden who travels with me is a beloved companion for whom I would gladly give my life.”\n\nCompanion Bond\n```\nd6| Bond\n---------------\n1 | I'm dauntless in the face of adversity.\n2 | Threaten my friends, threaten me.\n3 | I stay on alert so others can rest.\n4 | People see an animal and underestimate me. I use that to my advantage.\n5 | I have a knack for showing up in the nick of time.\n6 | I put my friends' needs before my own in all things.\n```\n\nCompanion Flaw\n```\nd6| Flaw\n---------------\n1 | If there's food left unattended, I'll eat it.\n2 | I growl at strangers, and all people except my warden are strangers to me.\n3 | Any time is a good time for a belly rub.\n4 | I'm deathly afraid of water.\n5 | My idea of hello is a flurry of licks to the face.\n6 | I jump on creatures to tell them how much I love them.\n```\n\nBeast Companions at Higher Levels \n```\nLevel| Max CR| Example\n------------------------------\n2nd  | 1/2   | Black bear\n4th  | 1     | Dire wolf\n8th  | 2     | Saber-tooth tiger\n11th | 3     | Giant scropion\n13th | 4     | Elphant\n15th | 5     | Giant crocodile\n17th | 6     | Mammoth\n19th | 7     | Giant ape\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Companions-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Companions: Speech of the Woods__**",
+        "desc": "*2nd-Level Conclave of Companions feature*\n\nYou gain the ability to converse with beasts. Beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn't grant you friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Companions-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Companions: Companion's Mark__**",
+        "desc": "*6th-Level Conclave of Companions feature*\n\nWhen any creature is marked by your Mark of Balance, your companion is also marked as an Ally.\n\nIn addition, when your companion attacks a creature marked as an Enemy, it deals additional damage equal to your Willpower modifier.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Companions-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Companions: Spirit Companion__**",
+        "desc": "*10th-Level Conclave of Companions feature*\n\nYou call forth nature spirits to influence the world around you. As a bonus action, you can magically summon an incorporeal spirit to a point you can see within 60 feet of you. It counts as neither a creature or a an object, though it has the spectral appearance of a creature it represents.\n\nYour spirit companion acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A spirit companion can't attack, but it can take other actions as normal.\n\nWhile the spirit is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through the spirit's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the spirit has. During this time, you are deaf and blind with regard to your own senses.\n\nThe spirit persists for 1 minute or until you're incapacitated. Once you use this feature, you can't use it again until you finish a short or long rest.\n\nThe effects of the spirit companion depends on the type of spirit you summon from the options below.\n\n*Falcon.* You summon the spirit of a falcon. While you are within 60 feet of the spirit, you and your beast companion's speed increases by 10 feet. Additionally, when you see through the falcon spirit's eyes, you gaining advantage on Willpower (Perception) checks that rely on sight.\n\n*Mastiff.* You summon the spirit of a mastiff. While you are within 30 feet of the spirit, you and your beast companion gain advantage on Willpower (Perception) checks that rely on smell.\n\n*Mountain Lion.* You summon the spirit of a mountain lion. While you are within 30 feet of the spirit, you and your beast companion ignore difficult terrain, and when you or your beast companion make a running long jump, the distance you can cover increases by a number of feet equal to your Willpower modifier.\n\n*Mouse.* You summon the spirit of a mouse. When you are within 30 feet of the spirit, you and your beast companion's size is considered one size smaller when moving through tight spaces and you can occupy the same space as a creature that is your size or smaller.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Companions-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Companions: Shared Spells__**",
+        "desc": "*14th-Level Conclave of Companions feature*\n\nWhen you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Companions-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Nature's Embrace: Bonus Cantrip__**",
+        "desc": "*2nd-level Conclave of Nature's Embrace feature*\n\nWhen you choose this conclave at 2nd level, you learn one additional warden cantrip of your choice.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f3/Natures-embrace-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Nature's Embrace: Natural Recovery__**",
+        "desc": "*2nd-level Conclave of Nature's Embrace feature*\n\nStarting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you regain magicka points equal to the cost of a spell that is half your total warden level (rounded up), to a maximum of 13 magicka points. You can't use this feature again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f3/Natures-embrace-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Nature's Embrace: Conclave Spells__**",
+        "desc": "*2nd-level Conclave of Nature's Embrace feature*\n\nYour mystical connection with the seasons infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to conclave spells connected with the season that represents your connection to the environment. Choose that season – spring, summer, autumn, or winter – and consult the associated list of spells.\n\nOnce you gain access to a conclave spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the warden spell list, the spell is nonetheless a warden spell for you.\n\n*Spring*\nSpring represents nature's renewal. A time of growth and fertility. Other symbols include rain and the Green.\n```\nWarden Level| Conclave Spells\n------------------------------\n3rd         | barkskin, spike growth\n5th         | plant growth, revivify\n7th         | freedom of movement, grasping vine\n9th         | reincarnate, tree stride\n```\n*Summer*\nSummer represents nature's bounty. A time of vitality and nourishment. Other symbols include light, heat, and storms.\n```\nWarden Level| Conclave Spells\n------------------------------\n3rd         | scorching ray, shatter\n5th         | daylight, fireball\n7th         | fire shield, wall of fire\n9th         | banishing smite, conjure elemental\n```\n*Autumn*\nAutumn represents nature's harvest. A time of fading and preparedness. Other symbols include decay and the winds of change.\n```\nWarden Level| Conclave Spells\n------------------------------\n3rd         | gust of wind, ray of enfeeblement\n5th         | speak with dead, wind walk\n7th         | blight, feign death\n9th         | contagion, insect plague\n```\n*Winter*\nWinter represents nature's protection. A time of meditation and reflection. Other symbols include hibernation, snow, and stasis.\n```\nWarden Level| Conclave Spells\n------------------------------\n3rd         | invisibility, silence\n5th         | protection from energy, sleet storm\n7th         | resilient sphere, stone skin\n9th         | cone of cold, wall of force\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f3/Natures-embrace-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Nature's Embrace: Mark of Nature__**",
+        "desc": "*6th-level Conclave of Nature's Embrace feature*\n\nAt 6th level, you gain a magical benefit based on the season you chose as part of your Conclave Spells feature.\n\n**Spring**\n*Ally.* When a creature marked as an Ally by your Mark of Balance takes damage from an attack, shielding vines burst from the ground in front of it, taking the blow. The vines have hit points equal to your Willpower modifier. If the vines are reduced to 0 hit points, any excess damage carries over to the ally.\n\nThe vines hit points increase to twice your Willpower modifier at 14th level.\n\n*Enemy.* When a creature marked as an Enemy by your Mark of Balance attacks an ally that is within 30 feet of you, the marked enemy is grasped by entangling vines that burst from the ground. The grasped creature is restrained and can make a Strength saving throw as an action on it's turn to escape. The DC is equal your spell save DC.\n\n**Summer**\n*Ally.* A creature marked as an Ally by your Mark of Balance gains proficiency in all saving throws.\n\n*Enemy.* You channel the essence of a summer storm into your weapon. When you make a weapon attack against a creature marked as an Enemy by your Mark of Balance, you deal an additional 1d6 thunder or lightning damage (your choice).\n\n**Autumn**\n*Ally.* When a creature you have marked as an Ally takes damage, they can use their reaction to move up to half their speed without provoking opportunity attacks.\n\n*Enemy.* Whenever you cast a spell of 1st level or higher on a creature marked as an enemy, the additional necrotic damage you deal is doubled.\n\n**Winter**\n*Ally.* The first time you mark an Ally with your Mark of Balance, they also gain a thin crystallized shield. The next time the target takes damage within the next minute they have resistance to that damage.\n*Enemy.* The first time you mark an Enemy with your Mark of Balance, the creature must make a Strength saving throw or be restrained by a prison of ice. The DC equals your spell saved DC. The restrained creature can make a Strength saving throw at the end of each of its turns to break free from the prison.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f3/Natures-embrace-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Nature's Embrace: Nature's Embrace__**",
+        "desc": "*10th-level Conclave of Nature's Embrace feature*\n\nStarting at 10th level, you have learned how to live in harmony with even the most extreme qualities of nature. You no longer suffer any of the negative effects of Extreme Cold, Extreme Heat, Strong Wind, or Heavy Precipitation.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f3/Natures-embrace-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Nature's Embrace: Aspects of the Seasons__**",
+        "desc": "*14th-level Conclave of Nature's Embrace feature*\n\nAt 14th level, you gain an additional magical benefit based on the season you chose as part of your Conclave Spells feature.\n\n*Spring's Renewal.* As an action, a warm, rejuvenating aura radiates from you for the next minute. All friendly conscious creatures within 30 feet of you gain 1d6 hit points at the start of your turn. All friendly unconscious creatures within 30 feet of you gain advantage on death saving throws.\n\nOnce you use this feature, you must finish a long rest before you can do so again.\n\n*Summer's Storm.* As an action, you take on the devastating spirit of a summer storm for the next minute. You gain a magical flying speed of 60 feet and gain resistance to lightning and thunder damage. Additionally, when you use the Attack action, you can make one weapon attack as a bonus action.\n\nOnce you use this feature, you must finish a long rest before you can do so again.\n\n*Fall's Decay.* You attack foes that have been wounded with swift ferocity. You gain a +2 to attack rolls against wounded creatures. Additionally, when you hit a wounded creature with a weapon attack, the creature takes an extra 1d8 necrotic damage. You can deal this extra damage only once per turn.\n\n*Winter's Herald.* You gain +1 bonus to AC and have resistance to cold damage. Additionally, as a bonus action, you can freeze the ground in a 10 foot radius around you, which is considered difficult terrain.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f3/Natures-embrace-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Wild: Wild Shape__**",
+        "desc": "*2nd-level Conclave of the Wild feature*\n\nStarting at 2nd level, you can expend one use of your Mark of Balance feature to magically assume the shape of a beast that you have seen before.\n\nYour warden level determines the beasts you can transform into, as shown in the Wild Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1 or lower that doesn't have a flying speed or a swimming speed.\n\n**Wild Shapes**\n```Warden Level| Max CR| Limitations                | Example\n------------------------------\n2nd         | 1     | No flying or swimming speed| Wolf\n4th         | 1     | No flying speed            | Crocodile\n6th         | 2     | No flying speed            | Giant elk\n8th         | 2     | --                         | Giant eagle\n9th         | 3     | --                         | Killer whale\n12th        | 4     | --                         | Elephant\n15th        | 5     | --                         | Giant shark\n18th        | 6     | --                         | Mammoth\n```\n\nYou can stay in a wild shape for a number of hours equal to half your warden level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.\n\nWhile you are transformed, the following rules apply:\n- Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Willpower, and Personality scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has an legendary or lair actions, you can't use them.\n- When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.\n- You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your breast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.\n- You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.\n- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave that form.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/07/Wild-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Wild: Primal Strike__**",
+        "desc": "*6th-level Conclave of the Wild feature*\n\nStarting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/07/Wild-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Wild: Bestial Recovery__**",
+        "desc": "*10th-level Conclave of the Wild feature*\n\nAt 10th level, while you are transformed by your Wild Shape, you can use a bonus action to expend magicka to regain 1d8 hit points per level of the spell cast.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/07/Wild-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Wild: Beast Spells__**",
+        "desc": "*14th-level Conclave of the Wild feature*\n\nBeginning at 14th level, you can cast many of your warden spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a warden spell while in a beast shape, but you aren't able to provide material components.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/07/Wild-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Spinners: Bonus Proficiencies__**",
+        "desc": "*2nd-level Conclave of Spinners feature*\n\nWhen you choose this conclave at 2nd level, you gain proficiency with the Performance skill and you learn one bard cantrip of your choice.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Spinners: Mark of Foresight__**",
+        "desc": "*2nd-level Conclave of Spinners feature*\n\nWhen you choose this conclave at 2nd level, you gain the ability to predict the actions of your marked target.\n\n*Ally.* When a creature marked as an Ally by your Mark of Balance makes an ability check or a saving throw, they can add your proficiency bonus to the roll.\n\n*Enemy.* When you mark a creature as an Enemy with your Mark of Balance, the creature must make a Personality saving throw, with a DC equal to your Spell Save DC, or be charmed by you. A charmed creature has disadvantage on attack rolls made against you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Spinners: Spinner Spells__**",
+        "desc": "*2nd-level Conclave of Spinners feature*\n\nYour mystical connection with the elements infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to conclave spells connected with the spinners of Y'ffre.\n\nOnce you gain access to a conclave spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the warden spell list, the spell is nonetheless a warden spell for you.\n\nSpinner Conclave Spells\n```\nWarden Level| Conclave Spells\n------------+-----------------\n3rd         | phantasmal force, suggestion\n5th         | hypnotic pattern, major image\n7th         | confusion, hallucinatory terrain\n9th         | mislead, modify memory\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Spinners: Spinner's Prediction__**",
+        "desc": "*6th-level Conclave of Spinners feature*\n\nStarting at 6th level, you can see into the near future, making predictions about your plans. You can ask a single, clear question about a course of action you plan to take within the next hour. The GM communicates the insight through vague symbols, impressions, or a single word such as 'favorable' or 'unfavorable'.\n\nOnce you use this feature, you must finish a short rest before you can do so again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Spinners: Serenity__**",
+        "desc": "*10th-level Conclave of Spinners feature*\n\nAt 10th level, you gain proficiency with Personality saving throws and gain advantage on saving throws against being charmed.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Spinners: Spinner's Revelations__**",
+        "desc": "*14th-level Conclave of Spinners feature*\n\nAt 14th level, you can weave stories that appear in front of you in an illusory pattern, peering into the future to gain insight about the world.\n\nIf you spend 10 minutes weaving tales, you can choose a particular course of action, event, decision, person, or place. The GM provides a short, but meaningful, explanation in one or two sentences that is in response to the knowledge that you seek.\n\nOnce you use this feature, you can't do so again for the next week.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Elements: Elemental Attunement__**",
+        "desc": "*2nd-level Conclave of Elements feature*\n\nWhen you choose this conclave at 2nd level, you gain attunement to one element of your choice. Choose earth, flame, storm, or water. You can change your elemental attunement choice whenever you gain a level in this class. As you gain levels in this class, you gain benefits that are aligned with your choice of elemental attunement. You can only gain the benefits of one elemental attunement at one time. For example, choosing flame as your elemental attunement will only grant you the flame portion of the Bonus Cantrip feature.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dc/Elements-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Elements: Bonus Cantrip__**",
+        "desc": "*2nd-level Conclave of Elements feature*\n\nAt 2nd level, you learn one additional cantrip that is aligned with your choice of elemental attunement.\n\n*Earth.* You learn the mold earth cantrip if you don't already know it.\n\n*Flame.* You learn the produce flame cantrip if you don't already know it.\n\n*Storm.* You learn the gust cantrip if you don't already know it.\n\n*Water.* You learn the shape water cantrip if you don't already know it.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dc/Elements-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Elements: Conclave Spells__**",
+        "desc": "*2nd-level Conclave of Elements feature*\n\nYour mystical connection with the elements infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to conclave spells connected with primordial powers of the wild. You only gain the spells that are aligned with your elemental attunement.\n\nOnce you gain access to a conclave spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the warden spell list, the spell is nonetheless a warden spell for you.\n\n**Earth**\nThe most stoic of all elements, earth is, without question, a means of seeking solace in a world of chaos and discord. Wielders of the earth seek not to disrupt the world, but those who would cause nature harm, wielders of this element will sunder evildoers.\n\n*Earth*\n```\nWarden Level| Conclave Spells\n------------+-----------------\n3rd         | earthbind, earthen grasp\n5th         | erupting earth, meld to stone\n7th         | stone shape, stoneskin\n9th         | transmute rock, wall of stone\n```\n\n**Flame**\nThe force of ever changing life, death, and rebirth, flames are often seen as simply a means of harm. But those who see the flame as it is, an embodiment of change, can wield it to ignite revolutions.\n\n*Flame*\n```\nWarden Level| Conclave Spells\n------------+-----------------\n3rd         | Aganazzar’s scorcher, scorching ray\n5th         | fireball, flame arrows\n7th         | fire shield, wall of fire\n9th         | flame strike, immolation\n```\n\n**Storm**\nThe hum of life, the ebb and flow of currents and energy, harnessing the powers of the storm is often chaotic in nature, and unwieldy by those who lack the will to control it.\n\n*Storm*\n```\nWarden Level| Conclave Spells\n------------+-----------------\n3rd         | gust of wind, warding wind\n5th         | lightning bolt, wind wall\n7th         | resilient sphere, storm sphere\n9th         | cloudkill, control winds\n```\n\n**Water**\nThe flow of nature is in constant flux between static and dynamic. Either liquid or solid, control over water often comes in either of these forms and can be wielded with devastating force.\n\n*Water*\n```\nWarden Level| Conclave Spells\n------------+-----------------\n3rd         | misty step, Snilloc’s snowball swarm\n5th         | tidal wave, wall of water\n7th         | control water, ice storm\n9th         | cone of cold, maelstrom\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dc/Elements-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Elements: Elemental Force__**",
+        "desc": "*6th-level Conclave of Elements feature*\n\nAt 6th level, when you cast a spell from your elemental attunement’s conclave spells, targets of these spells are also subjected to additional harm. See the variant conditions in Appendix B of Legionnaire's Guide to Cyrodiil.\n\n*Earth.* When a target that fails a saving throw from or hit by one of your conclave spells is also subjected to the staggered condition until the start of your next turn.\n\n*Flame.* When a target that fails a saving throw from or hit by one of your conclave spells is also subjected to the burning condition until the start of your next turn.\n\n*Storm.* When a target that fails a saving throw from or hit by one of your conclave spells is also subjected to the dazed condition until the start of your next turn.\n\n*Water.* When a target that fails a saving throw from or hit by one of your conclave spells is also subjected to the chilled condition until the start of your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dc/Elements-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Elements: Destructive Elementalist__**",
+        "desc": "*10th-level Conclave of Elements feature*\n\nStarting at 10th level, when you deal damage with your chosen elemental type, you can add your Willpower modifier (minimum of 1) to the damage roll of any warden spell that you cast that deals this damage type. The damage bonus applies to one damage roll of a spell, not multiple rolls. Additionally, you gain resistance to your elemental attunement damage type.\n\n*Earth.* The damage type is bludgeoning.\n\n*Flame.* The damage type is fire.\n\n*Storm.* The damage type is lightning.\n\n*Water.* The damage type is cold.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dc/Elements-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of the Elements: Elemental Form__**",
+        "desc": "*14th-level Conclave of Elements feature*\n\nWhen you reach 14th level, your form becomes that of your chosen elemental attunement. As an action, you magically transform into an atronach that is associated with your element. This magical transformation lasts for 1 hour, and can be ended early as a bonus action. While in this new form, you assume the stats of the atronach of your elemental attunement. You automatically revert if you fall unconscious, drop to 0 hit points, or die. You can use this feature twice. You regain expended uses when you finish a short or long rest. (Refer to the Basic Rules appendix A and the Enemies of Elsweyr chapter 3 for atronach stats.)\n\nWhile you are transformed, the following rules apply:\n- The new form can be any atronach whose challenge rating is equal to or less than the challenge rating listed in your elemental attunement below. Your game statistics are replaced by the statistics of the atronach, but you retain your alignment, personality, and Intelligence, Willpower, and Personality scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.\n- When you transform, you assume the atronach's hit points and hit dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in your atronach form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.\n- You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your atronach form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.\n- You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as Darkvision, unless your new form also has that sense.\n- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. equipment that merges with the form has no effect until you leave the form.\n\n*Earth.* You transform into either an iron, earth, or stone atronach with a CR of 5 or lower. At 18th level, you can transform into either an iron, earth, or stone atronach with a CR of 7 or lower.\n\n*Flame.* You transform into either a cold-flame or flame atronach with a CR of 5 or lower. At 18th level, you can transform into either a cold-flame or flame atronach with a CR of 7 or lower.\n\n*Storm.* You transform into either an air or storm atronach with a CR of 5 or lower. At 18th level, you can transform into either an air or storm atronach with a CR of 7 or lower.\n\n*Water.* You transform into either a water or frost atronach with a CR of 5 or lower. At 18th level, you can transform into either a water or frost atronach with a CR of 7 or lower.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dc/Elements-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Vermin: Conclave Spells__**",
+        "desc": "*2nd-level Conclave of Vermin feature*\n\nYour magical connection to vermin and swarms grants you access to certain spells. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Conclave of Vermins Spells table.\n\nOnce you gain access to a conclave spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the warden spell list, the spell is nonetheless a warden spell for you.\n\n*Vermin Conclave Spells*\n```\nWarden Level| Conclave Spells\n------------+-----------------\n3rd         | protection from poison, acid arrow\n5th         | protection from energy, stinking cloud\n7th         | blight, giant insect\n9th         | contagion, insect plague\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2c/Vermin-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Vermin: Verminous Swarm__**",
+        "desc": "*2nd-level Conclave of Vermin feature*\n\nYou’ve magically bonded with a swarm of vermin, which follows you around, and remains in your space while they crawl and skitter on or around you. You determine what type of vermin you’ve bonded with, or you can generate them by rolling on the Favored Vermin table below. You might have a single type of vermin that you prefer, or you could have an array of creatures with you.\n\n*Favored Vermin*\n```\nd6| Vermin\n1 | centipedes\n2 | fetcherflies\n3 | rats\n4 | scorpions\n5 | snakes\n6 | spiders\n```\n\nOnce on each of your turns, you can use a bonus action to have the vermin from your swarm attack a creature within 30 feet of you. The vermin makes an attack using your spell attack modifier. On a hit, the target takes 1d6 piercing damage.\n\nAdditionally, as an action, you can expend one use of your Mark of Balance feature to magically shape your swarm into a Small swarm of Tiny beasts. You determine the form it takes. Some vermin swarms resemble the creatures that make up the swarm, such as a Small spider made up of a swarm of tiny spiders, or a Small hand made up of writhing scorpions.\n\nThis Small swarm forms in an unoccupied space of your choice within 5 feet of you and obeys your commands. See this creature’s game statistics in the Vermin Swarm stat block, which uses your proficiency bonus (PB) in several places.\n\nIn combat, the vermin swarm shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the vermin swarm can take any action of its choice, not just Dodge.\n\n**Vermin Swarm**\n```Small swarm of Tiny Beasts\nArmor Class| 13 + PB (natural armor)\nHit Points | 5 + five times your warden level\nSpeed      | 30 ft., climb 30 ft.\n==============================\n STR| AGI| END| INT| WIL| PER\n 12 | 14 | 14 | 10 | 15 | 10 \n(+1)|(+2)|(+2)|(+0)|(+2)|(+0)\n==============================\nDamage Immunities   | poison\nCondition Immunities| charmed, frightened, grappled, prone, restrained\nSenses              | passive Perception 12\nLanguages           | -\nChallenge           | —        \nProficiency Bonus   | (PB) equals your bonus\n==============================\nSwarm Form. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny creature.\n\n--Actions--\n--------\nBite/Sting. Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + PB piercing damage.\n\nWrithing Swarm. The swarm wraps around a creature within its space. The creature must succeed on a Strength saving throw against your spell save DC or take 1d6 + PB piercing damage and be restrained. The swarm has advantage on attacks against a creature restrained in this way.\n```\n\nThe vermin swarm remains in this form for 1 hour, until it is reduced to 0 hit points, until you use this feature to form the swarm again, or until you die.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2c/Vermin-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Vermin: Elemental Infusion__**",
+        "desc": "*6th-level Conclave of Vermin feature*\n\nYou have learned to magically infuse your swarm with elemental energy. When you use a bonus action to command your vermin swarm to attack, you can change the damage it deals to cold, fire, lightning, or poison damage instead of piercing. The next time the vermin swarm hits with an attack, it deals this type of damage. You can use this feature a number of times equal to your Willpower modifier, and you regain all expended uses when you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2c/Vermin-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Vermin: Blighter's Bond__**",
+        "desc": "*6th-level Conclave of Vermin feature*\n\nWhen you spend at least 1 minute interacting with a Tiny beast, you can attempt to create a magical bond with them. The target must succeed on a Willpower saving throw against your spell save DC or become charmed by you for the next hour as though you had cast the charm person spell on it.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2c/Vermin-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Vermin: Infused Blood__**",
+        "desc": "*10th-level Conclave of Vermin feature*\n\nYou create a bond with the elemental energy of your infusions. When you finish a long rest, choose cold, fire, lightning, or poison. You gain resistance to this type of damage until you finish your next long rest. Your vermin swarm also gains this resistance.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2c/Vermin-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Vermin: Protection of the Swarm__**",
+        "desc": "*14th-level Conclave of Vermin feature*\n\nWhen you see a creature take damage from an attack that deals cold, fire, lightning, or poison damage, you can use your reaction and expend a use of your Elemental Infusion feature to protect that creature. As part of this reaction, your vermin swarm can move up to 15 feet. If the swarm ends their movement in the space of another creature, the swarm can envelop the creature and grant it resistance to the triggering damage type until the start of their next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2c/Vermin-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Balance: Leafy Familiar__**",
+        "desc": "*2nd-Level Conclave of Balance feature*\n\nWhen you choose this conclave, you gain the ability to summon a leafy familiar, as though you had cast the find familiar spell. This familiar takes the form of a twig blight. As an action on your turn, you can summon the familiar. If the familiar drops to 0 hit points, it disappears, leaving behind no physical form.\n\nOnce you use this feature, you must finish a long rest before you can use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Balance: Oakflesh__**",
+        "desc": "*2nd-Level Conclave of Balance feature*\n\nYou can expend one use of your Mark of Balance to gain the benefits of barkskin on yourself for the next hour. When you cast the spell this way, you can do so without requiring concentration.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Balance: Green Empathy__**",
+        "desc": "*6th-Level Conclave of Balance feature*\n\nYou have a supernatural connection with the green, which allows you to be able to have limited conversations with plants. You can question plants about recent events that have occurred in the past day and may be able to persuade them to perform small favors for you, within their limited abilities.\n\nAdditionally, you are always under the effect of a detect magic spell when it comes to detecting magical plants.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Balance: Oakflesh Mastery__**",
+        "desc": "*10th-Level Conclave of Balance feature*\n\nWhen you use your Oakflesh feature, your hit point maximum and current hit points increases by 20. This increase lasts until Oakflesh ends; your hit point maximum remains the same, unless they must decrease to abide by your hit point maximum.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Balance: Guardian of the Green__**",
+        "desc": "*14th-Level Conclave of Balance feature*\n\nYou gain the ability to temporarily grow and take the appearance of a treelike guardian, covered with leaves and bark. When your Oakflesh feature is active, you can use an Action to assume this guardian form, which lasts for 1 minute or until you are incapacitated. You undergo the following changes while in your guardian form:\n- Your size becomes Large, unless you were larger.\n- Your reach increases by 5 feet.\n- Melee weapon attacks you make in this form are considered magical and deal an additional 2d6 bludgeoning damage.\n- You emanate a magical aura that fortifies the injured. You and allies within 30 feet of you that are below half their hit point maximum gain a number of hit points equal to half your warden level at the start of each of your turns.\n\nOnce you use this feature, you must finish a long rest before you can do so again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Battle: Bonus Proficiencies__**",
+        "desc": "*2nd-Level Conclave of Balance feature*\n\nWhen you choose this conclave, you gain proficiency with heavy armor and Long Blade.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Battle: Mark of Battle__**",
+        "desc": "*2nd-Level Conclave of Balance feature*\n\nCreatures marked as an Enemy from your Mark of Balance take additional necrotic damage equal to your Willpower modifier whenever you hit them with a weapon attack.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Battle: Extra Attack__**",
+        "desc": "*6th-Level Conclave of Balance feature*\n\nYou can attack twice, instead of once, whenever you take the Attack action on your turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Battle: Battle Magic__**",
+        "desc": "*10th-Level Conclave of Balance feature*\n\nWhen you use your action to cast a cantrip, you can make one weapon attack as a bonus action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Battle: __**",
+        "desc": "*14th-Level Conclave of Balance feature*\n\nYou take on the form of a paragon of nature. Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:\n- You have resistance to all damage.\n- Your attacks ignore a creatures resistances.\n- When you take the Attack action on your turn, you can make one additional attack as part of that action.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Covens: Black Grimoire__**",
+        "desc": "*2nd-Level Conclave of Covens features*\n\nWhen you choose this conclave, you gain access to a powerful artifact known as a Black Grimoire. You can inscribe magical rituals in your Black Grimoire. Choose two 1st-level spells that have the ritual tag from any class’s spell list (the two needn’t be from the same list). The spells appear in the book and don’t count against the number of spells you know. With your Black Grimoire in hand, you can cast the chosen spells as rituals. You can’t cast the spells except as rituals, unless you’ve learned them by some other means.\n\nOn your adventures, you can add other ritual spells to your Black Grimoire. When you find such a spell, you can add it to the book if the spell’s level is equal to or less than half your warden level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Covens: Mark of Cursing__**",
+        "desc": "*2nd-Level Conclave of Covens features*\n\nWhen a creature is marked as an Enemy from your Mark of Balance feature take damage from your warden cantrips, you can impose an additional effect on the target:\n- *Blinding.* You weave into you crafting of your spell, shadowy foul darkness. The creature hit by your cantrip attack takes an extra 2d6 necrotic damage, and it must succeed on an Endurance saving throw or be blinded until the start of your next turn.\n- *Deafening.* Your spell produces a concussing blast of sound. The creature hit by your cantrip attack takes an extra 2d6 thunder damage, and it must succeed on an Endurance saving throw or be deafened until the start of your next turn.\n- *Slowing.* Your draw out the essence of warm as your spell strikes its target. The creature hit by your cantrip attack takes an extra 2d6 cold damage, and it must succeed on an Endurance saving throw or have it’s speed reduced by half and cannot take reactions until the start of your next turn.\n- *Weakening.* You interweave sickening harm into your cantrips. The creature hit by your cantrip attack takes an extra 2d6 poison damage, and it must succeed on an Endurance saving throw or be weakened until the start of your next turn.\n\nThe extra damage from these options increases to 3d6 when you reach 10th level in this class, and to 4d6 at 14th level.\n\nYou can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Covens: Conclave Spells__**",
+        "desc": "*2nd-Level Conclave of Covens features*\n\nYour dark connection with the vile magic infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to conclave spells connected with the covens of Tamriel.\n\nOnce you gain access to a conclave spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the warden spell list, the spell is nonetheless a warden spell for you.\n\nCoven Conclave Spells\n```\nWarden Level| Conclave Spells\n------------+-----------------\n3rd         | augury, darkness\n5th         | bestow curse, fear\n7th         | black tentacles, divination\n9th         | arcane hand, cloudkill\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Covens: Ill Intent__**",
+        "desc": "*6th-Level Conclave of Covens features*\n\nAs a reaction to seeing a creature within 60 feet of you fail a saving throw from a spell effect, you can further inflict suffering upon that target. The creature takes necrotic damage equal to your warden level + your spellcasting attribute modifier.\n\nOnce you use this feature, you can’t do so again until you finish a short or long rest, unless you expend 5 magicka to use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Covens: Dark Words__**",
+        "desc": "*10th-Level Conclave of Covens features*\n\nWhen a hostile creature makes an attack roll at a target you can see within 60 feet of you with an attack, you can use your reaction to force that creature to make a Personality saving throw against your warden spell Save DC. On a failed save the attacker must make their attack against another creature (other than itself) of your choice. The attacking target must hear and see you in order to be affected by this feature.\n\nYou can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you finish a long rest, unless you expend 6 magicka to use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden__**\n**__Conclave of Covens: Bewitching Gaze__**",
+        "desc": "*14th-Level Conclave of Covens features*\n\nYour mastery of the fates and manipulation of creatures has granted you unparalleled magical strength. On your turn, you can target one creature you can see within 60 feet of you (no action required). If the target can see you, it must succeed on a Willpower saving throw against this magic or become charmed until the end of your next turn (as if it were affected by the charm monster spell). If the target fails the saving throw by 5 or more, it is also dominated (as if it were affected by the dominate monster spell) for the same duration. A target that succeeds on the saving throw is immune to this feature for the next 24 hours.\n\nYou can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you finish a long rest, unless you expend 7 magicka to use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    }
+]

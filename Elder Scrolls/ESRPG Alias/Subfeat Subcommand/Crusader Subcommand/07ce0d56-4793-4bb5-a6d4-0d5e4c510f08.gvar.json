@@ -1,0 +1,227 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat crusader <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/BR:Crusader#Crusader_Devotions"
+    },
+    {
+        "name": "**__Crusader__**\n**__Knight: Devotion Spells__**",
+        "desc": "You gain devotion spells at the crusader levels listed.\n\nKnight Devotion Spells\n```\nLevel| Spells\n3rd  | sanctuary, shield of faith\n5th  | find steed, warding bond\n9th  | remove curse, spirit guardians\n13th | compulsion, freedom of movement\n17th | dispel evil and good, hold monster\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Knight-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Knight: Channel Divinity__**",
+        "desc": "*3rd-level Knight devotion feature*\n\nYou gain the following Channel Divinity options.\n\n*Honorable Combat.* As a bonus action, you challenge a creature that you can see that is within 30 feet of you to honorable combat. You gain a bonus to your attack rolls equal to your Personality modifier when you attack this creature. This effect ends if a creature other than you attacks your target.\n\n*Knight’s Confidence.* As an action, you can use your Channel Divinity to exude a noble and trustworthy presence. For the next 10 minutes, you have advantage on Personality (Intimidation) and Personality (Persuasion) checks.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Knight-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Knight: Aura of the Aegis__**",
+        "desc": "*7th-level Knight devotion feature*\n\nWhen a creature within 10 feet of you is targeted by an attack, you can use your reaction to impose a spectral projection of yourself between the target and their attacker. The creature uses your AC instead of their own, unless their AC is greater.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Knight-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Knight: Divine Smite- Thunder__**",
+        "desc": "*7th-level Knight devotion feature*\n\nWhenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with thunder damage instead of radiant.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Knight-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Knight: Emboldened Defense__**",
+        "desc": "*15th-level Knight devotion feature*\n\nYou learn quickly from failures to defend yourself. When you are hit by an attack, the next creature to make an attack against you within the next minute has disadvantage on its attack roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Knight-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Knight: Exemplar’s Ward__**",
+        "desc": "*20th-level Knight devotion feature*\n\nYou can manifest a glowing protective ward that surrounds you. As a bonus action you gain the following benefits for 1 minute:\n- When you or a creature of your choice within 30 feet takes damage, the total damage dealt is reduced by an amount equal to your Personality modifier.\n- If you or a creature within 30 feet of you fails a saving throw, it can use its reaction to reroll it. It must use this new roll.\n\nOnce you use this feature, you can't use it again until you finish a long rest, unless you expend magicka as though you had cast a 5th-level spell to use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/13/Knight-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Templar: Devotion Spells__**",
+        "desc": "*3rd-level Templar devotion feature*\n\nYou gain devotion spells at the crusader levels listed.\n\nTemplar Devotion Spells\n```\nLevel| Spells\n3rd  | guiding bolt, hellish rebuke\n5th  | aurora javelin, spiritual weapon\n9th  | beacon of hope, haste\n13th | fire shield, radiant shield\n17th | anti-life shell, Stendarr's aura\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/80/Templar-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Templar: Channel Divinity__**",
+        "desc": "*3rd-level Templar devotion feature*\n\nYou gain the following Channel Divinity options.\n\n*Radiant Destruction.* You can use your Channel Divinity to burn your enemies with a ray of holy fire.\n\nAs an action, you conjure a ray of light in a 30-foot line that is 5 feet wide. Each creature in that line must make an Agility saving throw. A creature takes radiant damage equal to 2d10 + your crusader level on a failed saving throw, and half as much damage on a successful one. A creature that is below half its maximum hit points takes an additional 1d10 damage.\n\n*Illuminating Spirit.* As an action, you use your Channel Divinity to cause light to shine down on you, restoring a number of magicka points equal to half your Crusader level, rounded down.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/80/Templar-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Templar: Illuminating Aura__**",
+        "desc": "*7th-level Templar devotion feature*\n\nYou emanate an aura of invisible magical light. If you aren’t incapacitated, you and any creature of your choice within 10 feet of you gains the ability to see in dim light and darkness within 60 feet of it as though it were bright light.\n\nWhen you reach 18th level in this class, the range of the aura increases to 30 feet.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/80/Templar-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Templar: Divine Smite- Fire__**",
+        "desc": "*7th-level Templar devotion feature*\nWhenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with fire damage instead of radiant.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/80/Templar-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Templar: Burning Light__**",
+        "desc": "*15th-level Templar devotion feature*\n\nYou gain mastery with the effects of sunlight. Whenever you cast a spell that deals fire or radiant damage, you can add your Personality modifier to the damage. This amount is doubled against undead or fiends.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/80/Templar-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Templar: Radiant Ward__**",
+        "desc": "*20th-level Templar devotion feature*\n\nYou surround yourself with solar rays. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.\n\nWhile surrounded by the light, at the start of each of your turns, you gain 10 temporary hit points. Additionally, each time you take damage from a melee weapon attack, you pulse with violent light, and the attacker takes radiant damage equal to your Personality modifier.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/80/Templar-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Witchhunter: Devotion Spells__**",
+        "desc": "*3rd-level Witchhunter devotion feature*\n\nYou gain devotion spells at the crusader levels listed.\n\nWitch Hunter Devotion Spells\n```\nLevel| Spells\n3rd  | bane, hunter's mark\n5th  | hold person, spiritual weapon\n9th  | bestow curse, counter spell\n13th | banishment, rune prison\n17th | hold monster, scrying\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/af/Witch_Hunter-banner.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Witchhunter: Channel Divinity__**",
+        "desc": "*3rd-level Witchhunter devotion feature*\n\nYou gain the following Channel Divinity options.\n\n*Hunter’s Ire.* As a bonus action, you can channel your focus against a creature you can see within 30 feet of you, using your Channel Divinity. For the next minute, or until the creature drops to 0 hit points, you can add 1d6 to each attack roll made against the creature target. Additionally, you can add 1d6 whenever the target forces you to make a saving throw, or when you make an attribute check related to the target.\n\n*Turn Evil.* As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Willpower saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/af/Witch_Hunter-banner.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Witchhunter: Wavering Aura__**",
+        "desc": "*7th-level Witchhunter devotion feature*\n\nYour supernatural connection to the creatures you face causes them to falter. Creatures of your choice that are within 10 feet of you have disadvantage on saving throws to maintain concentration.\n\nWhen you reach 18th level in this class, the range of the aura increases to 20 feet.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/af/Witch_Hunter-banner.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Witchhunter: Divine Smite- Force__**",
+        "desc": "*7th-level Witchhunter devotion feature*\n\nAlso at 7th level, whenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with force damage instead of radiant.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/af/Witch_Hunter-banner.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Witchhunter: Stop the Wicked__**",
+        "desc": "*15th-level Witchhunter devotion feature*\n\nWhen you see a creature casting a spell, you can use your reaction to move up to half your movement speed toward the spellcaster. If the creature is within range, you can make a melee weapon attack against it as part of this reaction. If the attack hits, the creature must succeed on a Willpower saving throw against your spell save DC, or its spell fails and is wasted.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/af/Witch_Hunter-banner.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Witchhunter: Paragon of Protection__**",
+        "desc": "*20th-level Witchhunter devotion feature*\n\nYour very being becomes branded with the magical energy of supernatural protection. You can use your action to gain the following benefits for 1 minute:\n- You impose disadvantage to all attacks made against you and any of your allies within 15 feet of you.\n- The first time a fiend or undead creature comes within 15 feet of you or starts its turn there, you can force the creature to make a Willpower saving throw. On a failed save, it becomes frightened for 1 minute or until it takes any damage. Attack rolls made against any creature frightened by you have advantage.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/af/Witch_Hunter-banner.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Blackguard: Devotion Spells__**",
+        "desc": "You gain devotion spells at the crusader levels listed.\n\nBlackguard Devotion Spells \n```\nLevel| Spells\n3rd  | charm person, expeditious retreat\n5th  | invisibility, mirror image\n9th  | gaseous form, haste\n13th | confusion, greater invisibility\n17th | dominate person, passwall\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bc/Blackguard.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Blackguard: Blackguard's Expertise__**",
+        "desc": "*3rd-level Blackguard feature*\n\nYou gain proficiency in your choice of two of the following skills: Arcana, Deception, Intimidation, or Stealth.\n\nYour proficiency bonus is doubled for any attribute check you make that uses either of these skills.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bc/Blackguard.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Blackguard: Channel Divinity__**",
+        "desc": "*3rd-level Blackguard feature*\n\nYou gain the following Channel Divinity options.\n\n*Conjure Duplicate.* As an action, you create a visual illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space of your choice that you can see within 30 feet of you. The illusion looks exactly like you; it is silent; it is your size, is insubstantial, and doesn’t occupy its space; and it is unaffected by attacks and damage. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but the illusion must remain within 120 feet of you.\n\nFor the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how uncanny the illusion is.\n\n*Poison Strike.* You can use your Channel Divinity to make a weapon deadlier. As a bonus action, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison lasts for 1 minute. The next time you hit a target with an attack using that weapon or ammunition, the target takes poison damage immediately after the attack. The poison damage equals 2d10 + your crusader level, or 20 + your crusader level if you had advantage on the attack roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bc/Blackguard.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Blackguard: Aura of Treachery__**",
+        "desc": "*7th-level Blackguard feature*\n\nYou emanate an aura of discord, which gives you the following benefits.\n\n*Cull the Herd.* You have advantage on melee attack rolls against any creature that has one or more of its allies within 5 feet of it.\n\n*Treacherous Strike.* If a creature within 5 feet of you misses you with a melee attack, you can use your reaction to force the attacker to reroll that attack against a creature of your choice that is also within 5 feet of the attacker. The ability fails and is wasted if the attacker is immune to being charmed. You can use this ability three times, and regain expended uses of it when you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bc/Blackguard.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Blackguard: Divine Smite- Poison__**",
+        "desc": "*7th-level Blackguard feature*\n\nWhenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with poison damage instead of lightning.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bc/Blackguard.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Blackguard: Blackguard's Escape__**",
+        "desc": "*15th-level Blackguard feature*\n\nYou have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw.\n\nOnce you use this feature, you must finish a short or long rest before you can use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bc/Blackguard.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Blackguard: Icon of Deceit__**",
+        "desc": "*20th-level Blackguard feature*\n\nYou gain the ability to emanate feelings of treachery. As an action, you can magically become an avatar of deceit, gaining the following benefits for 1 minute:\n- You are invisible.\n- If a creature damages you on its turn, it must succeed on a Willpower saving throw (DC equal to your spell save DC) or you control its next action, provided that you aren’t incapacitated when it takes the action. A creature automatically succeeds on the save if the creature is immune to being charmed.\n- If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your crusader level.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bc/Blackguard.jpg"
+    },
+    {
+        "name": "**__Crusader__**\n**__Herald: Devotion Spells__**",
+        "desc": "*3rd-level Herald feature*\n\nYou gain devotion spells at the crusader levels listed in the Herald’s Devotion Spells table. See the Devotion class feature for how devotion spells work.\n\nHerald Devotion Spells\n```\nLevel| Spells\n3rd  | bless, shield of faith\n5th  | aid, calm emotions\n9th  | beacon of hope, tongues\n13th | guardian of faith, freedom of movement\n17th | greater restoration, hallow\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3c/Herald-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Herald: Channel Divinity__**",
+        "desc": "*3rd-level Herald feature*\n\nYou gain the following two Channel Divinity options. See the Devotion class feature for how Channel Divinity works.\n\n*Shield the Faithful.* You can use your Channel Divinity to utter divine words that uplift your allies. As an action, you present your holy symbol, and each friendly creature within 30 feet of you that can hear you gains renewed power. Until the start of your next turn, the creature gains a 1d4 to all of their attack rolls, attribute checks, and saving throws.\n\n*Blessing of Peace.* You can use your Channel Divinity to infuse yourself with unwavering serenity and expel foul magic. As an action, you present your holy symbol, and end any one magical effect that is afflicting you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3c/Herald-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Herald: Aura of Faith__**",
+        "desc": "*7th-level Herald devotion feature*\n\nFriendly creatures within 10 feet of you cannot be charmed while you are conscious.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3c/Herald-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Herald: Divine Smite- Psychic__**",
+        "desc": "*7th-level Herald devotion feature*\n\nWhenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with psychic damage instead of radiant.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3c/Herald-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Herald: Divine Ward__**",
+        "desc": "*15th-level Herald devotion feature*\n\nWhenever you succeed a saving throw against a magical effect, you gain temporary hit points equal to 2d6 + your Willpower attribute modifier",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3c/Herald-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Herald: Divine Emissary__**",
+        "desc": "*20th-level Herald devotion feature*\n\nYour devotion to the gods instills divinity into your being for a moment in order to transform you into their champion.\n\nUsing your action, you undergo a transformation. For 1 minute, you gain the following benefits:\n- You have resistance to all damage.\n- You shed bright light out to a range of 60 feet, and dim light out an additional 60 feet.\n- Allies within 30 feet of you gain 2d10 temporary hit points at the start of each of your turns.\n- As a bonus action on each of your turns, a creature of your choosing (other than yourself) within 30 feet of you gains a d8. The target can use this d8 to add to any roll of their choosing before the start of your next turn. The creature loses this d8 at the start of your next turn if it was not used.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3c/Herald-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Zealot: Devotion Spells__**",
+        "desc": "*3rd-level Zealot feature*\n\nYou gain devotion spells at the crusader levels listed in the Zealot’s Devotion Spells table. See the Devotion class feature for how devotion spells work.\n\nZealot Devotion Spells\n```\nLevel| Spells\n3rd  | bane, divine favor\n5th  | hold person, spiritual weapon\n9th  | beacon of hope, bestow curse\n13th | compulsion, dark flare\n17th | commune, dominate person\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7b/Zealot-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Zealot: Channel Divinity__**",
+        "desc": "*3rd-level Zealot feature*\n\nYou gain the following two Channel Divinity options.See the Devotion class feature for how Channel Divinity works.\n\n*Turn the Faithless.* You can use your Channel Divinity to utter divine words that are painful for aberrations, fey, and fiends to hear. As an action, you present your holy symbol, and each fey, fiend, or aberration within 30 feet of you that can hear you must make a Willpower saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.\n\nIf the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.\n\n*Aetherial Blessing.* You can use your Channel Divinity to infuse your attacks with supernatural might. As a bonus action, you present your holy symbol, whenever you make a damage roll, you can add your Willpower attribute modifier to weapon attacks (minimum of 1) for the next minute",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7b/Zealot-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Zealot: Aura of Fury__**",
+        "desc": "*7th-level Zealot devotion feature*\n\nFriendly creatures within 10 feet of you add your Willpower attribute modifier to a damage roll (minimum of 1) once per turn.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7b/Zealot-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Zealot: Divine Smite- Thunder__**",
+        "desc": "*7th-level Zealot devotion feature*\n\nWhenever you use the Divine Smite feature, you can choose to infuse your weapon strikes with thunder damage instead of radiant.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7b/Zealot-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Zealot: Unwavering Devotion__**",
+        "desc": "*15th-level Zealot devotion feature*\n\nYour unwavering resolve cannot be shaken even when you are at your weakest. You can make a single melee weapon attack as a bonus action on each of your turns if you have no more than half of your hit points left",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7b/Zealot-banner.png"
+    },
+    {
+        "name": "**__Crusader__**\n**__Zealot: Exemplar’s Ward__**",
+        "desc": "*20th-level Zealot devotion feature*\n\nYour devotion to the gods instills divinity into your being for a moment in order to transform you into their champion.\n\nUsing your action, you undergo a transformation. For 1 minute, you gain the following benefits:\n- You have resistance to radiant, necrotic, psychic, and force damage. As a reaction on your turn, when a creature within 30 feet of you is harmed by radiant, necrotic, psychic, or force damage, you can grant that target resistance to that damage roll.\n- When an ally within 30 feet of you misses a target with a weapon attack, they can reroll the attack but must they use the new roll. A creature can only make this roll once per round.\n- As a bonus action on each of your turns, a creature of your choosing within 30 feet of you regains 2d4 hit points.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7b/Zealot-banner.png"
+    }
+]

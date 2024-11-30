@@ -1,0 +1,287 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat necromancer <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/EoE:Necromancer#Necromantic_Arts"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Baleful Summoner: Art Spells__**",
+        "desc": "You gain art spells at the necromancer levels listed.\n\nBaleful Summoner Art Spells\n```\nLevel| Spells\n------------------------------\n3rd  | grave grasp, warding bond\n5th  | animate dead, speak with dead\n7th  | animate skeletal mage, blast bones\n9th  | danse macabre, antilife shell\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Baleful-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Baleful Summoner: Grim Harvest__**",
+        "desc": "*2nd-Level Baleful Summoner feature*\n\nAt 2nd level, you gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Baleful-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Baleful Summoner: Undead Thralls__**",
+        "desc": "*6th-Level Baleful Summoner feature*\n\nAt 6th level, when you cast a spell that animates the dead, you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate. Whenever you create an undead using a necromancy spell, it has additional benefits:\n- The creature's hit point maximum is increased by an amount equal to your necromancer level.\n- The creature adds your proficiency bonus to its weapon damage rolls.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Baleful-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Baleful Summoner: Command Undead__**",
+        "desc": "*14th-Level Baleful Summoner feature*\n\nStarting at 14th level, you can use magic to bring undead under your control, even those created by other necromancers. As an action, you can choose one undead that you can see within 60 feet of you. That creature must make a Personality saving throw against your necromancer spell save DC. If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.\n\nIntelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Baleful-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Baleful Summoner: Conjure Flesh Colossus__**",
+        "desc": "*18th-Level Baleful Summoner feature*\n\nWhen you reach 18th level, you can momentarily summon a gigantic flesh colossus from Oblivion. As an action on your turn, a huge flesh colossus appear out of a 15-foot square portal that you can place on a surface large enough to hold it within 60 feet of you. Any creature in the same space as the portal, or within 10 feet of the portal must make an Agility saving throw. On a failed save, a creature takes 5d8 necrotic damage and 5d8 bludgeoning damage and is knocked prone. A creature takes half as much damage on a successful save and remains upright.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Baleful-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer: Art Spells__**",
+        "desc": "You gain art spells at the necromancer levels listed.\n\nDeathbringer Art Spells \n```\nLevel| Spells\n------------------------------\n3rd  | gentle repose, ray of enfeeblement\n5th  | feign death, stinking cloud\n7th  | blight, confusion\n9th  | cloudkill, contagion\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer: Plague Bearer__**",
+        "desc": "*2nd-Level Deathbringer feature*\n\nStarting at 2nd level, you learn how to create and spread disease in an instant. You learn two diseases of your choice, which are listed at the end of the Deathbringer description. You learn one additional disease of your choice when you reach 11th level, and one more when you reach 17th level.\n\nAdditionally, when you gain a level in this class, you can choose one of the diseases you know and replace it with another disease. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to spread a disease that you know, forcing the creature to make an Endurance saving throw. The DC for the saving throw is equal to your spell save DC. On a failed save, the creature suffers the effects of the chosen disease for the next 10 minutes. If more than one creature starts its turn within 10 feet of you, you can choose which creature to spread the disease to. A creature that succeeds on the saving throw is immune to this disease for the next 24 hours. If the disease requires the infected creature to make additional saving throws, the DC is equal to your spell save DC.\n\nAdditionally, A creature that is infected by the disease takes 1d6 necrotic damage on the start of each of its turns.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer: Rapid Rot__**",
+        "desc": "*6th-Level Deathbringer feature*\n\nStarting at 6th level, when you cast a spell that deals necrotic or poison damage, or when an infected creature takes damage from a disease created by your plague bearer feature, you can add your Intelligence modifier to the damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer: Manipulator of Death__**",
+        "desc": "*14th-Level Deathbringer feature*\n\nAt 14th level, you can use fragments of soul energy to manipulate your spells and attacks to bring death and decay. When you cast a spell that deals acid, cold, fire, force, or lightning damage, or when you deal damage from a weapon attack, you can expend one Soul Point to replace that damage with your choice of either necrotic or poison damage. You can only replace one type of damage from the attack.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer: Plague Spreader__**",
+        "desc": "*18th-Level Deathbringer feature*\n\nAt 18th level, you can expend one or more Soul Points and use an action to choose a corpse you can see or a creature infected by a disease. The corpse or creature explodes in a burst of disease, forcing each creature within 10 feet of it to make an Endurance saving throw. On a failed save, each creature takes 2d8 necrotic damage for each Soul Point expended and they are infected with the same disease the creature was infected with. If the target is a corpse, you can choose to spread a disease that you know. A creature takes half as much damage on a successful save and is not infected by the disease.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer Diseases: Ataxia__**",
+        "desc": "The creature is temporarily infected with the ataxia disease, causing muscle stiffness and pain. The infected creature's Strength and Agility attribute scores are reduced by 2 and they have disadvantage on Agility checks.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer Diseases: Brain Fever__**",
+        "desc": "The creature is temporarily infected with the brain fever disease, which slowly decays their mental strength. The infected creature's Intelligence attribute score is reduced by 2. Additionally, their magicka is reduced by 2 at the start of each of their turns.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer Diseases: Chills__**",
+        "desc": "The creature is temporarily infected with the chills disease, creating an unnatural fear in their mind. The infected creature has disadvantage on Willpower saving throws. Additionally, each time the creature takes damage from one of your attacks, it must succeed on a Willpower saving throw or be frightened of you until the end of their next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer Diseases: Helljoint__**",
+        "desc": "The creature is temporarily infected with the helljoint disease, affecting the creatures mobility and coordination. The infected creature has disadvantage on Agility saving throws and their speed is reduced by half.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer Diseases: Shakes__**",
+        "desc": "The creature is temporarily infected with the shakes disease, causing the creature to shake uncontrollably. Each time the infected creature makes a weapon attack, it must make an Endurance saving throw. On a failed save, it has disadvantage on the attack. Additionally, the creature has disadvantage on Strength checks.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer Diseases: Witbane__**",
+        "desc": "The creature is temporarily infected with the witbane disease, affecting the creatures ability to concentrate. Each time the infected creature casts a spell that requires a spell attack roll, it must make an Endurance saving throw. On a failed save, it has disadvantage on the attack roll. Additionally, if the creature is concentrating on spell, it must make an Endurance saving throw equal to your spell save DC at the start of each of its turns or the concentration ends.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer Diseases: Wither__**",
+        "desc": "The creature is temporarily infected with the wither disease, causing an acute loss of energy and weakness. The infected creature gains one level of exhaustion. At the start of each of the creatures turns, it must make an Endurance saving throw. On a failed save, the creature gains one additional level of exhaustion. On a successful save, the creatures exhaustion level is reduced by one, but it can't be reduced below one.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Deathbringer Diseases: Wound Rot__**",
+        "desc": "The creature is temporarily infected with the wound rot disease, which slowly erodes the creatures health. Whenever the infected creature takes poison or necrotic damage, their maximum hit points are reduced by an equal amount to the damage done, and they are unable to restore hit points until the end of their next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b6/Deathbringer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Flesh Sculptor: Art Spells__**",
+        "desc": "You gain art spells at the necromancer levels listed.\n\nFlesh Sculptor Art Spells \n```\nLevel| Spells\n------------------------------\n3rd  | curative curse, prayer of healing\n5th  | aura of vitality, restoring tether\n7th  | aura of life, freedom of movement\n9th  | mass cure wounds, greater restoration\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ae/Flesh-sculptor-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Flesh Sculptor: Render Flesh__**",
+        "desc": "*2nd-Level Deathbringer feature*\n\nStarting at 2nd level, you learn how to alter necromantic magic to heal the living. You learn the cure wounds spell, which does not count against your spells known and it becomes a necromancer spell for you. Additionally, whenever you cast a spell of 1st level or higher to restore hit points to a creature, you can expend one or more Soul Points to restore additional hit points equal to 1d6 for each Soul Point used. After restoring hit points using Soul Points, the amount of hit points restored to you in any way is reduced by half for an amount of rounds equal to the number of Soul Points expended.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ae/Flesh-sculptor-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Flesh Sculptor: Life Amid Death__**",
+        "desc": "*6th-Level Deathbringer feature*\n\nAt 6th level, you can cause a burst of restorative energy when a creature dies. When you use your Soul Harvest feature, you can use a reaction to instantly restore hit points to each ally within 10 feet of the corpse. The amount of hit points restored is equal to the creatures CR rating (minimum of 1).",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ae/Flesh-sculptor-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Flesh Sculptor: Spirit Guardian__**",
+        "desc": "*14th-Level Deathbringer feature*\n\nAt 14th level, you can call forth a supernatural guardian to defend you and your allies. When you or an ally is hit by an attack, you can use a reaction to summon an intangible spirit guardian to take part of the damage. The spirit guardian is Medium in size and appears in an unoccupied space within 5 feet of the creature that has been hit by the attack, and the damage is reduced by half.\n\nThe spirit remains for the next minute and as a bonus action on your turn, you can move the spirit up to 30 feet to a space you can see. On subsequent turns, if the spirit is within 5 feet of yourself or an ally that takes damage from an attack, you can use your reaction to halve the damage done.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ae/Flesh-sculptor-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Flesh Sculptor: Blood Sacrifice__**",
+        "desc": "*18th-Level Deathbringer feature*\n\nAt 18th level, you can exploit the lingering soul energy of the recently dead to empower your restorative spells.\n\nWhenever you cast a spell of 1st level or higher to restore hit points to a single creature, you can use a nearby corpse to steal soul energy to cast the same spell on a second creature without expending magicka. The corpse must be of a creature that has died within the last 10 minutes and be within 30 feet of you and the initial target and is instantly turned into dust once the sacrifice is complete.\n\nYou can expend two Soul Points to cast the spell on one a third creature, and four Soul Points to cast the spell on a fourth creature.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ae/Flesh-sculptor-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Undying Warrior: Art Spells__**",
+        "desc": "You gain art spells at the necromancer levels listed.\n\nUndying Warrior Art Spells \n```\nLevel| Spells\n------------------------------\n3rd  | expunge, protection from poison\n5th  | dispel magic, remove curse\n7th  | death ward, freedom of movement\n9th  | dominate person, hold monster\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/53/Undying-warrior-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Undying Warrior: Bonus Proficiencies__**",
+        "desc": "*2nd-Level Deathbringer feature*\n\nWhen you choose the Undying Warrior necromantic art at 2nd level, you gain proficiency with medium armor as well as axe, long blade, and blunt weapons.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/53/Undying-warrior-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Undying Warrior: Grisly Totems__**",
+        "desc": "*2nd-Level Deathbringer feature*\n\nAt 2nd level, you are able to use the corpses of the fallen to create grisly magical totems made of bone that can bolster your allies or harm your foes. As a bonus action on your turn, you can use a corpse of a small or larger creature that you can see and transform it into a totem of your choice. The totem is created in a location that you can see within 30 feet of you. The corpse that is used to create the totem is destroyed and can't be used again. If a totem requires a creature to make a saving throw, the DC is determined by your Spell Save DC.\n\n*Agony Totem.* Whenever a creature moves into a space within a 30-foot radius of the totem for the first time on a turn or starts its turn there, it takes 1d6 necrotic damage.\n\n*Bone Totem.* You and your allies gain a +1 bonus to AC and saving throws while within a 30-foot radius of the totem.\n\n*Fear Totem.* One creature of your choice within a 30-foot radius of the totem must succeed on a Willpower saving throw or become frightened of you or an ally of your choice. You can use a bonus action on a subsequent turn of yours to attempt to frighten another creature, ending the effect on a creature already frightened by the totem. A creature frightened by the totem can make a Willpower saving throw at the end of each of their turns, ending the effect on a success.\n\n*Grasping Totem.* Whenever a creature moves into a space within a 30-foot radius of the totem for the first time on a turn or starts its turn there, it must succeed on an Agility saving throw or become restrained. The restrained creature can make this saving throw again on the start of each of its turns.\n\nThe totem has 20 hit points and an AC of 12 and remains for 1 hour or until its hit points are reduced to 0 or a new totem is created.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/53/Undying-warrior-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Undying Warrior: Bone Goliath__**",
+        "desc": "*6th-Level Deathbringer feature*\n\nAt 6th level, you gain the ability to temporarily turn yourself into a guardian of bone. As a bonus action, you transform into a bone goliath, which lasts for the next minute, you use a bonus action to end it, or until you are incapacitated. You undergo the following changes while you are in your bone goliath form:\n- Your size becomes Large, unless you were larger.\n- Your reach increases by 5 feet.\n- You gain a number of temporary hit points equal to twice your necromancer level. When your transformation ends, you lose any temporary hit points you have from it.\n- You deal an extra die of damage when you make a melee weapon attack.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/53/Undying-warrior-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Undying Warrior: Disdain Harm__**",
+        "desc": "*14th-Level Deathbringer feature*\n\nAt 14th level, you become more resilient to bodily devastation. You gain a damage threshold of 5, which grants you immunity to all damage unless you take an amount of damage from a single attack or effect equal to or greater than your damage threshold, in which case you take damage as normal. Any damage that fails to meet or exceed your damage threshold is considered superficial and doesn't reduce your hit points.\n\nYour damage threshold increases to 8 when you reach 17th level, and increases to 10 when you reach 20th level.\n\nAdditionally, when you take damage from an attack you can see, you can use your reaction and expend one or more Soul Points to reduce the damage taken by 1d8 for each Soul Point used.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/53/Undying-warrior-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Undying Warrior: Last Gasp__**",
+        "desc": "*18th-Level Deathbringer feature*\n\nAt 18th level, when you are reduced to 0 hit points, any Soul Points that you have are immediately expended and you regain 10 hit points for each soul point expended. If you do not have any Soul Points, you are reduced to 1 hit point instead.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/53/Undying-warrior-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Corpse Whisperer: Art Spells__**",
+        "desc": "*2nd-level Corpse Whisper feature*\n\nYour necromantic art grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to arts spells. See the Art Spells class feature in Enemies of Elsweyr for how art spells work.\n\nCorpse Whisperer Art Spells \n```\nLevel| Spells\n------------------------------\n3rd  | see invisibility, zone of truth\n5th  | clairvoyance, tongues\n7th  | divination, locate creature\n9th  | hallow, scrying\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f8/Corpsewhisperer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Corpse Whisperer: Memento Mori__**",
+        "desc": "*2nd-level Corpse Whisper feature*\n\nWhen you touch a humanoid corpse, you gain one skill or tool proficiency that the creature knew in life until you finish a long rest. If the creature’s stat block doesn’t list one, your GM assigns you this skill or tool proficiency until you finish a long rest.\n\nAt 6th level, when you use this feature, you gain any languages that the targeted corpse knew in life until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f8/Corpsewhisperer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Corpse Whisperer: Speaker of the Dead__**",
+        "desc": "*6th-level Corpse Whisper feature*\n\nYou learn the speak with dead spell. It doesn’t count against the number of necromancer spells you know, and you can cast it a number of times without expending magicka points equal to your Intelligence modifier (minimum 1). You regain any expended uses when you finish a long rest.\n\nAdditionally, when you cast this spell in this manner, no undead spirit can willingly lie to you. An undead spirit that refuses to answer one of your questions can be compelled to do so by making an Intelligence (Arcana) check with a DC that equals 8 + the creature’s CR that it had in life (minimum of 1).",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f8/Corpsewhisperer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Corpse Whisperer: Secrets of the Grave__**",
+        "desc": "*14th-level Corpse Whisper feature*\n\nYour understanding of death has heightened your necromantic spells. When you cast a spell from the school of necromancy, you can expend one Soul Point and make an Intelligence (Arcana) check (DC 10 + the spell’s level that it’s being cast at). On a success, roll a d8. The magicka points required to produce the spell is reduced by a number equal to the number rolled, but this number can’t be reduced below 1 magicka point.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f8/Corpsewhisperer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Corpse Whisperer: Mysteries Unfolded__**",
+        "desc": "*18th-level Corpse Whisper feature*\n\nThe secrets of the arcane are yours to harness. Choose four spells from any class, including this one. A spell can be of any level you can cast, as shown on the Necromancer table, or a cantrip.\n\nThe chosen spells count as a necromancer spell for you and don’t count against your spells known.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f8/Corpsewhisperer-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Sanguine Puppetry: Art Spells__**",
+        "desc": "*2nd-level Sanguine Puppetry feature*\n\nYour necromantic art grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to arts spells. See the Art Spells class feature in Enemies of Elsweyr for how art spells work.\n\nSanguine Puppetry Art Spells \n```\nLevel| Spells\n------------------------------\n3rd  | blindness/deafness, hold person\n5th  | bestow curse, vampiric touch\n7th  | death ward, locate creature\n9th  | dominate person, legend lore\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a3/Sanguine-puppetry.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Sanguine Puppetry: Blood Insight__**",
+        "desc": "*2nd-level Sanguine Puppetry feature*\n\nYou gain supernatural powers over blood. When you touch a puddle or a drop of blood from a creature that has died within the last year, you can use an action to gain insight into the creature's race, and a fragment of memory that resides within the blood the moment it was shed. You learn of the preceding seconds just before the blood was shed, the emotions that the creature was experiencing, and how wounded the creature was from this harm.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a3/Sanguine-puppetry.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Sanguine Puppetry: Blood Magic__**",
+        "desc": "*2nd-level Sanguine Puppetry feature*\n\nWhen you deal necrotic damage to a living creature, you can choose to place a magical mark on the target. This mark allows you to know the distance and direction that the creature is from you at all times, as long as they are on the same plane of existence as you. This mark lasts for one week, until the creature dies, or until you mark another creature in the same manner.\n\nA creature marked in this manner takes extra necrotic damage whenever it takes bludgeoning, piercing, or slashing damage. Roll a number of d4’s equal to half of your proficiency bonus (rounded down) and add this total to the damage dealt.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a3/Sanguine-puppetry.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Sanguine Puppetry: Bloodletter__**",
+        "desc": "*6th-level Sanguine Puppetry feature*\n\nWhen a creature within 30 feet of you is harmed by bludgeoning, piercing, or slashing damage, and the target isn't a construct, plant, or an undead, you can use your reaction to magically siphon a portion of their blood in order to empower yourself until the end of your next turn. While empowered this way, the first time you hit a target with an attack, you deal an extra 1d8 necrotic damage to that attack. When you reach 14th level, the extra damage increases to 2d8.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a3/Sanguine-puppetry.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Sanguine Puppetry: Sanguinating Marionette__**",
+        "desc": "*14th-level Sanguine Puppetry feature*\n\nYou can use a bonus action to expend a Soul Point to control the movement of one living creature that you can see within 30 feet of you, provided that the creature has blood and it’s below its hit point maximum. The creature must succeed on a Personality saving throw against your spell save DC or use its reaction to move up to 30 feet in a direction of your choice. The creature can then make a melee attack against a creature of your choice as part of this reaction. You can’t use this feature again until after you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a3/Sanguine-puppetry.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Sanguine Puppetry: Magicka Transfusion__**",
+        "desc": "*14th-level Sanguine Puppetry feature*\n\nYou learn to draw on the innate magical potential within your own blood in order to fuel your spells.\n\nWhen you cast a necromancer spell of 1st-level or higher, you can expend a number of hit dice equal to the spell’s level to cast the spell without expending magicka.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a3/Sanguine-puppetry.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Sanguine Puppetry: Hemophilic Resurgence__**",
+        "desc": "*18th-level Sanguine Puppetry feature*\n\nYour mastery of blood magic allows you to better harm your foes. When you roll a 1 on a damage die that deals necrotic damage, you can expend 1 Soul Point to add your Intelligence modifier to that die. You can add this extra damage to a number of damage dice equal to your Intelligence modifier (minimum of 1) for that spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a3/Sanguine-puppetry.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Voidkeeper: Art Spells__**",
+        "desc": "*2nd-level Voidkeeper feature*\n\nYour necromantic art grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to arts spells. See the Art Spells class feature in Enemies of Elsweyr for how art spells work.\n\nVoidkeeper Art Spells\n```\nLevel| Spells\n------------------------------\n3rd  | darkness, silence\n5th  | nondetection, phantom-steed\n7th  | arcane eye, confusion\n9th  | antilife shell, dispel evil and good\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6b/Voidkeeper-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Voidkeeper: Bonus Proficiency__**",
+        "desc": "*2nd-level Voidkeeper feature*\n\nYou gain proficiency in medium armor. You also gain proficiency in the Stealth or Survival skill (your choice).",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6b/Voidkeeper-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Voidkeeper: Channel Darkness__**",
+        "desc": "*2nd-level Voidkeeper feature*\n\nYou gain the ability to channel dark energy directly from the Void, using that energy to fuel magical effects. You can use an unholy symbol as a spellcasting focus for your necromancer spells and your Channel Darkness effects. You start with two such effects: Bind Undead and Marked for Death.\n\nWhen you use your Channel Darkness, you choose which effect to create. You must then finish a short or long rest to use your Channel Darkness again. Some Channel Darkness effects require saving throws. When you use such an effect from this class, the DC equals your necromancer spell save DC.\n\nBeginning at 6th level, you can use your Channel Darkness twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.\n\n*Channel Darkness: Bind Undead*. As an action, you present your unholy focus and speak a command that binds undead. Each undead that can see or hear you within 30 feet and has a CR equal to or lower than your proficiency bonus must make a Willpower saving throw. If the creature fails its saving throw, it is charmed by you for 10 minutes and will follow your spoken commands to the best of its abilities.\n\n*Channel Darkness: Marked for Death*. As an action, you present your unholy symbol and speak a damning word at a humanoid of your choosing within 30 feet of you that can see or hear you. The target must make a Willpower saving throw. If the creature fails its saving throw, its AC is reduced by a number equal to half your proficiency bonus (rounded down), and the creature takes 1d4 necrotic damage at the start of each of its turns for the next minute. When you reach 6th level, the damage increases to 2d4, and it increases again at 18th level to 3d4.\n\nOnly one creature can be marked for death in this manner at a time. Using this feature again ends the previous mark. A creature can repeat this save at the end of each of its turns, ending the effect upon a success.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6b/Voidkeeper-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Voidkeeper: Quiet Casting__**",
+        "desc": "*6th-level Voidkeeper feature*\n\nYou learn to infuse silence into your spellcasting. When you cast a spell, you can spend 1 Soul Point to cast it without a verbal component.\n\nWhen you cast a spell that deals damage in this manner, and target a single creature that is unaware or surprised, instead of rolling for damage, you deal the maximum amount of the dice.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6b/Voidkeeper-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Voidkeeper: Cloak of the Void__**",
+        "desc": "*14th-level Voidkeeper feature*\n\nWhen you are reduced to 0 hit points, but not killed outright, you can use your reaction to be cloaked in the dark energies of the Void, dropping to 1 hit point instead. You then gain immunity to all damage until the start of your next turn.\n\nOnce you use this feature, you cannot use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6b/Voidkeeper-banner.png"
+    },
+    {
+        "name": "**__Necromnacer__**\n**__Voidkeeper: Dark Guardian__**",
+        "desc": "*18th-level Voidkeeper feature*\n\nWhenever a living creature hits you with a melee attack, you can use your reaction to expend a Soul Point to summon a skeletal dark guardian to interpose on your behalf. The dark guardian's AC is 12 + your Proficiency bonus + your Intelligence modifier. If the attack roll would still hit, the damage dealt to you is reduced by half. If the attack roll is lower than the dark guardian’s AC, the attack deals no damage and the dark guardian can immediately make a melee attack against that creature. The dark guardian’s attack roll bonus is equal to your spell attack modifier and deals bludgeoning damage equal to 3d6 + your Intelligence modifier.\n\nRegardless if the initial attack hits or misses, the dark guardian then disappears.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6b/Voidkeeper-banner.png"
+    }
+]

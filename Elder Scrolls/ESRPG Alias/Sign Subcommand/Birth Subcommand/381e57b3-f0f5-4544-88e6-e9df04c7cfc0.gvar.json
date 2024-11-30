@@ -1,0 +1,108 @@
+{
+    "The Ritual": [
+        {
+            "name": "Mara's Gift",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "star",
+            "desc": "As an action, you regain hit points equal to 1d8 + your Endurance modifier.\n\nThis power's healing increases by 1d8 when you reach 5th level (2d8). 11th level (3d8), and 17th level (4d8).\n\nOnce you use this ability, you can't use it again until the next dawn."
+        },
+        {
+            "name": "Blessed Word",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "star",
+            "desc": "As an action, you speak a prayer censuring the undead. Choose one undead creature within 30 feet of you to make a Willpower saving throw. The DC for this saving throw equals 8 + your proficiency bonus + your Willpower or Personality modifier (your choice). If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\nA turned creature must spend its turn trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.\n\nOnce you use this ability, you can't use it again until the next dawn."
+        }
+    ],
+    "The Lover": [
+        {
+            "name": "Lover's Kiss",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "star",
+            "desc": "As an action, you touch a humanoid in an attempt to paralyze them. The target must make a Willpower saving throw or be paralyzed for 1 minute. The DC is determined by 8 + your proficiency bonus + your Endurance or Willpower modifier (your choice). The paralysis ends early if the target takes damage. At the end of each of its turns, the target can make another Willpower saving throw. On a success, the spell ends on the target.\n\nOnce you use this ability, you can't use it again until the next dawn."
+        }
+    ],
+    "The Lord": [
+        {
+            "name": "Blood of the North",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "star",
+            "desc": "As an action, you regain hit points equal to twice your level + your Endurance modifier. If the amount of hit points you gain exceeds your hit point maximum, you gain the remainder as temporary hit points which last for up to 1 hour.\n\nOnce you use this ability, you can't use it again until the next dawn."
+        }
+    ],
+    "The Shadow": [
+        {
+            "name": "Moonshadow",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "star",
+            "desc": "As an action, you can cast the spell invisibility on yourself without expending magicka.\n\nOnce you use this ability, you can't use it again until the next dawn."
+        }
+    ],
+    "The Apprentice": [
+        {
+            "name": "Apprentice Magicka",
+            "level": 1,
+            "maxValue": "level",
+            "reset": "long",
+            "display": "None",
+            "desc": "Your magicka point maximum increases by 1, and it increases by 1 every time you gain a level."
+        }
+    ],
+    "The Tower": [
+        {
+            "name": "Tower Key",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "star",
+            "desc": "As an action you can cast the knock spell without expending magicka.\n\nOnce you use this ability, you can't use it again until the next dawn."
+        },
+        {
+            "name": "Tower Warden",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "star",
+            "desc": "As a reaction, when you take damage from an attack, you can reflect some or all of the damage back to the attacker. The damage you can reflect is equal to 1d6.\n\nThis power's reflected damage increases by 1d6 when you reach 5th level (2d6). 11th level (3d6), and 17th level (4d6).\n\nOnce you use this ability, you can't use it again until the next dawn."
+        }
+    ],
+    "The Atronach": [
+        {
+            "name": "Atronach Magicka",
+            "level": 1,
+            "maxValue": "level*2",
+            "reset": "none",
+            "display": "None",
+            "desc": "Your magicka point maximum increases by 2, and it increases by 2 every time you gain a level.\n\nYou gain the Stunted Magicka feature"
+        }
+    ],
+    "The Thief": [
+        {
+            "name": "Luck (d6)",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "star",
+            "desc": "You gain one Luck Point. Your Luck Point is a d6. You can add your Luck Point to one attribute check, attack roll, or saving throw you make. You can wait until after you roll the d20 before deciding to use the Luck Point, but must decided before the GM says whether the roll succeeds or fails. You regain your expended Luck Point at the next dawn, and you can never have more than one Luck Point from this feature at a time."
+        }
+    ],
+    "The Serpent": [
+        {
+            "name": "The Serpent",
+            "level": 1,
+            "maxValue": 1,
+            "reset": "long",
+            "display": "square",
+            "desc": "Once each day, you can use the power to create one of the following effects:\n\nAs an action, you cure yourself from one non-magical disease and dispel one magical effect from yourself.\n\nAs an action, you touch a creature and infect them with a slow but potent poison, You instantly deal 1d4 poison damage, and an additional 1d4 poison damage at the start of each turn of your turns for the next minute. This damage ignores resistance. This damage increases by 1d4 when you reach 5th level (2d4). 11th level (3d4), and 17th level (4d4).\n\nOnce you use this ability, you can't use it again until the next dawn."
+        }
+    ]
+}

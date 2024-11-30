@@ -1,0 +1,317 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat monk <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/BR:Monk#Monastic_Tradition_2"
+    },
+    {
+        "name": "**__Monk__**\n**__Exposed Palm: Exposed Palm Technique__**",
+        "desc": "*3rd Level Way of the Exposed Palm feature*\n\nStarting when you choose this tradition at 3rd level, you can manipulate your enemy's stamina when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:\n- It must succeed on an Agility saving throw or be knocked prone.\n- It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.\n- It can't take reactions until the end of your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/ef/Exposed-palm-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Exposed Palm: Counterbalance__**",
+        "desc": "*6th Level Way of the Exposed Palm feature*\n\nAt 6th level, you gain the ability to use stamina to absorb direct damage against you. As a reaction, when you are struck with an attack that only strikes you, and deals bludgeoning, piercing, or slashing damage, you can reduce the damage by ten times the amount of stamina spent. Once you use this ability, you must finish a long rest to use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/ef/Exposed-palm-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Exposed Palm: Extra Attack__**",
+        "desc": "*11th Level Way of the Exposed Palm feature*\n\nBeginning at 11th level, you can attack three times, instead of twice whenever you take the Attack action on your turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/ef/Exposed-palm-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Exposed Palm: Quivering Palm__**",
+        "desc": "*17th Level Way of the Exposed Palm feature*\n\nAt 17th level, you gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 stamina points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make an Endurance saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 bludgeoning damage.\n\nYou can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/ef/Exposed-palm-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Whispering Fang: Monk Weaponry__**",
+        "desc": "*3rd Level Way of the Whispering Fang feature*\n\nStarting at 3rd level, when you use monk weapons, you can choose to deal damage equal to the weapon's description, or by an amount equal to 1 size of dice larger than the your current martial arts die listed in the Martial Arts column of the Monk table. For example, at 3rd level instead of 1d4, your hand-to-hand weapon attacks deal 1d6 damage. At 17th level, your weapon attacks deal 1d12 damage.\n\n*Special.* If your race has natural weapons, they are considered monk weapons for you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/fa/Whispering-fang-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Whispering Fang: Wholeness of Body__**",
+        "desc": "*6th Level Way of the Whispering Fang feature*\n\nAt 6th level, you gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/fa/Whispering-fang-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Whispering Fang: Cloak of Shadows__**",
+        "desc": "*11th Level Way of the Whispering Fang feature*\n\nBy 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/fa/Whispering-fang-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Whispering Fang: Opportunist__**",
+        "desc": "*17th Level Way of the Whispering Fang feature*\n\nAt 17th level, you can exploit a creatures momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/fa/Whispering-fang-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice: Discipline of the Voice__**",
+        "desc": "*3rd Level Way of the Voice feature*\n\nYou learn how to harness the power of the dragon tongue to form powerful shouts. A shout requires you to spend stamina points each time you use one. When you use a shout that requires you to expend 2 stamina points or less, you can choose not to expend any stamina points a number of times equal to half your proficiency bonus (rounded up). Once you use the specified number of shouts in this way, you can’t do so again until you finish a long rest.\n\n**Shouts.** You know the Unrelenting Force shout and two other shouts of your choice, which are detailed in the “Dragon Shouts” section at the end of the subclass description. You learn two additional shouts of your choice at 6th, 11th, and 17th level. Whenever you gain a level in this class, you can choose one of the dragon shouts you know and replace it with another dragon shout that you could learn at that level.\n\n**Using Words of Power.** The Thu'um is a form of magic which uses words from the draconic language to form powerful shouts. While the effects of a dragon shout are considered spells, they break some of the rules of spellcasting:\n- You require the ability to speak to be able to use a dragon shout.\n- You do not require to use somatic or material components to cast spells as a dragon shout.\n- Dragon shouts that create spells or effects that have a duration longer than instantaneous do not require concentration to maintain. You can only have one effect active at a time and any effects immediately end if you are incapacitated or cast another shout with a duration longer than instantaneous.\n- You can only use one shout on each turn.\n\nYou use your Stamina save DC for any shouts or spells that require a saving throw to resist its effects. Once you reach 5th level in this class, you can spend additional stamina points to increase the power of a shout that you cast, provided that it has an enhanced effect, as Unrelenting Force does. The maximum number of stamina points you can spend to cast a shout in this way (including its base stamina point cost and any additional stamina points you spend to increase its effect) is determined by your monk level, as shown in the Maximum Stamina Points table below.\n\nMaximum Stamina Points\n```\nMonk Level| Max. Stamina Points for a Shout\n------------------------------\n5th-8th   | 3\n9th-12th  | 4\n13th-16th | 5\n17th-20th | 6\n```\n\nIn addition, you learn the Dovahzul language if you do not know it already.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice: Minor Thu’um__**",
+        "desc": "*3rd Level Way of the Voice feature*\n\nYour voice becomes a dangerous weapon if not used with great care. You gain a new attack option that you can use with the Attack action. This special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Willpower modifier to its attack and damage rolls. Its damage is force, and its damage die is a d4. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table. This special attack is considered a monk weapon for you. When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the Attack action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice: Passage of Knowledge__**",
+        "desc": "*6th Level Way of the Voice feature*\n\nYour understanding of the voice allows you to temporarily teach it to others. As an action, you whisper one of the dragon shouts you know to a creature within 5 feet of you that can speak and knows at least one language, filling its mind with the words of power. That creature can use this shout using your Stamina save DC once before it finishes a long rest. You expend stamina points for the shout as normal. You cannot spend more than 3 stamina points to use this feature. Once the shout is used, the knowledge of it vanishes from the creature’s mind. Once you use this feature, you cannot use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice: Speed of the 7,000 Steps__**",
+        "desc": "*11th Level Way of the Voice feature*\n\nYour understanding of the Thu’um allows you to combine it with your martial arts. When you use a Dragon Shout, you can make an unarmed strike or use Flurry of Blows, as if you had used a monk weapon or an unarmed strike. In addition, you may use your Minor Thu’um feature as a bonus action after attacking with a monk weapon or an unarmed strike.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice: Might of the Tongues__**",
+        "desc": "*17th Level Way of the Voice feature*\n\nYou can tap deep into your knowledge of the voice to destroy your enemies in times of true need. When you use a Dragon Shout without expending any stamina points, treat the shout as if you had spent 3 stamina points.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Animal Allegiance (Raan Mir Tah)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, You can spend 2 stamina points to summon beasts of the wild. You conjure fey spirits that take on the form of Beasts, as though you had cast the conjure animals spell at 3rd level. The number of creatures that appear is twice as many if you spend 2 additional stamina points, three times as many with 3 additional stamina points, and four times as many with 4 additional stamina points.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Aura Whisper (Laas Yah Nir)__**",
+        "desc": "As an action, you can spend 1 stamina point to whisper a short phrase, revealing all life forces to yourself, as though you had cast the detect life spell. The range increases by 10 feet for each additional stamina point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Battle Fury (Mid Vur Shaan)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs a bonus action, you can spend 1 stamina point to enchant your allies’ weapons, allowing them to make a quick attack. One creature of your choice that is within 30 feet of you can immediately use their reaction to make a weapon attack.\n\nOne additional creature within 30 feet of you can use their reaction to make a weapon attack for each additional stamina point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Become Ethereal (Feim Zii Gron)__**",
+        "desc": "*Prerequisite: 11th level*\n\nAs an action, you can spend 3 stamina points to speak to the void, changing your form. Until the end of your next turn, you gain the effects as though you had cast the etherealness spell and you are immune to all damage except psychic.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Call of Valor (Hun Kaal Zoor)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, you can spend 2 stamina points to summon a valiant warrior of ages past that journeys beyond space and time to aid you. The spirit appears in an unoccupied space that you can see within 60 feet of you. The spirit is considered to be a Celestial and it disappears after 1 minute, when it drops to 0 hit points, or if you become unconscious.\n\nThe summoned spirit is friendly to you and your companions. Roll initiative for the spirit, which has its own turns. It obeys any verbal commands that you issue it (no action required by you). If you don’t issue any commands to the spirit, it defends itself from hostile creatures but otherwise takes no actions. See this creature’s game statistics in the Valiant Warrior stat block (Enemies of Elsweyr), but you add your level to its hit points and half your proficiency bonus to its attack roll and damage roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Clear Skies (Lok Vah Koor)__**",
+        "desc": "As an action, you can spend 1 stamina point to use your voice to dispel any natural or magical inclement weather that you can see within 1 mile, forcing only clear skies to remain. Clouds of fog, mist, or other natural or magical weather effects also end. The range increases by a mile for each additional stamina point you spend. To end weather effects created by spells like call lightning or storm of vengeance, you must spend 1 additional stamina point per spell level above 1st.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Cyclone (Ven Gar Nos)__**",
+        "desc": "*Prerequisite: 14th level*\n\nAs an action, you can spend 4 stamina points to create a whirling 5-foot radius cyclone that appears in a location within 60 feet of you that you can see. When the cyclone appears, each creature within 5 feet of it must make a Strength saving throw, taking 2d8 bludgeoning damage on a failed save, or half as much damage on a successful save. A creature must repeat this save when it comes within 5 feet of the cyclone for the first time on a turn or ends its turn there.\n\nOnce per turn, you can move the cyclone up to 30 feet in any direction (no action required). The cyclone heavily obscures its area and sucks up any small materials, such as loose rocks, sand, or coins, within a 10-foot radius of it. The cyclone ends after one minute, if you end it as an action or if you are incapacitated. The damage increases by 1d8 for each additional stamina point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Disarm (Zun Haal Viik)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, you use 2 stamina points to create a shout that defies matter. One creature of your choice that you can see within 30 feet of you must make a Strength saving throw. On a failed save, the creature drops one object of your choice it is holding in its hands and the object lands at a point of your choosing within 15 feet of the target. On a successful save, the creature continues to hold on to the objects in their hands, but they have disadvantage on any rolls made using the object, such as weapon attacks, until the end of their next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Dismay (Faas Ru Maar)__**",
+        "desc": "*Prerequisite: 10th level*\n\nAs an action, you can spend 2 stamina points to speak a force of terror. You use your voice to frighten a creature as though you had cast the fear spell at 3rd level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Dragon Aspect (Mul Qah Diiv)__**",
+        "desc": "*Prerequisite: 14th level*\n\nAs a bonus action, you can spend 6 stamina points to take on the aspect of a dragon for 1 minute. You gain mystical dragon hide armor and your AC can’t be less than 20. This armor does not interfere with unarmed movement or any other monk features. Additionally, each of your weapon, spell, and unarmed attacks gain a +2 bonus to attack and damage rolls, and your stamina save DC increases by 2.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Elemental Breath__**",
+        "desc": "*Prerequisite: 6th level*\n\nYou can spend 2 stamina points to exhale an element of your choice. Choose either fire, cold or lightning. Each creature in a 15-foot cone must make an Agility saving throw. A creature takes 4d8 elemental damage on a failed save, and half as much on a successful one. The shouts are: Fire Breath (Yol Toor Shul), Frost Breath (Fo Krah Diin) and Storm Breath (Sov Ag Slen). The damage increases by 1d8 and the size of its cone increases by 15 feet for each additional stamina point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Elemental Fury (Su Grah Dun)__**",
+        "desc": "*Prerequisite: 11th level*\n\nAs a bonus action, you spend 3 stamina points to imbue yourself with the speed of the wind. You cast the haste spell on yourself, but after the spell ends you do not experience a wave of lethargy.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Ice Form (Iiz Slen Nus)__**",
+        "desc": "*Prerequisite: 14th level*\n\nAs an action, you can spend 4 stamina points to freeze a creature. One creature of your choice that you can see within 90 feet of you must succeed on an Endurance saving throw or take 4d8 cold damage and be encased in a shell of ice. The encased creature is immobilized and can't speak, hear, move, or take any actions. The creature takes this damage again at the start of its turn while encased. The creature restrained by this spell must make another Endurance saving throw at the end of each of their turns to try and break free. If it successfully saves against this effect three times, the effect ends. If it fails its save three times, the frost hardens and the creature is subjected to the frozen condition. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.\n\nWhile the effect is active, the frost shell has an AC of 10 and has 30 hit points. When the frost shell reaches 0 hit points, the shell breaks, ending the effect. A dispel magic spell can also end the effects. The damage increases by 1d8 for each additional stamina point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Kyne’s Peace (Kaan Drem Ov)__**",
+        "desc": "As an action, you can spend 1 stamina point to speak to a group of animals to soothe them. Each Beast that is within 60 feet of you and can hear you must make a Personality saving throw; a creature can choose to fail this saving throw if it wishes. If the creature fails the saving throw, any effect causing the target to be charmed or frightened ends, and the target becomes indifferent about any creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its allies being harmed. The creature becomes hostile again after 1 minute, unless the GM rules otherwise. The duration increases by 1 minute for each additional stamina point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Marked for Death (Krii Lun Aus)__**",
+        "desc": "As a bonus action, you can spend 1 stamina point to mark a creature as though you cast the hunter’s mark spell at 1st level. The duration increases to 8 hours if you spend an additional stamina point, and to 24 hours if you spend 2 additional stamina points.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Return to Nirn (Nahl Dal Vus)__**",
+        "desc": "*Prerequisite: 17th level*\n\nAs an action, you can spend 6 stamina points to travel instantly from any plane that you are currently on and return to Nirn. You and up to 10 willing creatures within 30 feet of you can choose to return to a specific location that you have seen before. If you are currently on Nirn, this spell automatically fails.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Slow Time (Tiid Klo Ul)__**",
+        "desc": "*Prerequisite: 11th level*\n\nAs a free action on your turn, you spend 6 stamina points to slow down time for all creatures but yourself. You get 1 additional action, bonus action, and reaction until the start of your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Phantom Form (Fiik Loh Sah)__**",
+        "desc": "You can spend 2 stamina points to split your form into several spaces at once, as though you cast the mirror image spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Storm Call (Strun Bah Qo)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, you can spend 2 stamina points to awaken the destructive force of Nirn. You summon a storm as though you had cast the call lightning spell at 3rd level. The damage increases by 1d10 for each additional stamina point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Unrelenting Force (Fus Ro Dah)__**",
+        "desc": "As an action, you can spend 1 stamina point to exhale a blast of force in a 30-foot cone. Each creature in that cone must make a Strength saving throw. On a failed save, a creature takes 3d6 force damage, is knocked back 20 feet, and falls prone. On a successful save, the creature takes half as much damage, isn’t knocked back, and remains standing. The damage increases by 1d6 for each additional stamina point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Voice Shouts: Whirlwind Sprint (Wuld Nah Kest)__**",
+        "desc": "You can use a bonus action to spend 1 stamina point to move up to your speed without expending any movement. This movement allows you to cross over gaps and liquids as if you were on solid ground, provided the movement ends on solid ground. Any opportunity attacks made against you have disadvantage until the end of your turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b2/Voice-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Desert Wind: Forceful Blows__**",
+        "desc": "*3rd Level Way of the Desert Wind feature*\n\nStarting when you choose this path at 3rd level, you learn how to channel the Desert Wind through your limbs. When you deal damage from your unarmed strikes and monk weapons, you can spend 1 stamina point to transform the damage made by the attacks into force damage. Additionally, when you deal force damage in this way to objects and structures, the damage is doubled.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6f/Desert-wind-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Desert Wind: Protective Winds__**",
+        "desc": "*6th Level Way of the Desert Wind feature*\n\nAt 6th level, you can call on the winds to protect you from harm. When you are hit by an attack, you can use a reaction and expend 1 stamina point to surround yourself with whirling winds until the start of your next turn. While you are surrounded by these winds, you gain resistance to bludgeoning, piercing, and slashing damage, as well as force damage. Additionally, ranged weapon attacks have disadvantage against hitting you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6f/Desert-wind-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Desert Wind: Vigor from the Gales__**",
+        "desc": "*11th Level Way of the Desert Wind feature*\n\nAt 11th level, your mastery over your stamina heightens, gaining additional benefits when you use the following stamina features:\n\n*Flurry of Blows.* When you use Flurry of Blows, you can make one additional unarmed strike as part of the attack.\n\n*Patient Defense.* When you use Patient Defense, you gain an additional +2 bonus to your AC until the start of your next turn.\n\n*Step of the Wind.* When you use Step of the Wind to Disengage, you can also Dash as a free action on your turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6f/Desert-wind-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Desert Wind: Zephyr Walk__**",
+        "desc": "*17th Level Way of the Desert Wind feature*\n\nAt 17th level, you you gain the ability to fly in short bursts. You gain a flying speed equal to your walking speed, but you must end your turn on a solid object or on solid ground. If you do not, you fall, taking damage as normal. Additionally, you can spend 3 stamina points to cast the levitate spell on yourself.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/6f/Desert-wind-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Contender: Bonus Proficiencies__**",
+        "desc": "*3rd-level Way of the Contender feature*\n\nYou gain proficiency with two weapons of your choice that do not have the heavy or two-handed properties. Weapons of the chosen types are considered monk weapons for you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Contender-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Contender: Brawler's Technique__**",
+        "desc": "*3rd-level Way of the Contender feature*\n\nYou learn how to combine both offense and restraint into a single, fluid move. When you hit a creature with an unarmed strike, you can spend 1 stamina point to attempt to grapple the target as part of the attack.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Contender-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Contender: Deflect Blows__**",
+        "desc": "*6th-level Way of the Contender feature*\n\nYou can use your reaction to deflect incoming melee attacks. When you do so, the damage you take from the attack is reduced by 1d10 + your Agility modifier + your monk level.\n\nIf you reduce the damage to 0, you deflect the attack entirely and you can spend 1 stamina point to make a melee attack with either a monk weapon or an unarmed strike as part of the same reaction.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Contender-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Contender: Inspiring Performance__**",
+        "desc": "*11th-level Way of the Contender feature*\n\nYou learn how to turn the tide of battle in yours and your allies favor. As a bonus action, choose an ally within 30 feet of you. You can expend a number of stamina points up to the number of attacks the target can make in a single round, allowing the target to gain advantage on each attack made before the start of your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Contender-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Contender: Greater Flurry of Blows__**",
+        "desc": "*17th-level Way of the Contender feature*\n\nYou break free of the physical limitations of your mortal frame. When you spend 1 stamina point to use your Flurry of Blows feature, you make three unarmed strikes instead of two.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Contender-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Hidden Motives: Methods of the Deceiver__**",
+        "desc": "*3rd-level Way of the Hidden Motives feature*\n\nYou gain proficiency in the Deception skill and with the disguise kit. In addition, you can mimic the speech of another person provided that you speak the same language and have heard the person speaking for at least 1 minute. A successful Willpower (Insight) check contested by your Personality (Deception) check allows a suspicious listener to determine that the effect is faked.\n\nAdditionally, you gain advantage on Personality (Deception) checks when talking to members of a faction, guild, or organization while you are disguised as a member of that same group.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Hidden-motives-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Hidden Motives: Lock Breaker__**",
+        "desc": "*3rd-level Way of the Hidden Motives feature*\n\nYou are familiar with the mechanisms of locks and can open them by delivering a pinpoint strike. You can make an unarmed attack against a lock and if your attack roll meets or exceeds the DC required to pick the lock, it silently breaks.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Hidden-motives-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Hidden Motives: Uncovering Motives__**",
+        "desc": "*6th-level Way of the Hidden Motives feature*\n\nYour training down this path has led you to uncovering the best ways to learn the motives, secrets, and abilities of your quarries. You can use a bonus action and expend 1 stamina point to gain advantage on Willpower (Insight) checks, and attribute checks made to accomplish any of the following challenges:\n- Intimidate a target into giving you information\n- Pick a pocket\n- Investigate an area",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Hidden-motives-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Hidden Motives: Method of Aid__**",
+        "desc": "*6th-level Way of the Hidden Motives feature*\n\nYou can spend 1 stamina point to use the Help action as a reaction when a creature that you can see within 15 feet of you makes an attribute check, attack roll, or saving throw. If the creature succeeds on their roll, you gain temporary hit points equal to your Willpower modifier for the next hour.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Hidden-motives-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Hidden Motives: Slippery Foe__**",
+        "desc": "*11th-level Way of the Hidden Motives feature*\n\nBreaking a hold and slipping out of your enemies grasp comes as second nature to you. By learning how to break these means you have also learned how to prevent them from being broken, gaining advantage on attempts to grapple a creature.\n\n*Grapple Breaker.* You can spend 1 stamina point to gain advantage on a roll to break a grapple. If you succeed on breaking this grapple, you can immediately use Flurry of Blows against the creature as a reaction.\n\n*Escapism.* When you take damage from a melee attack, you can use your reaction and spend 1 stamina point to move up to half your movement instantly. While moving in this way, opportunity attacks made against you have disadvantage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Hidden-motives-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Hidden Motives: Mental Extraction__**",
+        "desc": "*17th-level Way of the Hidden Motives feature*\n\nYou master the ability to extract information. You can spend 2 stamina point while making an unarmed strike against a humanoid creature. On a hit, the attack deals no damage but the target must make a Willpower saving throw. On a failed save, the humanoid's memories of the last 1 minute are forgotten, including the strike. This can only be done against a humanoid that does not consider you a hostile threat. On a success, the target is immune to this ability for 24 hours. You can increase the time the creature forgets by another minute for every additional stamina point expended.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/96/Hidden-motives-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Spirit Sword: Bonus Proficiencies__**",
+        "desc": "*3rd-level Way of the Spirit Sword feature*\n\nYou gain proficiency with long blades if you don't already have it. Long blades are monk weapons for you. Additionally, you gain proficiency in the Religion skill.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f0/Spirit-sword-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Spirit Sword: Shehai__**",
+        "desc": "*3rd-level Way of the Spirit Sword feature*\n\nYou gain the ability to project a weapon of pure light. You can use your action to expend 1 stamina point to summon a spectral greatsword in your empty hand, known as a shehai. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The weapon appears as a greatsword that must be held by you, and uses only the greatsword's two-handed property, as it is weightless. The greatsword sheds bright light in a 20-foot radius and dim light for an additional 20 feet.\n\nWhen you attack with this weapon, you can use your Willpower modifier, instead of Strength or Agility, for the attack and damage rolls. Whenever you hit a target with your shehai, it deals force damage instead of slashing damage.\n\nYour shehai disappears if you let go of it. It also disappears if you use this feature again, if you dismiss your shehai (no action required), or if you fall unconscious. Additionally, your shehai cannot be disarmed from you by nonmagical means.\n\nYou can then dismiss the weapon, returning it to Aetherius, and it appears whenever you summon your shehai again.\n\nAt 7th level, you can expend 2 stamina points to summon your shehai, granting it a +1 bonus to its attack and damage rolls. When you reach 11th level, you can expend 3 stamina points to summon your shehai, granting it a a +2 bonus to its attack and damage rolls. When you reach 17th level, you can expend 4 stamina points to summon your shehai, granting it a +3 bonus to its attack and damage rolls.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f0/Spirit-sword-banner.png"
+    },
+    {
+        "name": "**__Monk__**\n**__Spirit Sword: Maxims of the Master__**",
+        "desc": "*6th, 11th, and 17th-level Spirit Sword feature*\n\nYou learn to master the art of the way of the blade with your shehai. You learn two sword techniques that you can use in combat. When you finish a long rest, you can exchange either of these techniques with another. You learn one additional sword technique of your choice at 11th, and again at 17th level.\n\nIf a technique has prerequisites, you must meet them to learn it. You can learn the technique at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class.\n\n*Break the Stone.* No force nor object can withstand your shehai. When you hit a target with your shehai, you can expend 1 stamina point to sunder a nonmagical item or object. Instead of causing damage to a target, you can instead decrease either a target's AC, if the target is wearing armor or has a carapace, or a weapon's damage, by 1 until the start of your next turn.\n\n*Dragon Stance.* (Prerequisite: 17th level) When you use your bonus action to use your Patient Defense feature, and a creature within 5 feet of you misses you with a melee attack, you can use your reaction and spend 1 stamina point to make an attack with your shehai against that creature.\n\n*Ephemeral Feint.* As a reaction to being hit by an attack, you can expend 1 stamina point to instead phase into the Far Shores (the ethereal plane). You become resistant to all damage dealt by the attack. You immediately return back to Nirn after the attack.\n\n*Furious Blows.* (Prerequisite: 17th level) When you use your Flurry of Blows feature, you can make two melee weapon attacks with your shehai instead of unarmed strikes.\n\n*Lengthen the Blade.* When you make an attack with your shehai on your turn, you can expend 1 stamina point to increase your reach for that attack by 10 feet. A target you attack with this option does not gain the benefits of cover, as your blade phases through objects.\n\n*Sever the Wind.* When you use your Step of the Wind feature, if you move at least 20 feet straight toward a target, you can make one melee attack with your shehai as part of that same bonus action. This attack deals an additional 1d6 force damage upon hit. At 11th level, this attack deals an additional 2d6 force damage.\n\n*Touch the Sky.* You learn to expel a blast from your shehai. You can expend 1 stamina point to make a ranged spell attack (range 100/200 ft) using your melee weapon attack modifier for the attack roll. You use your shehai's attack damage for this ranged attack.\n\n*Thousand Cuts.* (Prerequisite: 11th level) When you hit a creature with your shehai, you can expend a number of stamina points to attempt to damage other creatures with the same attack. Choose a number of other creatures per stamina point expended within your reach. After-image echoes of your blade strike out at each creature that you choose. If the original attack roll would hit the other targets, they take damage equal to the damage roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f0/Spirit-sword-banner.png"
+    }
+]

@@ -1,0 +1,377 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat barbarian <name>` using the name of a subclasses feature to find specific information.*\n\n For a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/BR:Barbarian#Primal_Paths"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Battleworn: Thick Skin__**",
+        "desc": "*3rd-level Path of the Battleworn feature*\n\nYour body is scarred and calloused from years of battle. When you choose this path at 3rd level, your unarmored AC is equal to 12 + your Agility modifier + your Endurance modifier.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/cf/Battleworn-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Battleworn: Reckless Abandon__**",
+        "desc": "*6th-level Path of the Battleworn feature*\n\nBeginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Endurance modifier (minimum of 1). They vanish if any of them are left when your rage ends.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/cf/Battleworn-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Battleworn: Battle Scars__**",
+        "desc": "*10th-level Path of the Battleworn feature*\n\nAt 10th level, your scarred body and strong presence is readily noticeable. You have advantage on all Intimidation checks.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/cf/Battleworn-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Battleworn: Boiling Point__**",
+        "desc": "*14th-level Path of the Battleworn feature*\n\nStarting at 14th level, while raging, you push your attacks beyond their natural limits. Once on your turn, when you hit a creature with a melee weapon attack, you can expend one hit die to add a d12 to your damage roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/cf/Battleworn-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Reaver: Accelerated Regeneration__**",
+        "desc": "*3rd-level Path of the Reaver feature*\n\nWhen you choose this path at 3rd level, your wounds naturally stitch together at a faster rate. When you use hit dice to recover hit points during a short rest, you gain additional hit points equal to 1d12 + your Endurance modifier.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/1c/Reaver-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Reaver: Reaver's Charge__**",
+        "desc": "*3rd-level Path of the Reaver feature*\n\nBeginning at 3rd level, when you enter into a rage, your speed doubles for the rest of your turn. You can only use this additional speed to move towards an enemy. Additionally, you can take the Dash action as a bonus action on your subsequent turns while you are raging.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/1c/Reaver-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Reaver: Pack Tactics__**",
+        "desc": "*6th-level Path of the Reaver feature*\n\nAt 6th level, while raging, you have advantage on attack rolls against a creature if at least one of your allies are within 5 feet of you and the ally isn't unconscious.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/1c/Reaver-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Reaver: Dread Warrior__**",
+        "desc": "*10th-level Path of the Reaver feature*\n\nBeginning at 10th level, your physique is so intimidating that you inspire dread in your enemies. You can use a bonus action to make yourself appear exceptionally fearful. Every creature within 10 feet of you suffers from one of the following effects of your choice:\n- Disadvantage on Strength and Agility checks\n- Disadvantage on Willpower and Personality checks\n- All intimidation checks by you and your allies have advantage.\n\nThis effect lasts up to 1 minute, and requires concentration to maintain. Once you use this feature, you cannot use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/1c/Reaver-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Reaver: Reaper's Verdict__**",
+        "desc": "*14th-level Path of the Reaver feature*\n\nBeginning at 14th level, while raging, you can attack three times, instead of twice, whenever you take the Attack action on your turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/1c/Reaver-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Savage: Frenzied Armsman__**",
+        "desc": "*3rd-level Path of the Savage feature*\n\nStarting at level 3, while raging, you are able to exploit your weapons to become even more devastating. You gain the following benefits:\n\n*Axes.* Once on each of your turns, when you hit a creature with an axe weapon, make a second attack roll. If your second roll would also hit the creature, you rend the target, causing them to bleed extensively. Your attack deals an additional 1d6 necrotic damage.\n\n*Blunt.* Your attacks are exceptionally forceful and can penetrate even the most tempered armors. You gain a +2 bonus to attack rolls made with blunt weapons.\n\n*Long Blades.* When you attack with a long blade weapon, you gain a +2 bonus to damage rolls with that weapon.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/27/Savage-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Savage: Uppercut__**",
+        "desc": "*6th-level Path of the Savage feature*\n\nAt 6th level, when you take the Attack action on your turn, you can forgo your movement and a possible bonus action to use one of your attacks to make a powerful upward blow.\n\nMake a melee weapon attack. If the attack hits a creature, you deal damage as normal and it must make a Strength saving throw with a DC of 8 + your proficiency bonus + your Strength modifier. On a failed save, the target is knocked back 10 feet and left prone. On a successful save, the creature has disadvantage on attacks until the start of your next turn. This ability can only affect large or smaller creatures.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/27/Savage-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Savage: Heavylifting__**",
+        "desc": "*10th-level Path of the Savage feature*\n\nBeginning at 10th level, while raging and not wearing heavy armor, you are able to engage in two-weapon fighting with all weapons except for those with the heavy or two handed traits.\n\nAdditionally, weapons with the heavy or two handed traits can be held in one hand.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/27/Savage-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier: Battle Thu'um__**",
+        "desc": "*3rd-level Path of the War Crier feature*\n\nYou learn how to harness the power of the dragon tongue to form powerful shouts. A shout requires you to spend shout points each time you use one.\n\n**Shouts.** You know the Unrelenting Force shout and two other shouts of your choice, which are detailed in the “Dragon Shouts” section at the end of the subclass description. You learn two additional shouts of your choice at 6th, 10th, and 14th level.\n\nWhenever you gain a level in this class, you can choose one of the dragon shouts you know and replace it with another dragon shout that you could learn at that level.\n\n**Shout Points.** You have 2 shout points and you regain any expended shout points when you finish a short or long rest. Additionally, you regain 1 shout point when you enter your rage.\n\nYou gain two additional shout points at 6th level (4), and again at 10th level (6), and 14th level (8).\n\n**Using Words of Power.** The Thu’um is a form of magic that uses words of power from the draconic language to form powerful shouts. While the effects of a dragon shout are considered spells, they break some of the rules of spellcasting:\n- You can use shouts even while raging.\n- You require the ability to speak to be able to use a dragon shout.\n- You do not require to use somatic or material components to cast spells as a dragon shout.\n- Dragon shouts that create spells or effects that have a duration longer than instantaneous do not require concentration to maintain. You can only have one effect active at a time and any effects immediately end if you are incapacitated or cast another shout with a duration longer than instantaneous.\n- You can only use one shout on each turn.\n\nSome dragon shouts require the target to make a saving throw to resist its effects. The saving throw DC is calculated as follows:\n\nDragon Shout save DC = 8 + your proficiency bonus + your Endurance modifier\n\nOnce you reach 6th level in this class, you can spend additional shout points to increase the power of a shout that you cast, provided that it has an enhanced effect, as Unrelenting Force does.\n\nThe maximum number of shout points you can spend to cast a shout in this way (including its base shout point cost and any additional shout points you spend to increase its effect) is determined by your barbarian level, as shown in the Maximum Shout Points table below.\n\nMaximum Shout Points\n```\nBarbarian Level | Max. Shout Points for a Shout\n------------------------------\n6th-8th         | 3\n9th-12th        | 4\n13th-16th       | 5\n17th-20th       | 6\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier: Draconic Tongue__**",
+        "desc": "*3rd-level Path of the War Crier feature*\n\nYou gain mastery with draconic words. You are now proficient in the Dovahzul language.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier: Shout Resistance__**",
+        "desc": "*6th-level Path of the War Crier feature*\n\nYour knowledge of the Thu’um has made you resistant to it. You have advantage on all saving throws made against shouts.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier: Wrathful Shouts__**",
+        "desc": "*6th-level Path of the War Crier feature*\n\nWhen you deal damage with a shout while raging, you add the damage bonus of your rage to one of the damage rolls.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier: Destructive Shouts__**",
+        "desc": "*10th-level Path of the War Crier feature*\n\nYou can focus on your shouts, making them deadlier by lowering your guard. Once on your turn when you cast a shout that requires a saving throw you can give one target disadvantage against the shout’s saving throw, but attack rolls against you have advantage until your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier: Draconic Rage__**",
+        "desc": "*10th-level Path of the War Crier feature*\n\nWhen you use a bonus action to enter into a rage, you can cast a dragon shout as part of the bonus action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier: Thu’um Master__**",
+        "desc": "*14th-level Path of the War Crier feature*\n\nWhen you use your action to cast a dragon shout, you can make one weapon attack as a bonus action. Additionally, when you enter your rage you recover 2 shout points, instead of 1.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Animal Allegiance (Raan Mir Tah)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, You can spend 2 shout points to summon beasts of the wild. You conjure fey spirits that take on the form of Beasts, as though you had cast the conjure animals spell at 3rd level. The number of creatures that appear is twice as many if you spend 2 additional shout points, three times as many with 3 additional shout points, and four times as many with 4 additional shout points.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Aura Whisper (Laas Yah Nir)__**",
+        "desc": "As an action, you can spend 1 shout point to whisper a short phrase, revealing all life forces to yourself, as though you had cast the detect life spell. The range increases by 10 feet for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Battle Fury (Mid Vur Shaan)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs a bonus action, you can spend 1 shout point to enchant your allies’ weapons, allowing them to make a quick attack. One creature of your choice that is within 30 feet of you can immediately use their reaction to make a weapon attack.\n\nOne additional creature within 30 feet of you can use their reaction to make a weapon attack for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Call of Valor (Hun Kaal Zoor)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, you can spend 2 shout points to summon a valiant warrior of ages past that journeys beyond space and time to aid you. The spirit appears in an unoccupied space that you can see within 60 feet of you. The spirit is considered to be a Celestial and it disappears after 1 minute, when it drops to 0 hit points, or if you become unconscious.\n\nThe summoned spirit is friendly to you and your companions. Roll initiative for the spirit, which has its own turns. It obeys any verbal commands that you issue it (no action required by you). If you don’t issue any commands to the spirit, it defends itself from hostile creatures but otherwise takes no actions. See this creature’s game statistics in the Valiant Warrior, stat block (Enemies of Elsweyr), but you add your level to its hit points and half your proficiency bonus to its attack roll and damage roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Clear Skies (Lok Vah Koor)__**",
+        "desc": "As an action, you can spend 1 shout point to use your voice to dispel any natural or magical inclement weather that you can see within 1 mile, forcing only clear skies to remain. Clouds of fog, mist, or other natural or magical weather effects also end. The range increases by a mile for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Cyclone (Ven Gar Nos)__**",
+        "desc": "*Prerequisite: 14th level*\n\nAs an action, you can spend 4 shout points to create a whirling 5-foot radius cyclone that appears in a location within 60 feet of you that you can see. When the cyclone appears, each creature within 5 feet of it must make a Strength saving throw, taking 2d8 bludgeoning damage on a failed save, or half as much damage on a successful save. A creature must repeat this save when it comes within 5 feet of the cyclone for the first time on a turn or ends its turn there.\n\nAs a bonus action, you can move the cyclone up to 30 feet in any direction. The cyclone heavily obscures its area and sucks up any small materials, such as loose rocks, sand, or coins, within a 10-foot radius of it. The cyclone ends after one minute, if you end it as an action or if you are incapacitated.\n\nThe damage increases by 1d8 for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Disarm (Zun Haal Viik)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, you use 2 shout points to create a shout that defies matter. One creature of your choice that you can see within 30 feet of you must make a Strength saving throw. On a failed save, the creature drops one object of your choice it is holding in its hands and the object lands at a point of your choosing within 15 feet of the target. On a successful save, the creature continues to hold on to the objects in their hands, but they have disadvantage on any rolls made using the object, such as weapon attacks, until the end of their next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Dismay (Faas Ru Maar)__**",
+        "desc": "*Prerequisite: 10th level*\n\nAs an action, you can spend 2 shout points to speak a force of terror. You use your voice to frighten a creature as though you had cast the fear spell at 3rd level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Dragon Aspect (Mul Qah Diiv)__**",
+        "desc": "*Prerequisite: 14th level*\nAs a bonus action, you can spend 6 shout points to take on the aspect of a dragon for 1 minute. You gain mystical dragon hide armor and your AC can’t be less than 20. Additionally, each of your weapon attacks gain a +2 bonus to attack and damage rolls.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Elemental Breath__**",
+        "desc": "*Prerequisite: 6th level*\n\nYou can spend 2 shout points to exhale an element of your choice. Choose either fire, cold or lightning. Each creature in a 15-foot cone must make an Agility saving throw. A creature takes 4d8 elemental damage on a failed save, and half as much on a successful one. The shouts are: Fire Breath (Yol Toor Shul), Frost Breath (Fo Krah Diin) and Storm Breath (Sov Ag Slen). The damage increases by 1d8 and the size of its cone increases by 15 feet for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Gale Winds (Ven Mul Riik)__**",
+        "desc": "*Prerequisite: 10th level*\n\nAs an action, you spend 1 shout point to create a powerful wind storm, in a 30-foot radius, centered on you. The wind blows in all directions, causing dust and refuse to heavily obscure the area.\n\nAdditionally, the area is considered difficult terrain, and any projectile that is within or enters the area has disadvantage on hitting its target.\n\nThe winds last up to 1 minute. You can use an action to disperse the winds at any time. The range increases by 10 feet for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Ice Form (Iiz Slen Nus)__**",
+        "desc": "*Prerequisite: 14th level*\n\nAs an action, you can spend 4 shout points to freeze a creature. One creature of your choice that you can see within 90 feet of you must succeed on an Endurance saving throw or take 4d8 cold damage and be encased in a shell of ice. The encased creature is immobilized and can't speak, hear, move, or take any actions. The creature takes this damage again at the start of its turn while encased. The creature restrained by this spell must make another Endurance saving throw at the end of each of their turns to try and break free. If it successfully saves against this effect three times, the effect ends. If it fails its save three times, the frost hardens and the creature is subjected to the frozen condition. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.\n\nWhile the effect is active, the frost shell has an AC of 10 and has 30 hit points. When the frost shell reaches 0 hit points, the shell breaks, ending the effect. A dispel magic spell can also end the effects. The damage increases by 1d8 for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Kyne’s Peace (Kaan Drem Ov)__**",
+        "desc": "As an action, you can spend 1 shout point to speak to a group of animals to soothe them. Each Beast that is within 60 feet of you and can hear you must make a Personality saving throw; a creature can choose to fail this saving throw if it wishes. If the creature fails the saving throw, any effect causing the target to be charmed or frightened ends, and the target becomes indifferent about any creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its allies being harmed. The creature becomes hostile again after 1 minute, unless the GM rules otherwise. The duration increases by 1 minute for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Marked for Death (Krii Lun Aus)__**",
+        "desc": "As a bonus action, you can spend 1 shout point to mark a creature as though you cast the hunter’s mark spell at 1st level. The duration increases to 8 hours if you spend an additional shout point, and to 24 hours if you spend 2 additional shout points.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Storm Call (Strun Bah Qo)__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, you can spend 2 shout points to awaken the destructive force of Nirn. You summon a storm as though you had cast the call lightning spell at 3rd level. The damage increases by 1d10 for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Unrelenting Force (Fus Ro Dah)__**",
+        "desc": "As an action, you can spend 1 shout point to exhale a blast of force in a 30-foot cone. Each creature in that cone must make a Strength saving throw. On a failed save, a creature takes 3d6 force damage, is knocked back 20 feet, and falls prone. On a successful save, the creature takes half as much damage, isn’t knocked back, and remains standing. The damage increases by 1d6 for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__War Crier Dragon Shout: Whirlwind Sprint (Wuld Nah Kest)__**",
+        "desc": "You can use a bonus action to spend 1 shout point to take the Dash action. Any opportunity attacks made against you have disadvantage until the end of your turn. Your speed increases by 10 feet for each additional shout point you spend.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/7a/War-crier-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Vanguard: Bonus Proficiencies__**",
+        "desc": "*3rd-level Path of the Vanguard feature*\n\nYou gain proficiency in the Athletics and Survival skills if you don't already have it.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/4c/Vanguard-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Vanguard: Fighting Style__**",
+        "desc": "*3rd-level Path of the Vanguard feature*\n\nYou adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you later get to choose again.\n\n*Defensive.* While you are wearing armor, you gain a +1 bonus to AC.\n\n*Dueling.* When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\n*Great Weapon Fighter.* When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n*Protection.* When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.\n\n*Two-Weapon Fighting.* When you engage in two-weapon fighting, you can add your attribute modifier to the damage of the second attack.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/4c/Vanguard-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Vanguard: Expert Hunter__**",
+        "desc": "*6th-level Path of the Vanguard feature*\n\nYou gain insight and knowledge on those you’re contracted to defeat. When you finish a long rest, choose one creature type to focus your hunt on. The first time you attack a creature of this chosen type on your turn, you add your Willpower attribute modifier (minimum 1) to the attack roll.\n\nWhen you reach 10th level, your weapon attacks score a critical hit on a roll of 19 or 20 against your chosen creature type from this feature.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/4c/Vanguard-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Vanguard: Unyielding Might__**",
+        "desc": "*10th-level Path of the Vanguard feature*\n\nYou can harness your superior might to remain in the heat of the battle. While raging, when you take damage, you can use your reaction to expend one of your hit dice and heal yourself. Roll the die, add your Endurance attribute modifier, and regain a number of hit points equal to the total (minimum of 1).",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/4c/Vanguard-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Vanguard: Weaponmaster__**",
+        "desc": "*14th-level Path of the Vanguard feature*\n\nYou draw back to the intense training and focus your swings. While raging, you can make a melee weapon attack as a bonus action on each of your turns.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/4c/Vanguard-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal: Weal Markings__**",
+        "desc": "*3rd-level Path of the Weal feature*\n\nChoose a marking from the list of weal marks listed below, which covers a large part of your body, such as your entire torso. The mark resembles an animal or other entity which represents the chosen effect. For example, if you choose Mark of Resilience, it can bear the image of a mammoth, troll, or roots. While you are raging, the markings glow with magical energy and you gain the effects as described.\n\n*Mark of Strength. You are considered one size larger for the purposes of shoving and grappling, and when determining your carrying capacity and the weight you can push, drag, or lift.\n\n*Mark of Speed.* Your movement speed is increased by 10 feet.\n\n*Mark of Resilience. You gain a +1 bonus to AC.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal: Powerful Markings__**",
+        "desc": "*6th-level Path of the Weal feature*\n\nYour marks grow larger, and shine brightly while raging, giving you an additional magical effect of your choice. You can choose the same mark you chose at 3rd level, or an entirely new one.\n\n*Mark of Strength.* After attacking a creature, you can shove or grapple it as a bonus action.\n\n*Mark of Speed.* You gain advantage on Agility (Acrobatics) skill checks and Agility saving throws.\n\n*Mark of Resilience.* You gain advantage on Endurance saving throws.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal: Minor Marks__**",
+        "desc": "*6th-level Path of the Weal feature*\n\nChoose a marking from the list of Minor Marks detailed at the end of the subclass description, which covers a small part of your body, such as a limb, or your neck. While you are raging, the marking glows with magical energy, and you gain the effects as described.\n\nYou can choose a second minor mark when you reach 10th level, and a third at 14th level. You can’t gain the benefits of the same minor mark twice, unless noted otherwise.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal: Remarkable Markings__**",
+        "desc": "*10th-level Path of the Weal feature*\n\nYour marks cover more of your body, allowing you to control another magical effect of your choice. You can choose the same marks you have chosen previously, or an entirely new one.\n\n*Mark of Strength.* You gain a +1 bonus to your rage damage.\n\n*Mark of Speed.* If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can add one additional weapon damage die to one of your attacks.\n\n*Mark of Resilience.* You gain an additional +1 bonus to AC, and you can go one extra round without attacking or taking damage before your rage ends.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal: Marks of the Covenant__**",
+        "desc": "*10th-level Path of the Weal feature*\n\nYou gain the ability to share your minor marks with others. During a short rest, you can choose one minor mark you possess and share it with an ally, giving them the effects of the chosen mark while you are raging. The ally’s mark fades when you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal: Extraordinary Markings__**",
+        "desc": "*14th-level Path of the Weal feature*\n\nYour marks have become one with you, applying their effects even while you are not raging. Additionally, your marks fuse you with an additional magical ability of your choice. You can choose the same marks you have chosen previously, or an entirely new one.\n\n*Mark of Strength.* Your attack rolls score a critical hit on a roll of 19 or 20.\n\n*Mark of Speed.* Your speed increases by an additional 5 feet, and opportunity attacks made against you are made at a disadvantage.\n\n*Mark of Resilience.* Whenever you take any damage, you can use your reaction and expend one hit die to reduce the total by 1d12 + your Endurance modifier.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Death__**",
+        "desc": "When you kill a small or larger creature that is hostile to you on your turn, you regain hit points equal to your Endurance modifier.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Elementals__**",
+        "desc": "When you enter your rage, choose one of fire, lightning, cold or poison. As a bonus action on your turn, you can change the damage type of your rage damage to your chosen elemental damage type, which lasts until your rage ends or you use a bonus action to change it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Fear__**",
+        "desc": "You can use a bonus action to strike fear into an enemy. Choose one creature that is within 60 feet of you that can see and hear you. That target must succeed on a Willpower saving throw (DC equal to 8 + your Endurance modifier + your proficiency modifier) or become frightened of you. The frightened target can repeat the saving throw at the end of each of it's turns, ending the effect on itself on a success, and becoming immune to being frightened in this way for 1 hour.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Intimidation__**",
+        "desc": "You gain proficiency in Intimidation. Additionally, you can use either your Strength or Endurance attribute when making an Intimidation skill check instead of Personality.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Ruin__**",
+        "desc": "When you hit a creature with a melee weapon attack, you can attempt to inflict one of the following conditions of your choice: blinded, deafened, or staggered. The target must succeed on an Endurance saving throw (DC equal to 8 + your Endurance modifier + your proficiency modifier) or be affected by the chosen condition until the end of your next turn. You can only use this ability only once per rage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Perseverance__**",
+        "desc": "When you enter your rage, choose one saving throw. You gain a +2 bonus to that saving throw while raging.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Perception__**",
+        "desc": "You gain a +2 bonus to your Willpower (Perception) skill, and you can sense invisible creatures within 10 feet of you as though you have blindsense.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Shielding__**",
+        "desc": "When you enter your rage, you gain temporary health points equal to 1d8 + your Endurance modifier. These temporary hit points vanish when your rage ends.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Weal Minor Marking: Mark of Water__**",
+        "desc": "You gain a swimming speed equal to your walking speed.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bb/Weal-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Wilds: Primal Cunning__**",
+        "desc": "*3rd-level Path of the Wilds feature*\n\nYou have an unmatched connection to the natural environment. You become proficient in one skill of your choice from Animal Handling, Nature, Medicine, Perception, Stealth, or Survival. While in a natural environment, your proficiency bonus is doubled for any attribute check you make that uses this chosen skill.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3e/Wilds-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Wilds: Cloak of the Wild__**",
+        "desc": "*3rd-level Path of the Wilds feature*\n\nWhen you enter your rage, your physical form changes, manifesting a cloak of the wild, adjusting to fit into your surroundings. Until the rage ends, you gain the camouflaged condition. While camouflaged, you can use a bonus action to take the Hide action on each of your turns, and your rage does not end early as long as you are hiding from a creature that you can see or hear.\n\nAdditionally, you can use an action to gain the camouflaged condition while not raging. This effect lasts for 10 minutes or until you use an action to make an attack. Once you use this feature in this way, you can’t use it again until you finish a short rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3e/Wilds-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Wilds: Hunt-Father's Advance__**",
+        "desc": "*6th-level Path of the Wilds feature*\n\nWhen you or an ally within 10 feet of you attacks and hits a creature that is surprised, the target takes an additional 1d4 damage. This damage increases when you reach certain levels: to 2d4 at 11th level, 3d4 at 16th level, and 4d4 at 20th level. The bonus damage depends on the damage type of the weapon or spell being used.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3e/Wilds-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Wilds: Camouflaged Hunter__**",
+        "desc": "*10th-level Path of the Wilds feature*\n\nWhile camouflaged, you can use a bonus action to mark a creature as your prey, which lasts as long as you are camouflaged. Once on each of your turns, you deal an extra 1d6 damage when you hit the marked target with a weapon attack.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3e/Wilds-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Wilds: Silent Strider__**",
+        "desc": "*10th-level Path of the Wilds feature*\n\nYour walking speed increases by 5 feet and you gain your choice of either a climbing speed or a swimming speed, which equals your walking speed.\n\nAdditionally, you have advantage on an Agility (Stealth) check if you move no more than half your speed on the same turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3e/Wilds-banner.png"
+    },
+    {
+        "name": "**__Barbarian__**\n**__Wilds: Resilient Rage__**",
+        "desc": "*14th-level Path of the Wilds feature*\n\nWhile raging, you are immune to the charmed and frightened condition and you have advantage on saving throws against being blinded, deafened, paralyzed, petrified, poisoned, or stunned.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/3/3e/Wilds-banner.png"
+    }
+]

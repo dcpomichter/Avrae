@@ -1,0 +1,179 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat spellsword <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/BR:Spellsword#Mystic_Paths"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Battlemage: Battlemage Mastery__**",
+        "desc": "*3rd-level Battlemage Mystic Path feature*\n\nWhen you choose this focus at 3rd level, you gain proficiency in Heavy Armor.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b8/Battlemage-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Battlemage: Imbue Defense__**",
+        "desc": "*3rd-level Battlemage Mystic Path feature*\n\nYou can use your Imbue Magic feature to invoke powerful magic within your armor instead of your weapon. You learn the Defense Battle Imbuement.\n\nAs a bonus action, you can imbue a set of armor that you are wearing with the energy of a known Arcane Imbuement, Battle Imbuement, or Elemental Imbuement for up to 8 hours. While active, you gain either a bonus to your AC or resistance to all attacks made against you with this type of damage. Your enchantment ends if you remove your armor or if you fall unconscious.\n\nIf you use this ability to imbue the same armor again, your current enchantment leaves and is replaced by the new enchantment.\n\n**Battle Imbuement.**\n*Defense.* You gain a +1 bonus to your AC. When you reach 13th level, you gain a +2 bonus to your AC.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b8/Battlemage-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Battlemage: Battle Ward__**",
+        "desc": "*3rd-level Battlemage Mystic Path feature*\n\nAlso at 3rd level, as a reaction you can create a magical ward on a number of friendly creatures of your choice within 30 feet of you, including yourself. A creature gains a ward from 1d6 to 3d6 hit points (your choice). You have a total pool of 3d6 that you can expend. Subtract the dice given with each use from that total.\n\nThe wards last until the end of your next turn. When a warded creature is targeted with an attack that deals damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, any excess damage carries over to the creature being attacked. The ward does not benefit from any resistances from you or the warded creature.\n\nThis pool increases to 6d6 at 11th level, 9d6 at 14th level, and 12d6 at 18th level.\n\nYou regain all expended dice from your pool when you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b8/Battlemage-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Battlemage: Battle Aura__**",
+        "desc": "*6th-level Battlemage Mystic Path feature*\n\nAt 6th level, you and friendly creatures within 10 feet of you have resistance to damage from spells.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b8/Battlemage-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Battlemage: Spell Reflect__**",
+        "desc": "*14th-level Battlemage Mystic Path feature*\n\nStarting at 14th level, while wearing heavy armor, your arcane expertise allows you to redirect harmful spells back at your enemies.\n\nWhen you are required to make a Willpower saving throw against a magical spell, you can use your reaction to attempt to reflect the spell back to the caster. On a successful save you reflect the harmful effect back to the caster. On a failed save, you are unable to reflect the spell.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b8/Battlemage-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Battlemage: Draining Aura__**",
+        "desc": "*20th-level Battlemage Mystic Path feature*\n\nAt 20th level, you can drain the life force of others around you to heal yourself. As an action, you create a 30-foot-radius sphere of draining aura, centered on yourself. Any number of creatures of your choice within the aura must make a Willpower saving throw. On a failed save, the aura drains 1d6 hit points. A creature can choose to fail the saving throw. You are healed for the total amount of hit points drained.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/b8/Battlemage-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Dragonknight: Bonus Proficiency__**",
+        "desc": "*3rd-level Dragonknight feature*\n\nYou gain proficiency with heavy armor.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/eb/Dragonknight-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Dragonknight: Imbue Defense__**",
+        "desc": "*3rd-level Dragonknight feature*\n\nYou can use your Imbue Magic feature to invoke powerful magic within your armor instead of your weapon. You learn the following Draconic Imbuement.\n\n**Draconic Imbuement**\n*Spiked Armor.* While wearing armor, as a bonus action, you summon draconic spikes, which sprout from your armor for up to 8 hours, until you use a bonus action to dismiss them, or until you fall unconscious. While your spikes are manifested, you can use a bonus action to make one melee weapon attack with your armor spikes against a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier for the attack and damage rolls.\n\nAdditionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple succeeds. A grappled creature takes this damage again at the start of each of your turns.\n\nWhen you reach 14th level, you can use a bonus action to imbue a set of armor with the energy of a known Arcane Imbuement or Elemental Imbuement for up to 8 hours. While active, you gain resistance to all attacks made against you with this type of damage. Your enchantment ends if you remove your armor or if you fall unconscious.\n\nIf you use this ability to imbue the same armor again, your current enchantment is replaced by the new enchantment.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/eb/Dragonknight-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Dragonknight: Dragon Blood__**",
+        "desc": "*6th-level Dragonknight feature*\n\nWhen you cast a spell of 1st-level or higher that deals fire damage, you can cause your draconic blood to radiate with ancient healing energy, allowing your allies to fight past their injuries. Three creatures of your choice, which can include yourself, within 30 feet of you regain hit points equal to half your spellsword level (rounded down).\n\nYou can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/eb/Dragonknight-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Dragonknight: Draconic Haste__**",
+        "desc": "*14th-level Dragonknight feature*\n\nWhen you use your action to cast a cantrip, you can make two weapon attacks as a bonus action, instead of once as granted by your Spell Weaving feature.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/eb/Dragonknight-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Dragonknight: Reflective Scales__**",
+        "desc": "*20th-level Dragonknight feature*\n\nWhen you are hit by an attack, you can use a reaction to harden your skin to become like that of dragon's scales, and reduce the damage you receive by the number you roll on your Imbue Magic die + your Endurance modifier.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/e/eb/Dragonknight-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Witchblade: Mystic Binding__**",
+        "desc": "*3rd-level Witchblade feature*\n\nWhen you choose this path at 3rd level, you have discovered an esoteric arcane art that allows you to master an ethereal weapon called the witchblade. As a bonus action you can summon this weapon in your empty hand. You can chose the form that this melee weapon takes each time you create it (Choose any weapon from the long blade or short blade weapon list in Chapter 5 in the Basic Rules). You are proficient with it while you wield it.\n\nYour witchblade disappears if it is more than 5 feet from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.\n\nYou can transform one magic weapon into your witchblade by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into a realm of Oblivion, and it appears whenever you summon your witchblade thereafter. You can't affect an artifact or sentient weapon in this way. The weapon ceases being your witchblade if you die, if you perform the 1 hour ritual on a different weapon, or if you use a 1 hour ritual to break your bond to it. The weapon appears at your feet if it is in its realm of Oblivion when the bond breaks.\n\nAdditionally, you gain the following benefits.\n- You learn the Mystic Arcane Imbuement option from the Imbue Magic feature.\n- When the witchblade is formed, it gains the benefits of your Weapon Bond feature.\n- If you can throw your witchblade, you can choose to teleport to wherever the blade impacts before it disappears.\n- Attacks with your witchblade count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/5c/Witchblade-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Witchblade: Ethereal Step__**",
+        "desc": "*6th-level Witchblade feature*\n\nAt 6th level, you learn to step through the Ethereal Plane. As a bonus action on your turn, you can cast the etherealness spell with this feature, but the spell ends at the end of the current turn. Once you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/5c/Witchblade-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Witchblade: Distant Strike__**",
+        "desc": "*14th-level Witchblade feature*\n\nAt 14th level, you gain the ability to step between the planes in a blink of an eye. When you use the Attack action, you can teleport up to 10 feet before each attack. You must be able to see the destination of the teleportation.\n\nIf you attack at least two different creatures with the action, you can make one additional attack with it against a third creature.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/5c/Witchblade-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Witchblade: Supernatural Revisal__**",
+        "desc": "*20th-level Witchblade feature*\n\nAt 20th level, your witchblade has the ability to turn failure into success. If an attack made with your bound weapon misses a target within range, you can turn this miss into a hit.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/5c/Witchblade-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Blademaster: Ethos of the Blade__**",
+        "desc": "*3rd-level Blademaster feature*\n\nYou set yourself upon a journey of discovery. This journey is often found within combative sports, such as gladiatorial matches. This combat allows you greater insight into your own self as well as those you fight.\n\nWhenever you make an attack roll against a creature that is within 5 feet of you, and you roll a 1 on your elemental or arcane imbuement damage die, you can reroll the die, but you must use the new roll.\n\nAdditionally, when a creature hits you with a melee weapon attack, you can use your reaction to gain a bonus to your AC equal to your Intelligence modifier against the next attack made against you until the start of your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/55/Blademaster-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Blademaster: Aegis of the Champions__**",
+        "desc": "*6th-level Blademaster feature*\n\nYour combative nature has grown with each victory and defeat. From defeat, you learn how to better yourself.\n\nWhenever you fail a saving throw to resist a magical effect, your AC increases by a number equal to half of your proficiency bonus, rounded down, until the start of your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/55/Blademaster-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Blademaster: Stance of the Combatant__**",
+        "desc": "*14th-level Blademaster feature*\n\nWhen you use your action to make a weapon attack with a weapon that you have infused with your Imbue Magic feature, you can make another weapon attack with it as a bonus action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/55/Blademaster-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Blademaster: Mastery of Combat__**",
+        "desc": "*20th-level Blademaster feature*\n\nYou have gained supernatural mastery over combat and the blade, allowing you to tap into the energies of Aetherius. Whenever you roll your elemental or arcane imbuement die, you can roll it again and add the number to the total damage dealt by the attack.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/55/Blademaster-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Elemental Adept: Elemental Absorbtion__**",
+        "desc": "*3rd-level Elemental Adept feature*\n\nYou gain the ability to suppress incoming elemental effects. As a reaction when you take cold, fire, lightning or poison damage, you can give yourself resistance to that damage type until the start of your next turn. Additionally, the first time you hit with a melee attack on your next turn, the target takes an additional 1d6 damage of the chosen damage type.\n\nThe damage dealt by this feature increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), 14th level, (4d6) and 17th level (5d6).\n\nOnce you use this feature, you can't do so again until you finish a short or long rest, unless you expend 2 magicka to use this feature again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Elemental-adept-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Elemental Adept: Imbuement Weaving__**",
+        "desc": "*3rd-level Elemental Adept feature*\n\nYou learn an additional Elemental Imbuement of your choice. When you use the Imbue Magic feature to replace an existing Elemental Imbuement on a weapon for another Elemental Imbuement, you overcharge the weapon with elemental magic. The next time you hit a creature with a weapon attack using this weapon, the target takes additional damage equal to a roll of your Imbue Magic damage die. The type of damage is determined by your newly chosen Elemental Imbuement.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Elemental-adept-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Elemental Adept: Destructive Power__**",
+        "desc": "*6th-level Elemental Adept feature*\n\nYour power over the elements allows you to freely change the type of damage dealt by spells you cast. As a reaction when you cast a spell that deals damage with a damage type that matches one of your known Elemental Imbuements, you can change the type of damage this spell deals to another damage type that matches a different Elemental Imbuement you know. Once you deal damage this way, you can’t do so again until you finish a short or a long rest.\n\nAdditionally, once per turn, if you cast a spell that deals the same type of damage as your current Elemental Imbuement, you can add your Intelligence modifier to one damage roll of that spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Elemental-adept-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Elemental Adept: Elemental Affinity__**",
+        "desc": "*6th-level Elemental Adept feature*\n\nYou gain additional benefits whenever you’re holding a weapon infused by one of your chosen Elemental Imbuements:\n\n*Flame.* As an action, you can cause your weapon to shed bright light in a 15-foot radius around it, and dim light for an additional 15 feet, and you can dismiss this at any time without using an action. You can also ignite an object that isn’t being carried or worn as an action.\n\n*Frost.* Whenever you reduce the speed of a target, their speed is reduced by an additional 10 feet.\n\n*Storm.* Your pace quickens, increasing your speed by 10 feet.\n\n*Venom.* Poisons that you apply last an extra round.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Elemental-adept-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Elemental Adept: Natural Ailments__**",
+        "desc": "*14th-level Elemental Adept feature*\n\nOnce per turn when a spell deals extra damage from your Destructive Power feature, you can inflict additional ailments on the creatures affected by the spell. Each creature must succeed on an Endurance saving throw against your spell save DC or gain a condition depending on the Elemental Imbuement currently on your wielded weapon:\n\n*Flame.* You inflict the Burning condition.\n\n*Frost.* You inflict the Chilled condition.\n\n*Storm.* You inflict the Dazed condition.\n\n*Venom.* You inflict the Intoxicated condition.\n\nA creature affected by a condition repeats the saving throw at the end of each of their turns, ending the effect on a success or after 1 minute has passed, whichever comes first.\n\nThis feature can be used a number of times equal to your Endurance modifier, you regain all expended uses of it upon finishing a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Elemental-adept-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Elemental Adept: Primordial Aspect__**",
+        "desc": "*20th-level Elemental Adept feature*\n\nYou have total control over the elements. You gain the ability to channel a Primordial Aspect for 1 minute or until you’re knocked unconscious. For the duration, you gain the following benefits:\n- Once per turn, you can use your Imbue Magic feature without requiring the use of a bonus action.\n- Whenever you use your Imbue Magic feature, you can infuse up to 5 weapons of your choice within 60 feet of you, which lasts until your Primordial Aspect ends. These weapons can be wielded by another creature.\n- When you use your Element Absorption feature, you gain resistance to cold, fire, lightning, and poison damage simultaneously, storing the last 2 types of damage you received. For example, if you were to take fire and lightning damage in the same round, your next melee attack would deal an additional 1d6 fire and 1d6 lightning damage. Once you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/16/Elemental-adept-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Twilight Dualist: Dusk and Dawn__**",
+        "desc": "*3rd-level Twilight Dualist feature*\n\nYou have adopted a combat style that reflects the duality of your beliefs. By switching your stance, you call on the powers of the dawn and of the dusk.\n\nOnce on each of your turns, you can use a bonus action to enter into a stance or switch from one stance to the other. Each stance has benefits that you gain while you are using that stance, and you retain these benefits until you change your stance or use a bonus action to end it.\n\n*Dawn Stance.* When you enter this stance, your weapon becomes enchanted with the Light arcane imbuement. While in this stance, you gain the ability to call forth the radiant dawn. As a bonus action on subsequent turns, you suffuse your imbued weapon with light as if it were targeted by the light cantrip. Invisible creatures within this light appear with a glowing silhouette that is only visible to you. Once on each of your turns, when you hit a creature with this weapon, the creature also illuminates as if it were targeted by the light cantrip until the start of your next turn.\n\n*Dusk Stance.* When you enter this stance, your weapon becomes enchanted with the Decay arcane imbuement. While in this stance, your steps are shrouded as the dark of night. When you are in dim light or darkness, you make any Agility (Stealth) checks with advantage, and you can take the Hide action as a bonus action on each of your turns.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/9b/Twilight-dualist-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Twilight Dualist: Gloom and Radiance__**",
+        "desc": "*6th-level Twilight Dualist feature*\n\nWhen you are hit by an attack, you can use your reaction to become protected in an aura of gloom or radiance. You gain 1d6 temporary hit points for the next minute. The amount of temporary hit points you gain increases to 2d6 at 11th level, and to 3d6 at 17th level.\n\nYou can use this feature a number of times equal to half your proficiency bonus, rounded down, and you regain all expended uses at dawn and dusk.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/9b/Twilight-dualist-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Twilight Dualist: Twilight Protection__**",
+        "desc": "*14th-level Twilight Dualist feature*\n\nWhile in either your dawn or dusk stance, you gain advantage on saving throws against spells.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/9b/Twilight-dualist-banner.png"
+    },
+    {
+        "name": "**__Spellsword__**\n**__Twilight Dualist: Humility and Pride__**",
+        "desc": "*20th-level Twilight Dualist feature*\n\nWhile in either the dusk or dawn stance, you gain the following additional features:\n\n*Dawn Stance.* While in this stance, you have advantage on attacks made with your bonded weapons while you are in bright light. Additionally, your attacks with your bonded weapon or spell attacks score a critical hit on a 19 or 20 while you are in bright light.\n\n*Dusk Stance.* While in this stance and in either dim light or darkness, other creatures have disadvantage on attack rolls against you. When a creature misses you with an attack roll, you can use your reaction to make a weapon attack against that same target.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/9b/Twilight-dualist-banner.png"
+    }
+]

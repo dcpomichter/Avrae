@@ -1,0 +1,299 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat mage <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/BR:Mage#Arcane_Traditions"
+    },
+    {
+        "name": "**__Mage__**\n**__Alteration: Alteration Prodigy__**",
+        "desc": "*2nd Level School of Alteration feature*\n\nBeginning when you select this school at 2nd level, the gold and time you must spend to learn an alteration spell is halved.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/ba/Alteration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alteration: Arcane Ward__**",
+        "desc": "*2nd Level School of Alteration feature*\n\nStarting at 2nd level, you can weave magic around yourself for protection. When you cast an alteration spell of 1st level or higher, you can simultaneously use a strand of the spell’s magic to create a magical ward on yourself that lasts until you finish a long rest. The ward has hit points equal to twice your mage level + your Intelligence modifier. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.\n\nWhile the ward has 0 hit points, it can’t absorb damage, but its magic remains. Whenever you cast an alteration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.\n\nOnce you create the ward, you can't create it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/ba/Alteration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alteration: Projected Ward__**",
+        "desc": "*6th Level School of Alteration feature*\n\nStarting at 6th level, when a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 hit points, the warded creature takes any remaining damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/ba/Alteration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alteration: Dampen Elements__**",
+        "desc": "*10th Level School of Alteration feature*\n\nBeginning at 10th level, when you or a creature within 30 feet of you takes acid, cold, fire, force, lightning, or poison, radiant, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/ba/Alteration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alteration: Spell Resistance__**",
+        "desc": "*14th Level School of Alteration feature*\n\nStarting at 14th level, you have advantage on saving throws against spells. Furthermore, you have resistance against the damage of spells.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/ba/Alteration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Conjuration: Conjuration Prodigy__**",
+        "desc": "*2nd Level School of Conjuration feature*\n\nBeginning when you select this school at 2nd level, the gold and time you must spend to learn a conjuration spell is halved.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a1/Conjuration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Conjuration: Minor Conjuration__**",
+        "desc": "*2nd Level School of Conjuration feature*\n\nStarting at 2nd level when you select this school, you can use your action to conjure up an inanimate object in your hand or on the ground in an unoccupied space that you can see within 10 feet of you. This object can be no larger than 3 feet on a side and weigh no more than 10 pounds, and its form must be that of a non-magical object that you have seen. The object is visibly magical, radiating dim light out to 5 feet.\n\nThe object disappears after 1 hour, when you use this feature again, or if it takes any damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a1/Conjuration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Conjuration: Atromancer__**",
+        "desc": "*2nd Level School of Conjuration feature*\n\nStarting at 2nd level, you learn the exclusive conjuration spell Conjure Atronach.\n\n**Conjure Atronach**\n*1st-level conjuration*\n\n*Casting Time:* 1 action\n*Range:* 5 feet\n*Components:* V, S\n*Duration:* Concentration, up to 1 hour\n```\nYou summon a powerful daedric atronach that appears in an occupied space within range. The atronach disappears when it drops to 0 hit points, or when the spell ends.\n\nRoll initiative for the atronach, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the atronach, it defends itself from hostile creatures, but otherwise takes no actions.\n\nThe GM has the creature's statistics. Sample creatures can be found below.\n```\nSample Creatures\n```\nSpell Level| CR | Creature Name\n------------------------------\n1st        | 1/4| Flame Atronach Ember, Water Atronach Droplet\n2nd        | 1/2| Crumbling Earth Atronach\n3rd        | 1  | Weaker Frost Atronach\n4th        | 2  | Flame Atronach, Water Atronach\n5th        | 3  | Earth Atronach, Mangled Flesh Atronach\n6th        | 4  | Air Atronach Zephyr\n7th        | 5  | Stone Atronach, Frost Atronach, Weaker Storm Atronach\n8th        | 6  | Cold-Flame Atronach, Flesh Atronach\n9th        | 7  | Air Atronach, Iron Atronach\n```\n*At Higher Levels.* When you cast this spell using certain higher-levels, you choose one of the summoning options above.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a1/Conjuration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Conjuration: Elemental Bond__**",
+        "desc": "*6th Level School of Conjuration feature*\n\nAt 6th level, you share a bond with your conjured atronach. While you summon an atronach with your conjure atronach spell, you gain unique benefits based on the atronachs element. A cold-flame atronach can benefit from your choice of either the flame atronach or frost atronach feature.\n\n*Air & Storm Atronach.* While you have an air or storm atronach companion, your speed increases by 10 feet.\n\nAdditionally, you can fly in short bursts. You gain a fly speed equal to your walking speed. If your turn ends and you are not on a creature, solid object, or ground, you fall.\n\n*Earth, Stone, & Iron Atronach.* While you have an earth, stone, or iron atronach companion, your skin assumes a stony appearance. If you aren't wearing armor, you gain a base AC of 13 + your Endurance modifier.\n\n*Flame Atronach.* While you have a flame atronach companion, a magical warmth surrounds you, keeping you warm as though you are near a campfire. As a bonus action, you can shed bright light in a 20-foot radius and dim light for an additional 20-feet.\n\nAdditionally, as an action, you can magically ignite a flammable object you touch with your hand – an object such as a torch, a piece of tinder, or the hem of drapes.\n\n*Flesh Atronach.* When you summon a flesh atronach companion, you gain 1d6 temporary hit points per challenge rating of the atronach summoned. These hit points vanish once the spell ends.\n\n*Frost Atronach.* While you have a frost atronach companion, you gain the ability to walk on water.\n\nAdditionally, you leave a 60-foot long trail of ice on the ground behind you. This trail is considered difficult terrain and any creature that tries to cross the path must succeed a DC 10 Agility saving throw or fall prone.\n\n*Water Atronach.* While you have a water atronach companion, you gain the ability to breathe under water, and you have a swim speed equal to your walking speed.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a1/Conjuration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Conjuration: Focused Conjuration__**",
+        "desc": "*10th Level School of Conjuration feature*\n\nBeginning at 10th level, while you are concentrating on a conjuration spell, your concentration can’t be broken as a result of taking damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a1/Conjuration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Conjuration: Elemental Soul__**",
+        "desc": "*14th Level School of Conjuration feature*\n\nStarting at 14th Level, your elemental bond with your Atronach improves. While you have a conjured Atronach active, you gain the following benefits:\n\n*Air & Storm Atronach.* While you have an air or storm atronach companion, you gain resistance to lightning and thunder damage.\n\n*Earth, Stone, & Iron Atronach.* While you have an earth, stone, or iron atronach companion, you gain resistance to bludgeoning, piercing, and slashing damage.\n\n*Flame Atronach.* While you have a flame atronach companion, you gain resistance to fire damage.\n\n*Flesh Atronach.* While you have a flesh atronach companion, you gain resistance to poison damage, and are immune to disease and the poisoned condition.\n\n*Water & Frost Atronach.* While you have a frost or water atronach companion, you gain resistance to cold damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a1/Conjuration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Destruction: Destruction Prodigy__**",
+        "desc": "*2nd Level School of Destruction feature*\n\nBeginning when you select this school at 2nd level, the gold and time you must spend to learn a destruction spell is halved.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2f/Destruction-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Destruction: Elemental Mastery__**",
+        "desc": "*2nd Level School of Destruction feature*\n\nAt level 2, you choose one type of element to have exceptional power over.\n\n*Cryomancer.* You prefer the cold of elemental frost, freezing your enemies in their tracks. Whenever a creature takes cold damage from a spell that you cast, the target's speed is also reduced by 15 feet until the end of your next turn. If the spell already reduces the target's speed, use whichever reduction is greater.\n\nWhen you reach 11th level, you reduce the target's speed by 20 feet.\n\n*Electromancer.* You are a natural with electricity, blasting your enemies with lightning. Each time you attack a creature with a spell that deals lightning or thunder damage, the target's magicka points are also reduced by 1d4.\n\nWhen you reach 11th level, you reduce the target's magicka by 1d6.\n\n*Pyromancer.* You have a gift for wielding fire, and you use it to burn your enemies to cinders.\n\nWhen you cast a spell that deals fire damage, you can reroll the lowest damage die. If the new roll is higher than the original, use it when calculating the damage.\n\nWhen you reach 11th level, you can reroll the lowest 2 damage rolls.\n\n*Venomancer.* You are most comfortable around deadly poisons, and can use it to disintegrate your enemies armor.\n\nThe first time you deal acid or poison damage to a target, you reduce their AC by 1.\n\nWhen you reach 11th level, the first time you deal acid or poison damage to a target, you reduce their AC by 2.\n\nThis benefit has no effect on magical or natural armor.\n\n## Improved Elemental Mastery\n*14th Level School of Destruction feature*\n\nAt 14th level, you choose an additional Elemental Mastery. You can not choose the same mastery twice.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2f/Destruction-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Destruction: Inescapable Destruction__**",
+        "desc": "*6th Level School of Destruction feature*\n\nStarting at 6th level, the Mage's ability to channel elemental energy becomes more potent. Any damage dealt by your Elemental Mastery ignores any resistance to that same elemental damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2f/Destruction-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Destruction: Empowered Destruction__**",
+        "desc": "*10th Level School of Destruction feature*\n\nBeginning at 10th level, you can add your Intelligence modifier to the damage roll of any destruction spell you cast.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/2f/Destruction-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Illusion: Illusion Prodigy__**",
+        "desc": "*2nd Level School of Illusion feature*\n\nBeginning when you select this school at 2nd level, the gold and time you must spend to learn an illusion spell is halved.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/58/Illusion-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Illusion: Improved Minor Illusion__**",
+        "desc": "*2nd Level School of Illusion feature*\n\nWhen you choose this school at 2nd level, you learn the minor illusion cantrip. If you already know this cantrip, you learn a different mage cantrip of your choice. The cantrip doesn't count against your number of cantrips known.\n\nWhen you cast minor illusion, you can create both a sound and an image with a single casting of the spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/58/Illusion-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Illusion: Malleable Illusions__**",
+        "desc": "*6th Level School of Illusion feature*\n\nStarting at 6th level, when you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion (using the spell’s normal parameters for the illusion), provided that you can see the illusion.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/58/Illusion-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Illusion: Illusionary Self__**",
+        "desc": "*10th Level School of Illusion feature*\n\nBeginning at 10th level, you can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.\n\nOnce you use this feature, you can’t use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/58/Illusion-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Illusion: Illusionary Reality__**",
+        "desc": "*14th Level School of Illusion feature*\n\nBy 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semi-reality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, non-magical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.\n\nThe object can’t deal damage or otherwise directly harm anyone.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/58/Illusion-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Mysticism: Mysticism Prodigy__**",
+        "desc": "*2nd Level School of Mysticism feature*\n\nBeginning when you select this school at 2nd level, the gold and time you must spend to learn a mysticism spell is halved.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ac/Mysticism-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Mysticism: Seer__**",
+        "desc": "*2nd Level School of Mysticism feature*\n\nStarting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers you rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You choose to do so before your roll, and you can only replace a roll in this way only once per turn.\n\nEach foretelling roll can only be used once. When you finish a long rest, you lose any unused rolls.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ac/Mysticism-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Mysticism: Mysticism Expert__**",
+        "desc": "*6th Level School of Mysticism feature*\n\nBeginning at 6th level, casting mysticism spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a mysticism spell of 2nd level or higher, you regain an amount of magicka points equal to the cost of a spell that is a lower level than the spell cast but can't be higher than 7 magicka points.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ac/Mysticism-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Mysticism: Sixth Sense__**",
+        "desc": "*10th Level School of Mysticism feature*\n\nStarting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you use this feature again, are incapacitated, or finish a short or long rest.\n\n*Darkvision.* You gain darkvision to a range of 60 feet.\n\n*Ethereal Sight.* You can see into the Ethereal Plane within 60 feet of you.\n\n*Greater Comprehension.* You can read any language.\n\n*See Invisibility.* You can see invisible creatures and objects within 10 feet of you that are within line of sight.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ac/Mysticism-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Mysticism: Oracle__**",
+        "desc": "*14th Level School of Mysticism feature*\n\nStarting at 14th level, the visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. You roll three d20s for your Seer feature, rather than two.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/ac/Mysticism-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Restoration: Restoration Prodigy__**",
+        "desc": "*2nd Level School of Restoration feature*\n\nBeginning when you select this school at 2nd level, the gold and time you must spend to learn a restoration spell is halved.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a2/Restoration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Restoration: Vigorous Healing__**",
+        "desc": "*2nd Level School of Restoration feature*\n\nStarting at 2nd level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a2/Restoration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Restoration: Healing Mirror__**",
+        "desc": "*6th Level School of Restoration feature*\n\nBeginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spells level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a2/Restoration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Restoration: Spell Breaker__**",
+        "desc": "*10th Level School of Restoration feature*\n\nBeginning at 10th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a2/Restoration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Restoration: Grand Healing__**",
+        "desc": "*14th Level School of Restoration feature*\n\nStarting at 14th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example instead of restoring 2d6 hit points to a creature, you restore 12.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a2/Restoration-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alchemist: Alchemical Savant__**",
+        "desc": "*2nd-level Alchemist feature*\n\nYou gain proficiency with alchemist’s supplies and the herbalism kit. If you are already proficient in one of these tools, you gain proficiency with another type of artisan’s tools of your choice. You can use these tools as an arcane focus for casting your spells.\n\nAdditionally, the amount of septims and time you must spend to craft acid, alchemist’s fire, antitoxin, oil, perfume, potions, soap, or other concoctions is halved when using alchemist supplies or an herbalism kit.\n\nWhen making an attack with a vial or flask, you are considered proficient in the attack and you can use your Agility or Intelligence modifier for the attack roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/29/Alchemist-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alchemist: Alchemical Experiments__**",
+        "desc": "*2nd-level Alchemist feature*\n\nWhenever you finish a long rest, you can magically produce an alchemical experiment in an empty flask you touch, choosing from the list below. As an action, a creature can drink the alchemical experiment, administer it to an incapacitated creature, or throw the flask at a creature within range.\n\nCreating an alchemical experiment requires you to have alchemist's supplies on your person, and any experiment you create with this feature lasts until it is used or until the end of your next long rest. When you reach certain levels in this class, you can make more experiments at the end of a long rest: two at 6th level and three at 15th level. Each experiment requires its own flask.\n\n*Alchemical Acid.* This vial of caustic liquid can be splashed on a creature within 5 feet of you, or be thrown with a range of 20/60, shattering on impact. On a hit, the creature takes 3d6 acid damage. An object automatically takes that damage, and the damage is maximized. This experiment's damage increases by 3d6 when you reach certain levels: 5th level (6d6), 11th level (9d6), and 17th level (12d6).\n\n*Alchemical Fire.* This vial of volatile liquid can be hurled at a creature, object, or surface within 30 feet of you. On impact, the vial detonates in a 5-foot-radius sphere. Any creature in that area must succeed on an Agility saving throw against your spell save DC or take 2d6 fire damage. This experiment's damage increases by 2d6 when you reach certain levels: 5th level (4d6), 11th level (6d6), and 17th level (8d6).\n\n*Elixir of Alacrity.* A creature that drinks this swirling yellow liquid has their speed increased by 10 feet for 1 hour.\n\n*Healing Draught.* A creature that drinks this healing liquid regains 1d8 hit points. This experiment's healing increases by 1d8 when you reach certain levels in this class: 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/29/Alchemist-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alchemist: Advanced Chemistry__**",
+        "desc": "*6th-level Alchemist feature*\n\nThe creations you make using your alchemist’s supplies or herbalism kit, or from your Alchemical Experiments or Spell Infused Potions features become more potent. Whenever an item you’ve created from these tools or features restores hit points or deals damage, you can add your Intelligence modifier to the total rolled.\n\nAdditionally, you have learned how to quickly analyze potions you find. If you spend 1 minute studying a potion, you can expend 1 focus point to learn its properties as though you had cast the identify spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/29/Alchemist-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alchemist: Spell Infused Potions__**",
+        "desc": "*6th-level Alchemist feature*\n\nWhenever you finish a long rest, you can magically produce a spell infused potion in an empty flask you touch. You create a potion that is infused with a spell that is in your spellbook, has a casting time of 1 action, a duration of instantaneous, and that is of a level that you can cast to a maximum of 3rd level, without expending magicka points, without preparing the spell, and without material components.\n\nAs a bonus action, a creature can drink the potion and then use their action on the same turn to cast the spell that has been infused in the potion, using your spell save DC and spell attack bonus.\n\nCreating a spell infused potion requires you to have alchemist's supplies on your person, and any potion you create with this feature lasts until it is drunk or until the end of your next long rest.\n\nYou can create additional spell infused potions by expending magicka points as though you cast the spell and a number of focus points equal to the spell’s level for each one. When you do so, you use your action to create the potion in an empty flask you touch. To create a potion in this way, you must have the spell prepared and provide the material components required by the spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/29/Alchemist-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alchemist: Adroit Alchemy__**",
+        "desc": "*10th-level Alchemist feature*\n\nOnce on each of your turns, you can use a bonus action to drink a potion or administer one to an incapacitated creature. A creature that drinks a potion this way can’t use their action to drink a second potion.\n\nAdditionally, the distance you can throw a vial or flask as part of an attack is doubled.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/29/Alchemist-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Alchemist: Alkahest Mastery__**",
+        "desc": "*14th-level Alchemist feature*\n\nYou have mastered your alchemical formulas and can manipulate their very essence. When you create an alchemical experiment or spell infused potion, you can expend focus points to alter their effects.\n- When you create an alchemical experiment or spell infused potion that deals acid, fire, or poison damage, you can expend 1 focus point to change the damage type to your choice of acid, fire, or poison.\n- When you create an alchemical experiment or spell infused potion, you can expend 2 focus points to also infuse it with the greater restoration spell without material components. Once you infuse a creation in this way, you can’t do so again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/29/Alchemist-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Enchanter: Essence Rune__**",
+        "desc": "*2nd-level Enchanter feature*\n\nYou gain proficiency with artisan’s tools (enchanter's tools) and you learn how to use runes to enhance nonmagical items. When you gain this feature, you learn one rune of your choice from the options shown in the Essence Rune table. Essence runes are further detailed at the end of the subclass description.\n\nWhenever you finish a long rest, you can touch one nonmagical weapon, arcane focus, armor, robe, or shield and inscribe a rune onto it. The item becomes magical and the wielder of the object becomes immediately attuned to it.\n\nWhile attuned, each rune grants the following bonuses:\n- Armor, robes, and shields inscribed with this rune grant the wearer resistance to the rune’s damage type, as shown on the Essence Rune table.\n- Attacks made with a weapon or arcane focus that are inscribed with this rune deal an additional 1d4 damage once on each of the wielder's turns. The essence rune determines the damage type.\n\nYour rune remains on an object until you finish a long rest. An object can bear only one rune at a time, and a creature can only be attuned to one item enchanted with a rune.\n\nEach time you gain a level in this class, you can replace one rune you know with a different one. Some of your essence rune features require a target to make a saving throw to resist the feature’s effects. The saving throw DC is equal to your spell save DC.\n\nEssence Rune\n```\nRune   | Damage Type\n------------------------------\nDekeipa| cold\nKuoko  | poison\nMeip   | lightning\nRakeipa| fire\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/db/Enchanter-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Enchanter: Jora Rune__**",
+        "desc": "*6th-level Enchanter feature*\n\nWhen you inscribe an essence rune on a nonmagical item, you also mark it with an additional potency rune, known as a jora rune, gaining the jora benefits from the essence rune features.\n\nAdditionally, armor, robes, or shields inscribed with a jora rune gain a +1 bonus to AC. Weapons or arcane foci gain a +1 bonus to attack and damage rolls made with it, and the extra damage dealt increases to 1d6.\n\nYou also learn one new essence rune of your choice from the Essence Rune feature, and can inscribe these runes on one additional item as part of a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/db/Enchanter-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Enchanter: Denata Rune__**",
+        "desc": "*10th-level Enchanter feature*\n\nWhen you inscribe runes onto nonmagical items, you can choose to infuse one item with a denata aspect rune, gaining its benefits from the essence rune features in addition to the jora rune.\n\nAdditionally, armor, robes, or shields infused with a denata rune gain a +2 bonus to AC. Weapons or arcane foci gain a +2 bonus to attack and damage rolls made with it, and the extra damage dealt increases to 1d8.\n\nYou learn one new rune of your choice from the Essence Rune feature, and can inscribe runes on one additional item as part of a long rest. You can also attune to one additional item you have inscribed with runes, and this item doesn’t count against the total number of magic items you can attune to.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/db/Enchanter-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Enchanter: Kuta Rune__**",
+        "desc": "*14th-level Enchanter feature*\n\nYou gain mastery over enchanting, producing potent runic magic. When you inscribe runes onto nonmagical items, you can infuse one item with a kuta rune, gaining its benefits from the essence rune features in addition to the jora and denata runes.\n\nAdditionally, armor, robes, or shields infused with a kuta rune gain a +3 bonus to AC. Weapons or arcane foci gain a +3 bonus to attack and damage rolls made with it, and the extra damage dealt increases to 1d10.\n\nYou also learn one new rune of your choice from the Essence Rune feature, and can inscribe runes on one additional item as part of a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/db/Enchanter-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Enchanter Runes: Dekeipa (Frost Rune)__**",
+        "desc": "This rune’s magic evokes the elements of the blistering cold of Skyrim.\n\n*Jora.* You become acclimatized to elevations above 20,000 feet, and are unharmed by temperatures as low as -50 degrees Fahrenheit.\n\n*Denata.* You gain a chilling aura. All invisible creatures within 15 feet of you leave behind an icy trail, allowing you to track their movements within the area.\n\n*Kuta.* Armor, robes, or shields infused with a kuta rune grants the wearer immunity to cold damage. When you roll a 20 on the die for an attack made with a weapon or arcane focus infused with a kuta rune, the target must make an Endurance saving throw or become chilled for the next minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/db/Enchanter-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Enchanter Runes: Kuoko (Poison Rune)__**",
+        "desc": "This rune’s magic evokes the toxic wetlands of Black Marsh.\n\n*Jora.* You gain immunity to the poisoned condition.\n\n*Denata.* You emit an aura of poison. Each creature of your choice that starts its turn within 5 feet of you must succeed on an Endurance saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the aura for 24 hours.\n\n*Kuta.* Armor, robes, or shields infused with a kuta rune grants the wearer immunity to poison damage. When you roll a 20 on the die for an attack made with a weapon or arcane focus infused with a kuta rune, the target must succeed on an Endurance saving throw or become poisoned for the next minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/db/Enchanter-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Enchanter Runes: Meip (Shock Rune)__**",
+        "desc": "This rune’s magic evokes the elements of the volatile storms of Tempest Island.\n\n*Jora.* You gain immunity to the dazed condition, and your walking speed increases by 5 feet.\n\n*Denata.* You emit an aura of lightning. When a creature within 5 feet of you hits you with a melee attack, it must succeed on an Endurance saving throw or take 1d6 lightning damage, One additional hostile creature of your choice that is within 5 feet of the attacker also takes this damage.\n\n*Kuta.* Armor, robes, or shields infused with a kuta rune grants the wearer immunity to lightning damage. When you roll a 20 on the die for an attack made with a weapon or arcane focus infused with a kuta rune, the target must succeed on an Endurance saving throw or be dazed (see the condition) for the next minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/db/Enchanter-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Enchanter Runes: Rakeipa (Fire Rune)__**",
+        "desc": "This rune’s magic evokes the elements of the burning volcanic Ashlands of Morrowind.\n\n*Jora.* You gain immunity to the burning condition, and are unharmed by temperatures as high as 120 degrees Fahrenheit.\n\n*Denata.* You emit an aura of fire. When a creature within 5 feet of you hits you with a melee attack, it must succeed on an Endurance saving throw or take 1d10 fire damage.\n\n*Kuta.* Armor, robes, or shields infused with a kuta rune grants the wearer immunity to fire damage. When you roll a 20 on the die for an attack made with a weapon or arcane focus infused with a kuta rune, the target must succeed on an Endurance saving throw or it starts burning (see the condition) for the next minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/db/Enchanter-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Scholar: Keeper of Lore__**",
+        "desc": "*2nd-level Scholar feature*\n\nYou focus your studies on the accumulation of knowledge. You gain proficiency with two of the following skills of your choice: Arcana, History, Insight, Investigation, Medicine, Nature, Religion, and Survival.\n\nWhen you reach 6th level, you learn another skill proficiency from this list.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Scholar-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Scholar: Prepared Mind__**",
+        "desc": "*2nd-level Scholar feature*\n\nYou intensely study your spells and can easily recognize when others use these spells against you. If a creature that you can see targets you with a spell of 1st level or higher that you currently have prepared, the creature has disadvantage on attack rolls against you and you have advantage on saving throws against that spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Scholar-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Scholar: Studious Insight__**",
+        "desc": "*6th-level Scholar feature*\n\nYou are able to quickly learn your enemies tactics. As a bonus action on your turn, you can expend 1 focus point to assess a target. You learn the creature’s vulnerabilities, resistances, and immunities to types of damage, as well as any immunities to conditions.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Scholar-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Scholar: Unprepared Casting__**",
+        "desc": "*10th-level Scholar feature*\n\nOn your turn, you can expend 1 focus point in order to attempt to cast a mage spell you haven’t prepared from your spellbook. Each time you attempt to cast a mage spell in this way, you must make an Intelligence check. The DC for this check is equal to 12 + the level of the spell you are trying to cast. If you fail the check you do not cast the spell, but you do not expend any magicka points and material components that would have been required. You cannot use your metamagic options on spells you do not have prepared. When you successfully cast a mage spell in this manner, you cannot use this feature again until you finish a long rest.\n\nAdditionally, once per day when you finish a short rest, you can choose to replace one prepared spell with another spell in your spellbook.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Scholar-banner.png"
+    },
+    {
+        "name": "**__Mage__**\n**__Scholar: Assessment Recollection__**",
+        "desc": "*14th-level Scholar feature*\n\nYou learn how to take advantage of your enemies failings. As an action you can expend 3 focus points to evaluate the strategy of a creature that you can see. The target must make an Intelligence saving throw equal to your spell save DC. If the target fails, you gain the following benefits for 1 minute:\n- You gain a +2 bonus to attack and damage rolls made against the target.\n- The target suffers a –2 penalty to attack and damage rolls made against you.\n- You gain +2 bonus to all saving throws made against the target’s actions.\n- The target suffers a –2 penalty to all saving throws made against your actions.\n\nOnce you use this feature, you can’t do so again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/f/f7/Scholar-banner.png"
+    }
+]

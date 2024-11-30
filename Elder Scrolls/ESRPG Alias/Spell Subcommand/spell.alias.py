@@ -1,0 +1,3 @@
+embed -title "Elder Scrolls Lookup Collection: Spells" -f "Magicka| Spells are best handled through a Custom tome. As such you can find a tome of the existing UESTRPG spells [here](https://avrae.io/homebrew/spells/61a0ebb15c51fd18fe5365c9)" -f "Using the Tome| You can import that tome using the command `!tome sub https://avrae.io/homebrew/spells/61a0ebb15c51fd18fe5365c9`
+
+If you have admin permissions or you are a server's Dragonspeaker, you can make the tome available to the entire server using `!tome serve`" -image https://wiki.uestrpg.com/images/4/4f/Delvebound.png -footer "Original credit to @unvanced for creating the base of this tome."

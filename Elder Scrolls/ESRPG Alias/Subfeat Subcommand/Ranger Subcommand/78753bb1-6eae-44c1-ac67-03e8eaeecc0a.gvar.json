@@ -1,0 +1,167 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat ranger <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/BR:Ranger#Ranger_Archetypes"
+    },
+    {
+        "name": "**__Ranger__**\n**__Archer: Steady Aim__**",
+        "desc": "*3rd-level Archer feature*\n\nYour aim becomes deadly. As a bonus action on your turn, you can take careful aim at a creature you can see that is within range of a ranged weapon you’re wielding, provided that you move no more than 5 feet on your turn. Until the end of this turn, your ranged attacks with that weapon gain two benefits against the target:\n- You give yourself advantage on your next attack made with a ranged weapon on this turn.\n- The attacks ignore half and three-quarters cover.\n\nYou can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of it when you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a4/Archer-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Archer: Trick Shot__**",
+        "desc": "*3rd-level Archer feature*\n\nYou focus hard and aim to disable your foe. Once per turn, when you hit a target with a ranged weapon attack, you can force it to make a Strength saving throw (the DC equals 8 + your proficiency bonus + your Agility attribute modifier). On a failed save, the target suffers one of the following effects of your choice:\n- The target falls prone if it is a Medium or smaller sized creature\n- The target’s speed is reduced by half until the start of your next turn\n- The target is pushed back 10 feet away from you if it is a Large or smaller sized creature\n- The target makes Strength saving throws with disadvantage until the start of your next turn\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a4/Archer-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Archer: Iron Mind__**",
+        "desc": "*7th-level Archer feature*\n\nYour time studying beasts and the focus required by archery has stilled your mind. You gain proficiency in Willpower saving throws and have advantage on saving throws against being frightened.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a4/Archer-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Archer: Archer's Mastery__**",
+        "desc": "*11th-level Archer feature*\n\nYou gain one of the following features of your choice:\n\n*Critical Shot.* Your ranged weapon attacks score a critical hit on a roll of 19-20.\n\n*Flurry.* Once on each of your turns, if you miss with a ranged weapon attack during your turn, you can immediately make an additional attack with the same weapon.\n\n*Scatter Shot.* When another creature damages you with a melee weapon attack, you can use your reaction to move up to half your movement speed without provoking opportunity attacks from the creature. You can then make a weapon attack against that same creature as part of this reaction.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a4/Archer-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Archer: Rapid Strike__**",
+        "desc": "*15th-level Archer feature*\n\nYou learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forego that advantage to make an additional weapon attack against the same target. You can only make this extra attack once on each of your turns.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/a/a4/Archer-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Hunter: Companion of Hircine__**",
+        "desc": "*3rd-level Hunter feature*\n\nYou learn to use magic to conjure a powerful beast from the Hunting Grounds, Hircine's plane of Oblivion.\n\nWith 8 hours of work and the expenditure of 200 Septims worth of magical components, you call forth a daedric beast from the Hunting Grounds to serve as your faithful companion. You normally select your companion from among the following animals: an ape, a black bear, a boar, a giant badger, a giant weasel, a panther, a wolf, or any other Beast that has a challenge rating of 1/2 or lower. Your GM can help you pick a creature appropriate for the campaign setting (Such as a coral crab in Summerset, or a hackwing in Murkmire.) The creature looks identical to the beast it takes the form of, but it's creature type is considered to be a Fiend (Daedra).\n\nAt the end of the 8 hours, your daedric beast companion appears and gains all the benefits of your Companion’s Bond feature. You can have only one daedric beast companion at a time.\n\nIf your daedric beast companion is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 100 Septims worth of rare components, you call forth your companion’s spirit from the depths of Oblivion and use your magic to conjure a new body for it.\n\nIf you use this ability to return a former daedric beast companion to life while you have a current companion, your current companion leaves you and is replaced by the restored companion.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/22/Hunter-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Hunter: Companion's Bond__**",
+        "desc": "*3rd-level Hunter feature*\n\nYour daedric beast companion gains a variety of benefits while it is linked to you:\n- The daedric beast companion loses its Multiattack action, if it has one.\n- In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated or absent, the beast can take any action of its choice, not just Dodge.\n- When you gain the Extra Attack feature, you can sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action, instead of using a bonus action.\n- When using your Natural Explorer feature, you and your daedric beast companion can both move stealthily at a normal pace.\n- Your daedric beast companion gains the benefits of your Favored Enemy feature. It uses the favored enemies you selected for that feature.\n\nYour daedric beast companion has abilities and game statistics determined in part by your level:\n- Your companion uses your proficiency bonus rather than its own.\n- In addition to the areas where it normally uses its proficiency bonus, a daedric beast companion also adds your proficiency bonus to its AC and to its damage rolls. As you gain levels and increase your proficiency bonus, remember that your companion’s proficiency bonus improves as well, and is applied to the following areas: Armor Class, skills, saving throws, attack bonus, and damage rolls.\n- Your daedric beast companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.\n- For each level you gain after 3rd, your daedric beast companion gains an additional hit die and increases its hit points accordingly.\n- Whenever you gain the Attribute Score Improvement class feature, your companion’s attributes also improve. Your companion can increase one attribute score of your choice by 2, or it can increase two attribute scores of your choice by 1. As normal, your companion can’t increase an attribute score above 20 using this feature unless its description specifies otherwise.\n\nYour companion shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your companion shares your ideal, and its bond is always, “The ranger who travels with me is a beloved companion for whom I would gladly give my life.”\n```\nd6| Trait\n------------------------------\n1 | I’m dauntless in the face of adversity.\n2 | Threaten my friends, threaten me.\n3 | I stay on alert so others can rest.\n4 | People see an animal and underestimate me. I use that to my advantage.\n5 | I have a knack for showing up in the nick of time.\n6 | I put my friends’ needs before my own in all things.\n```\n```\nd6| Flaw\n------------------------------\n1 | If there’s food left unattended, I’ll eat it.\n2 | I growl at strangers, and all people except my ranger are strangers to me.\n3 | Any time is a good time for a belly rub.\n4 | I’m deathly afraid of water.\n5 | My idea of hello is a flurry of licks to the face.\n6 | I jump on creatures to tell them how much I love them.\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/22/Hunter-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Hunter: Predator's Senses__**",
+        "desc": "*7th-level Hunter feature*\n\nYour bond with your daedric companion heightens. Whenever you and your daedric companion are within 30 feet of each other, you gain the following benefits:\n- You have darkvision out to a range of 60 feet.\n- You have advantage on Willpower (Perception) checks that rely on sight, hearing or smell.\n- You have advantage on Willpower (Survival) checks to track creatures.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/22/Hunter-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Hunter: Hunter's Mastery__**",
+        "desc": "*11th-level Hunter feature*\n\nYou have learned how to protect yourself against your worst enemies. When a creature that is one of your favored enemies makes an attack roll against you or your daedric companion and doesn’t have advantage on the roll, you can use your reaction to impose disadvantage on it.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/22/Hunter-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Hunter: Hircine's Gift__**",
+        "desc": "*15th-level Hunter feature*\n\nHircine recognizes your aptitude for the hunt and blesses you with his gift. Once per long rest, you are able to transform into a were-creature of your choice for 1 hour. You normally choose your form from the following lycanthropes: a werebat, a werebear, a wereboar, a werecrocodile, a werelion, a wererat, a wereraven, a wereshark, a weretiger, a werevulture, or a werewolf. However, your GM might pick one of these animals for you, or an animal based on a creature appropriate for the campaign setting. You can find the statistics for these creatures in the Blessings and Curses and the Shadows Over Skyrim supplements, or in the 5e Core Rules.\n\nYou can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.\n\nWhile you are transformed, the following rules apply:\n- Your game statistics are replaced by the statistics of the shapechanger, but you retain your alignment, proficiency bonus, Personality, Intelligence, and Willpower scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has any legendary or lair actions, you can't use them.\n- When you transform, you assume the shapechanger’s hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in shapechanger form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn’t reduce your normal form to 0 hit points, you aren’t knocked unconscious.\n- You can’t cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your shapechanger form. Transforming doesn’t break your concentration on a spell you’ve already cast, however, or prevent you from taking actions that are part of a spell.\n- You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can’t use any of your special senses, such as darkvision, unless your new form also has that sense.\n- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature’s shape and size. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/22/Hunter-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Scout: Bonus Proficiencies__**",
+        "desc": "*3rd-level Scout feature*\n\nYou gain proficiency in two of the following skills of your choice: Acrobatics, Animal Handling, Athletics, Investigation, Medicine, Nature, Perception, Stealth or Survival. You can choose to gain proficiency with thieves’ tools in place of one skill choice.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/8b/Scout-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Scout: Scout’s Evasion__**",
+        "desc": "*3rd-level Scout feature/\n\nIf you are hit by an attack while wearing light or medium armor, you can roll a d6 as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a short or a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/8b/Scout-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Scout: Swiftness__**",
+        "desc": "*3rd-level Scout feature*\n\nYour speed increases by 5 feet. This bonus increases as you reach certain levels. Your speed increases by 10 feet by 7th level, 15 feet by 11th level, and 20 feet by 15th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/8b/Scout-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Scout: Ambuscade__**",
+        "desc": "*7th-level Scout feature*\n\nScouts strike first and strike hard. When you roll initiative, you gain a special turn that takes place before other creatures can act. On this turn, you can use your action to take either the Attack or Hide action. If more than one creature in an encounter has this feature, they all act first in order of initiative, then the regular initiative order begins.\n\nIf you would normally be surprised at the start of an encounter, you are not surprised but you do not gain this extra turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/8b/Scout-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Scout: Multiattack__**",
+        "desc": "*11th-level Scout feature*\n\nAt 11th level, you gain one of the following features of your choice:\n\n*Barrage.* You can use your action to make a ranged attack against any number of creatures within a 20-foot cone originating from you. You must have ammunition for each target, and make a separate attack roll for each target.\n\n*Volley.* You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapons range. You must have ammunition for each target, and make a separate attack roll for each target.\n\n*Whirlwind.* You use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/8b/Scout-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Scout: Opportunistic Striker__**",
+        "desc": "*15th-level Scout feature*\n\nYou learn to string your attacks together to increasingly improve your chances of landing a devastating blow. At the start of each of your turns, each time you hit a target on your turn your chance to score a critical hit against the target increases. Each subsequent attack that hits the target after the first increases your critical score range by one. At the end of your turn, this feature ends and reverts your critical hit range back to normal.\n\nFor example, hitting a target on your turn will allow the next attack on that same turn against that same target to score a critical hit on a roll of 19–20. Hitting the same target a second time will increase this critical hit range to 18–20, and so forth.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/8b/Scout-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Green Pact Keeper: Bonus Proficiencies__**",
+        "desc": "*3rd-level Green Pact Keeper feature*\n\nYou gain proficiency with cook’s utensils and brewer’s supplies.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/82/Green-pact-keeper-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Green Pact Keeper: Spellcasting__**",
+        "desc": "*3rd-level Green Pact Keeper feature*\n\nAs a reward for following the strict rules of the Green Pact, Y’ffre has granted you the ability to use the magical essence of nature to cast spells. See the Chapter 10 of the Basic Rules for the general rules of spellcasting and Chapter 11 for the warden spell list.\n\n**Cantrips.** You learn two cantrips of your choice from the warden spell list. You learn an additional cantrip of your choice at 10th level.\n\n**Magicka.** The Green Pact Spellcasting table shows how much magicka you have to cast your warden spells of 1st level and higher. The table also shows what the level spells you can cast. To cast one of your warden spells of 1st level or higher, must expend magicka, as noted in the spell's description and the Magicka Cost table found in chapter 10 of the Basic Rules. You regain all expended magicka when you finish a long rest.\n\nFor example, if you know the 1st-level spell hail of thorns and have a spell level of 2nd, you can cast hail of thorns using magicka to cast it at either level.\n\n**Spells Known of 1st Level and Higher.** You know three 1st-level warden spells of your choice from the warden spell list.\n\nThe Spells Known column of the Green Pact Spellcasting table shows when you learn more warden spells of 1st level or higher. Each of these spells must be of a level for which you can cast, as shown on the table's Spell Level column for your level. When you reach 7th level, for example, you learn a new warden spell, which can be 1st or 2nd level.\n\nGreen Pact Keeper Spellcasting\n```\nRanger Level| Cantrips Known| Spells Known| Magicka Points| Spell Level\n----------------------------------------------\n3rd         | 2             | 3           | 4             | 1st\n4th         | 2             | 4           | 6             | 1st\n5th         | 2             | 4           | 6             | 1st\n6th         | 2             | 4           | 6             | 1st\n7th         | 2             | 5           | 14            | 2nd\n8th         | 2             | 6           | 14            | 2nd\n9th         | 2             | 6           | 17            | 2nd\n10th        | 3             | 7           | 17            | 2nd\n11th        | 3             | 8           | 17            | 2nd\n12th        | 3             | 8           | 17            | 2nd\n13th        | 3             | 9           | 27            | 3rd\n14th        | 3             | 10          | 27            | 3rd\n15th        | 3             | 10          | 27            | 3rd\n16th        | 3             | 11          | 32            | 3rd\n17th        | 3             | 11          | 32            | 3rd\n18th        | 3             | 11          | 32            | 3rd\n19th        | 3             | 12          | 38            | 4th\n20th        | 3             | 13          | 38               | 4th\n```\n\nAdditionally, when you gain a level in this class, you can choose one of the warden spells you know and replace it with another spell from the warden spell list, which also must be of a level for which you can cast.\n\n**Spellcasting Attribute.** Willpower is your spellcasting attribute for your warden spells, so you use your Willpower whenever a spell refers to your spellcasting attribute. In addition, you use your Willpower modifier when setting the saving throw DC for a warden spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your Proficiency bonus + your Willpower modifier\n\nSpell attack modifier = your Proficiency bonus + your Willpower modifier",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/82/Green-pact-keeper-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Green Pact Keeper: Expanded Spell List__**",
+        "desc": "*3rd-level Green Pact Keeper feature*\n\nAs a Green Pact Keeper, you can choose from an expanded list of spells when you learn a warden spell. The following spells are added to the warden spell list for you.\n\nGreen Pact Expanded Spells \n```\nSpell Level| Spells\n------------------------------\n1st        | alarm, hunter’s mark\n2nd        | magic weapon, silence\n3rd        | warding bond, nondetection\n4th        | divination, banishment\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/82/Green-pact-keeper-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Green Pact Keeper: Nature's Brew__**",
+        "desc": "*7th-level Green Pact Keeper feature*\n\nOnce each day, you can spend 1 hour gathering materials and creating magically infused brews. This task can be completed as part of a short or long rest. You can expend 2 or more magicka to create a brew from the list below, and you can create an amount of brews equal to your Willpower modifier (minimum of 1). These brews remain magically infused for 24 hours before losing their magical properties.\n\nIn addition, you can craft healing potions using brewer’s supplies as though you were using a herbalism kit.\n\n*Healing Brew.* When a creature uses an action to drink this healing brew, it regains hit points equal to 3d4 + your Willpower modifier. If you expend 3 magicka to create the brew, the amount of hit points gained increases by 2d4 (for a total of 5d4). At 13th level, you can expend 5 magicka to create the brew and increase the hit points gained by 4d4 (7d4 total). And at 19th level, you can expend 6 magicka to create the brew and increase the hit points gained by 6d4 (9d4 total).\n\n*Jagga.* When a creature uses an action to drink this magically infused jagga, it can add your Willpower modifier to every Intelligence and Personality attribute check it makes for the next hour.\n\n*Rotmeth.* When a creature uses its action to drink this magically infused rotmeth, it can add your Willpower modifier to any Strength and Endurance attribute checks that it makes for the next hour.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/82/Green-pact-keeper-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Green Pact Keeper: Green Shaping__**",
+        "desc": "*11th-level Green Pact Keeper feature*\n\nYou can use an action to chant a song of nature, allowing you to shape a natural area to meet your needs. The area can be up to a 10-foot cube. Buildings and other structures are excluded from the affected area. This feature creates up to two of the following effects within this area, which lasts for the next minute. When you create the effects, you can specify creatures as friends who are immune to these effects. A dispel magic cast on the area removes only one of the effects, and the spellcaster chooses which effect to end. Only when all of the effects are ended is the area fully dispelled.\n- The area thickens with plant growth and is considered difficult terrain.\n- Natural difficult terrain magically transforms and no longer affects you and the creatures you choose.\n- Bramble covered in thorns grows over the area, dealing 1d4 piercing damage to any creature that enters the area for the first time or starts their turn there.\n- Vines grab at Large or smaller creatures that enter the area for the first time or start their turn there. The creature must succeed on a Strength saving throw against your spell save DC or become grappled by the vines. A grappled creature can escape by making a successful Strength (Athletics) or Agility (Acrobatics) check against your spell save DC.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/82/Green-pact-keeper-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Green Pact Keeper: Feast of the Animals__**",
+        "desc": "*15th-level Green Pact Keeper feature*\n\nYou spend 1 hour preparing and eating a feast prepared in adherence to the green pact. This task can be completed during a short or long rest. The beneficial effects don’t set in until this hour is over. Up to six creatures can partake in the feast. A creature that partakes of the feast gains temporary hit points equal to your ranger level until the end of their next short rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/82/Green-pact-keeper-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Sellsword: Exceptional Training__**",
+        "desc": "*3rd-level Sellsword feature*\n\nYour training has surpassed all rivals and peers. Choose one of your skill proficiencies, or one of your tool proficiencies. Your proficiency bonus is doubled for any attribute check you make that uses this chosen proficiency.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bd/Sellsword-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Sellsword: Improved Primal Mark__**",
+        "desc": "*3rd-level Sellsword feature*\n\nWhen you use your Primal Mark feature as a bonus action to mark a creature as your quarry, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack. When you reach 11th level, the extra damage increases to 1d8, and when you reach 17th level, the extra damage increases to 1d10.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bd/Sellsword-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Sellsword: Favored Defense__**",
+        "desc": "*7th-level Sellsword feature*\n\nYou’ve learned not only how to harm your favored foes, but also how best to defend yourself from them. When a creature that is one of your favored foes makes an attack roll against you, or subjects you to a saving throw, you add up to half of your Willpower modifier (rounded up, minimum of 1) to either your AC for that attack or to your saving throw to resist that effect.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bd/Sellsword-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Sellsword: Additional Fighting Style__**",
+        "desc": "*11th-level Sellsword feature*\n\nYou can choose a second option from the Fighting Style class feature. You can't choose the same Fighting Style twice.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bd/Sellsword-banner.png"
+    },
+    {
+        "name": "**__Ranger__**\n**__Sellsword: Indiscriminate Foe__**",
+        "desc": "*15th-level Sellsword feature*\n\nA creature that is marked by your Primal Mark feature is considered to be a Favored Foe for you, regardless of its creature type.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/b/bd/Sellsword-banner.png"
+    }
+]

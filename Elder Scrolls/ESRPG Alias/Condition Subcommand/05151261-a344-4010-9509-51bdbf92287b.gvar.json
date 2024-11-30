@@ -1,0 +1,77 @@
+[
+  {
+    "gend": "Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as chilled, are impairments, but a few, such as rallied, can be advantageous. Some conditions, such as bleeding, can be deadly to a creature if left untreated.\n\nA condition lasts until it is countered (for example, the burning condition is countered by dousing any flames as an action, as described in the conditions description) or for a duration specified by the effect that imposed the condition. If multiple effects impose the same condition on a creature, each instance of the condition has its own duration, but the condition's effects don't get worse. A creature either has a condition or doesn't.\n\n**Rationalizing Conditions.** Variant conditions, as they are presented below, can be incorporated into any game at the GM’s discretion. Perhaps a dangerous foe rolls a 20 on an attack roll; imposing the bleeding, dazed, or staggered conditions as an effect instead of the extra damage normally rolled can make combat more dynamic. A creature that is subjected to a dragon’s fire or frost breath weapon and fails their save might begin burning or be chilled as a result. Or, if they roll a 1 on their save, perhaps they become temporarily frozen. Environmental hazards could play a role in burning, such as being trapped in a house that is set ablaze, or falling into lava. While traveling in arctic landscapes, failing Endurance saves may result in becoming chilled before gaining levels of exhaustion. Some effects can be produced by spells, such as rallied, hysteria, or frenzied. These effects, much like charmed or frightened, can quickly change the flow of combat. From turning a fleeing militia into stalwart defenders, or causing enemies to become hostile to their own allies, these conditions can heavily impact how a battle may play out. Other conditions may come into play as part of the natural course of life. A creature who barely escapes death might become weakened as a result of failing one or more death saving throw.\n\n**Condition Considerations.** While creatures do not list an immunity to any of the following variant conditions, descriptions have been included to help determine when a creature might be immune. A GM can also decide if a condition is applicable to a creature or not at their discretion.\n\nFor example, creatures that are used to arctic and freezing temperatures would likely be immune to the chilled condition even if they may lack resistance to cold damage, such as a mammoth.\n\nThe following definitions specify what happens to a creature while it is subjected to a condition.\n\n__**Conditions**__\nBleeding\nBurning\nCamouflaged\nChilled\nDazed\nFrenzied\nFrozen\nHysterical\nIntoxicated\nRallied\nStaggered\nWeakened"
+  },
+  {
+    "name": "Bleeding",
+    "desc": "A bleeding creature takes 6 (1d10) necrotic damage at the start of each of its turns.\n\nWhen the bleeding creature restores hit points, they receive half the amount of hit points they would normally receive\n\nThe effect ends if a creature receives magical healing, uses a healer’s kit, or if a creature uses an action to make a Willpower (Medicine) check made to staunch the wound (DC equal 10 + the number of rounds that the creature has bled, to a maximum of 15).\n\nCreatures that are immune to necrotic damage are immune to this condition.\n\n```\n----------  GM Tip  ----------\n------------------------------\nThe bleeding condition doesn’t always necessitate the actual act of bleeding, but represents a form of persistent damage. Constructs may begin leaking other forms of vital fluid, like oil, and undead creatures, like zombies, might be wounded in vulnerable areas that quickly fall apart. Constructs could be patched with tinker’s tools instead of healer’s kits. In this case, necrotic damage is not caused due to a dark energy or blight, but instead represents the harm caused by mortality.\n```",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Burning",
+    "desc": "A burning creature starts on fire, taking 6 (1d10) fire damage at the start of each of its turns.\n\nA burning creature has disadvantage on attack rolls and Attribute checks.\n\nA burning creature sheds bright light in a 10-foot radius and dim light in an additional 10 feet.\n\nThe effect ends when a creature takes an action to douse the fire.\n\nA creature that is immune to fire damage is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Camouflaged",
+    "desc": "A camouflaged creature is difficult to see without the aid of magic or a special sense. For the purpose of Hiding, the creature is lightly obscured. The creature’s location can be detected by any noise it makes or any tracks it leaves behind.\n\nA camouflaged creature gains a +5 bonus on Agility (Stealth) checks it makes to hide.\n\nWhile a camouflaged creature is in dim light or darkness, attack rolls against the creature have disadvantage.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Chilled",
+    "desc": "A chilled creature’s speed is reduced by half.\n\nThe creature makes Agility saving throws with disadvantage.\n\nThe creature can’t take reactions.\n\nA creature that is immune to cold damage is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Dazed",
+    "desc": "A dazed creature’s speed is reduced to 5 feet, as it merely stumbles in its attempt to move.\n\nThe creature has disadvantage on attack rolls, Agility saving throws, and Attribute checks.\n\nThe creature can’t concentrate on a spell while dazed.\n\nA creature that is immune to the stunned condition is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Frenzied",
+    "desc": "A frenzied creature cannot distinguish friend from foe, is hostile to all creatures, and attacks the nearest creature that it can see. If there are two creatures within equal distance, the GM chooses which creature it attacks at random.\n\nWhile frenzied, the creature makes all attack rolls with advantage, but attack rolls against it also have advantage.\n\nA frenzied creature can’t be charmed, frightened, or rallied.\n\nA frenzied creature has disadvantage on any attribute check to interact socially with another creature that does not rely on Personality (Intimidation), and can speak only falteringly.\n\nThe creature can’t concentrate on a spell while frenzied.\n\nA creature that is immune to the charmed condition is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Frozen",
+    "desc": "A frozen creature is frozen into solid ice, along with any objects it's wearing or carrying. Its weight increases by a factor of 3 and no longer ages.\n\nThe creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n\nAttack rolls against the creature have advantage.\n\nThe creature automatically fails Strength and Agility saving throws.\n\nThe creature has vulnerability to bludgeoning damage, and has resistance to all other damage except psychic.\n\nThe creature is immune to poison and disease. If the creature is already poisoned or diseased, the effects are suspended until the condition ends.\n\nA creature that is immune to the restrained condition is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Hysterical",
+    "desc": "A hysterical creature can’t concentrate on spells or form coherent thoughts.\n\nAll Personality checks to speak to or console the creature automatically fail.\n\nThe creature can speak only falteringly, scream, or laugh uncontrollably.\n\nA creature that is immune to the frightened condition is immune to this condition.\n\nA hysterical creature’s actions are determined by rolling a d10 at the beginning of its turns:\n```\nD10 | Action\n---+---------------------------\n1   | The creature drops all held items and uses its action to take the Dash action to flee from all other creatures.\n2  | The creature cowers and is unable to move or take actions this turn.\n3-5| The creature uses its action to take the Dodge action and doesn’t move.\n6-8| Until the start of its next turn, the creature has disadvantage on saving throws and is frightened of all other creatures.\n9  | The creature uses its reaction to make a melee attack against a creature that enters into its reach before the start of its next turn.\n10 | The creature acts as normal.\n```",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Intoxicated",
+    "desc": "An intoxicated creature is poisoned (see the condition).\n\nThe creature has disadvantage on Endurance, Agility, and Intelligence saving throws.\n\nThe creature automatically fails Willpower (Insight) checks.\n\nPersonality checks are made with advantage against an intoxicated creature.\n\nTo cast a spell, the creature must first succeed on a DC 10 Endurance check. Otherwise, the Cast a Spell action is wasted, but the magicka to produce the spell isn't expended.\n\nA creature that is immune to the poisoned condition is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Rallied",
+    "desc": "A rallied creature can’t be charmed, frenzied, or frightened while the source of its inspiration is within line of sight.\n\nA rallied creature can take a bonus action to move up to half of its speed towards a hostile creature.\n\nThe creature can use its reaction to re-roll a failed saving throw, and must use the result of the new roll.\n\nA creature that is immune to the charmed condition is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Staggered",
+    "desc": "A staggered creature has disadvantage on Strength and Agility saving throws.\n\nOn its turn, it can use either an action or a bonus action, not both. Regardless of the creature’s abilities or magic items, it can’t make more than one melee or ranged attack during its turn.\n\nA creature that is immune to the prone condition is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  },
+  {
+    "name": "Weakened",
+    "desc": "The amount of damage dealt from attacks and spells by the weakened creature is reduced by half.\n\nThe creature has disadvantage on Strength and Endurance saving throws and attribute checks.\n\nThe amount of weight the creature can carry, push, drag, or lift is halved.\n\nA creature that is immune to the exhausted condition is immune to this condition.",
+    "iurl": "",
+    "thum": ""
+  }
+]

@@ -1,0 +1,422 @@
+[
+    {
+        "name": "**__Ranger: Favored Enemy__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n1st-level ranger feature\n\nYou have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.\n\nChoose a type of favored enemy: Beasts, Fiends, Humanoids, or Undead. You have advantage on Willpower (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them. Each time you hit a favored enemy with an attack and deal damage to it, you deal an additional 1d4 damage.\n\nYou also learn one language of your choice, typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn.\n\nYou can choose an additional favored enemy, as well as an associated language, when you reach 6th level, and again at 14th level. Additionally, this feature’s extra damage increases to 1d6 at 6th level, and to 1d8 at 14th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Natural Explorer__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n1st-level ranger feature\n\nYou are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, urban, or underground. When you make an Intelligence or Willpower check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n- Difficult terrain doesn’t slow your group’s travel.\n- Your group can’t become lost except by magical means.\nEven when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\n\nYou learn additional favored terrain types when you reach 6th and 10th level in this class.\n\nEach time you finish a long rest, you can choose to replace one of your current favored terrains with the current terrain you are in.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Fighting Style__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n2nd-level ranger feature\n\nYou adopt a particular style of fighting as your specialty. You can not take a fighting style option more than once.\n\n**Archery.** You gain +2 bonus to your attack rolls you make with ranged weapons.\n\n**Defense.** While you are wearing armor, you gain a +1 bonus to AC.\n\n**Dueling.** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\n**Two-Weapon Fighting.** When you engage in two-weapon fighting, you can add your attribute modifier to the damage of the second attack.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Wild Techniques__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n2nd-level ranger feature\n\nIn your time spent within the wilderness, you have learned wild techniques, tactics and skills that you have had to rely on in order to survive on your own far from civilization.\n\nYou gain two wild techniques of your choice. Your technique options are detailed at the end of the class description. When you gain certain ranger levels, you gain additional techniques of your choice, as shown in the Techniques Known column of the Ranger table.\n\nAdditionally, when you gain a level in this class, you can choose one of the techniques you know and replace it with another technique that you could learn at that level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Primal Instincts__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n3rd-level ranger feature\n\nYour mastery of ranger lore allows you to establish a powerful link to beasts and to the land around you. With this feature you gain the following benefits:\n\n**Primeval Sense.** You can use an action to attune your senses to determine if any of your favored enemies lurk nearby. For 1 minute, you can sense whether any of your favored enemies are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain). This feature reveals which of your favored enemies are present, their numbers, and the creatures’ general direction and distance (in miles) from you. If there are multiple groups of your favored enemies within range, you learn this information for each group.\n\nAny favored enemy within 30 feet of you has a faint outline surrounding it, which is only visible to you. The outline is visible through most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.\n\nOnce you use this feature, you can’t do so again until you finish a long rest.\n\n**Primal Mark.** You can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 90 feet of you as the target of this feature. You gain the following benefits for the duration, as shown on the Primal Mark table.\n\nYou have advantage on any Willpower (Perception) or Willpower (Survival) check you make to find the marked target.\n\nOnce per turn, when you hit the marked target with a weapon that you’re proficient with and deal damage, it takes an extra 1d6 damage from the weapon. This damage increases as you gain levels in this class, as shown on the Primal Mark table.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Ranger Archetype__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n3rd-level ranger feature\n\nYou choose an archetype that you strive to emulate: Archer, Hunter, or Scout. Your choice grants you features at 3rd level, and again at 7th, 11th, and 15th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Extra Attack__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n5th-level ranger feature\n\nYou can attack twice, instead of once, when you take the Attack action on your turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Adaptive Hunter__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n6th-level ranger feature\n\nYou have become skilled at hunting a wide variety of enemies. When you learn a new favored enemy, the types you can choose from are expanded to include: Constructs, Dragons, Giants, Monstrosities, and Oozes. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language, and a bonus to damage.\n\nAdditionally, after studying and researching a type of creature over the course of a week in your downtime, you can learn one new favored enemy, choosing from the types available to you. You can change the favored enemy you learn as part of this feature by spending another week studying that type of creature.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Primal Defense__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n7th-level ranger feature\n\nYou are able to protect yourself better against the assaults of the creatures you’ve focused on. Whenever the target of your Primal Mark forces you to make a saving throw and whenever you make an attribute check to escape that target's grapple, add 1d6 to your roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Land’s Stride__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n8th-level ranger feature\n\nMoving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.\n\nIn addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Skirmisher's Stealth__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n9th-level ranger feature\n\nYou combine speed and stealth in combat to make yourself hard to pin down. You are difficult to detect even if you attack or otherwise take actions that would normally reveal your presence.\n\nAt the start of your turn, pick a creature you are hidden from. You remain hidden from that creature during your turn, regardless of your actions or the actions of other creatures. As a bonus action at the end of your turn, you can make an Agility (Stealth) check to Hide from that creature again if you fulfill the conditions needed to Hide. Otherwise, creatures are aware of you at the end of your turn. A creature ignores this effect if the creature has truesight.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Hide in Plain Sight__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n10th-level ranger feature\n\nYou can remain perfectly still for long periods of time to set up ambushes. When you take the Hide action on your turn, creatures that attempt to detect you take a −10 penalty to their Willpower (Perception) checks until the start of your next turn. They gain this penalty only if you haven’t moved during this turn, and you don’t move until the start of your next turn.\n\nIf you are still hidden on your next turn, you can continue to remain motionless and gain this benefit.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Nature’s Protection__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n13th-level ranger feature\n\nYour time spent in the wilds has caused you to be inured to the effects of nature. You have advantage on saving throws against poison and have resistance to poison damage. Additionally, when you make an Intelligence or Willpower check related to poisons, your proficiency bonus is doubled if you are using a skill that you’re proficient in.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Vanish__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n14th-level ranger feature\n\nYou can use the Hide action as a bonus action on your turn. Also, you can never be tracked by nonmagical means, unless you intended to leave a trail.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Primal Connection__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n17th-level ranger feature\n\nYou become one with nature and gain a nearly supernatural connection to it, unlocking it's knowledge and secrets.\n\nIf you spend 1 minute in uninterrupted meditation while outdoors, you gain knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. You don't gain this knowledge in areas where nature has been replaced by construction, such as dungeons and towns.\n\nYou instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:\n- terrain and bodies of water\n- prevalent plants, minerals, animals, or peoples\n- powerful beasts, fey, fiends, elementals, or undead\n- influence from other planes of existence\n- buildings\n\nFor example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.\n\nOnce you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Feral Senses__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n18th-level ranger feature\n\nYou gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.\n\nYou are also aware of the location of any invisible creature within 30 feet of you, provided the creature isn't hidden from you and you aren't blinded or deafened.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Ranger: Foe Slayer__**:",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Ranger\n\n20th-level ranger feature\n\nAt 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you add your Willpower modifier to the attack roll or the damage roll of an attack you make against a favored enemy. You can choose to use the feature before or after the roll, but before any effects of the roll are applied.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/9/95/Ranger-banner.png"
+    },
+    {
+        "name": "**__Rogue: Expertise__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n1st-level rogue feature\n\nChoose two of your skill proficiencies, or one of your skill proficiencies and one of your tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiency.\n\nAt 6th level, you can choose two more of your proficiencies (in skills or in tools) to gain this benefit.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Precise Attacks__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n1st-level rogue feature\n\nYou know how to use your superior agility to outwit and devastate your enemies with tactical precision.\n\nYou gain the ability to make Precise Attacks. Once per turn, when you make a weapon attack using a ranged or finesse weapon, you can choose to use a Precise Attack to add your Precision Dice, a d4, to the attack roll. If the attack hits, you apply any of the unused Precision Dice roll to your weapon damage roll. On a critical hit, your Precision Dice are considered damage dice and are rolled twice.\n\nYour Precision Dice increases as you gain levels, as shown in the Precision Dice column of the Rogue table.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Strategic Aid__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n2nd-level rogue feature\n\nYou can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Roguish Archetype__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n3rd-level rogue feature\n\nChoose one of the archetypes that you emulate in the exercise on your rogue abilities. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Tactical Avoidance__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n3rd-level rogue feature\n\nWhen an attacker that you can see hits you with an attack, you can use your reaction to try to avoid the attack. The attacks damage is reduced by an amount equal to your Precision Dice roll.\n\nWhen you reach 11th level, you can use your reaction to add you Precision Dice roll to any Agility saving throw. If you succeed the saving throw, you reduce the damage taken by an amount equal to the unused Precision Dice roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Extra Attack__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n5th-level rogue feature\n\nYou can attack twice, instead of once, whenever you take the Attack action on your turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Quick Thinking__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n7th-level rogue feature\n\nYour quick thinking in the heat of action allows you to also add your Intelligence modifier to your initiative roll.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Advanced Maneuvers__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n11th-level rogue feature\n\nYour nimble mind allows you to better place your attacks for maximum devastation. When you make a weapon attack with a weapon you are proficient with, you can add your Intelligence modifier to your damage roll (minimum 0).",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Mental Agility__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n14th-level rogue feature\n\nYou are always aware of your surroundings and are no longer able to be surprised.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Slippery Mind__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n15th-level rogue feature\n\nYou acquire greater mental strength and gain proficiency on Willpower saving throws.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Solo Artist__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n18th-level rogue feature\n\nWhen no allies are within 30 feet of you, you gain advantage on all attack rolls.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Rogue: Stroke of Luck__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Rogue\n\n20th-level rogue feature\n\nYou have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/c0/Rogue-banner.png"
+    },
+    {
+        "name": "**__Sorcerer: Spellcasting__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Sorcerer\n\n1st-level sorcerer feature\n\nYou were born with innate magical potential, drawing on a nearly endless font of magicka. This natural gift allows you to cast spells. See chapter 10 of the Basic Rules for the general rules of spellcasting and chapter 11 for the sorcerer spell list.\n\n**Cantrips (0-Level Spells)**\nYou know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.\n\n**Magicka**\nThe Sorcerer table shows how much magicka you have to cast your sorcerer spells of 1st level and higher. To cast one of these spells, you must expend magicka, as noted in the spell's description and the Magicka Cost table found in chapter 10 of the Basic Rules. For example, if you know the 1st-level spell burning hands and have a spell level of 2nd, you can use magicka to cast burning hands at either level.\n\n**Stunted Magicka**\nSorcerers have access to a large pool of magicka, but their natural gift is stunted by reduced regeneration.\n\nUnlike other spellcasters, sorcerers do not regain all of their magicka at the end of a long rest. Instead, you only regain half of your expended magicka, rounding up (minimum of 1).\n\n**Spells Known of 1st Level and Higher**\nYou know four 1st-level spells of your choice from the sorcerer spell list.\n\nThe Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you can cast, as shown on the table's Spell Level column for your sorcerer level. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level that you can cast.\n\nWhenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the sorcerer spell list. The new spell must be the same level as the spell you replace.\n\n**Spellcasting Attribute**\nWillpower is your spellcasting ability for your sorcerer spells. You use your Willpower whenever a spell refers to your spellcasting ability. In addition, you use your Willpower modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Willpower modifier\n\nSpell attack modifier = your proficiency bonus + your Willpower modifier\n\n**Ritual Casting**\nYou can cast any sorcerer spell you know as a ritual if that spell has the ritual tag.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/62/Sorcerer-banner.png"
+    },
+    {
+        "name": "**__Sorcerer: Sorcery Focus__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Sorcerer\n\n1st-level sorcerer feature\n\nChoose a sorcery focus which describes the field you've devoted yourself to. Your field grants you features at 1st level and again at 6th, 14th, and 18th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/62/Sorcerer-banner.png"
+    },
+    {
+        "name": "**__Sorcerer: Capacitor__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Sorcerer\n\n2nd-level sorcerer feature\n\nYou have the ability to absorb magical energy from harmful spells. Sorcerers are unique to any other magic users in Tamriel. Although they restore magicka at a much slower rate, they have a natural ability to absorb magicka from spells that have been cast at them, essentially becoming a magical battery.\n\nWhenever you are targeted by a spell that requires you to make a saving throw, you have a chance to absorb magicka, replenishing your magicka. On a successful save you also absorb magicka points equal to the level of the spell cast. You cannot increase your magicka points beyond your maximum magicka point total through this feature. On a failed save, you do not absorb any magicka and are affected by the spell as normal.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/62/Sorcerer-banner.png"
+    },
+    {
+        "name": "**__Sorcerer: Power Overwhelming__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Sorcerer\n\n3rd-level sorcerer feature\n\nYou can push beyond your natural boundaries to cast extraordinary magic. When you cast a spell that you know, you can choose to cast it at a spell level one higher than your current maximum, using magicka as normal (maximum of 9th level). Once you cast a spell in this way, you must finish a long rest before you can do so again.\n\nWhen you reach 17th level, you can cast 1 additional 6th level spell, and at 19th level, you can cast 1 additional 7th level spell, using magicka as normal.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/62/Sorcerer-banner.png"
+    },
+    {
+        "name": "**__Sorcerer: Equilibrium__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Sorcerer\n\n10th-level sorcerer feature\n\nYou gain further control over your magically infused bloodline, allowing you to transfer your life force into magicka. You can choose to impose one of the following effects:\n- As a bonus action, you can expend up to half of your available sorcerer Hit Dice. You restore magicka points equal to half of the total rolled on the Hit Dice.\n- During a short rest, you can spend magicka points, as though you were casting a spell, to restore an amount of sorcerer Hit Dice equal to the spell level cast.\n\nOnce you use this feature, you must complete a long rest before you can do so again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/62/Sorcerer-banner.png"
+    },
+    {
+        "name": "**__Sorcerer: Sorcerous Restoration__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Sorcerer\n\n20th-level sorcerer feature\n\nYou can draw on your reserve of mystical power to regain expended magicka points. You can spend 1 minute meditating to regain half of your expended magicka, rounding up. Once you regain magicka with this feature, you must finish a long rest before you can do so again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/6/62/Sorcerer-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Weapon Bond__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n1st-level spellsword feature\n\nYou can perform a ritual that creates a magical bond between yourself and a weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.\n\nOnce you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.\n\nYou can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Imbue Magic__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n1st-level spellsword feature\n\nYou learn to invoke powerful magic within your weapon. You choose to learn one Elemental Imbuement listed below.\n\nAs a bonus action, you infuse a single weapon with the magical energy of a known Elemental Imbuement for up to 8 hours. While active, attacks with this weapon deal an additional 1d4 damage of the chosen damage type. This damage is considered magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage.\n\nThe damage dealt by your Imbue Magic feature increases as you gain spellsword levels, as shown in the Imbue Magic column of the Spellsword table. Your enchantment lasts until the effect ends. It ends early if the weapon is wielded by another creature, or if you fall unconscious.\n\nIf you use this ability to imbue the same weapon again, your current enchantment leaves and is replaced by the new enchantment.\n\nYou learn an additional Elemental Imbuement at 6th level and again at 11th level, and you can choose 1 Arcane Imbuement at 14th level.\n\n**Elemental Imbuement**\n\nChoose from the following:\n*Flame.* You enchant your weapon with the elemental damage of fire.\n*Glacier.* You enchant your weapon with the elemental damage of cold.\n*Storm.* You enchant your weapon with the elemental damage of lightning.\n*Venom.* You enchant your weapon with the elemental damage of poison.\n\n**Arcane Imbuement**\n\nChoose from the following:\n*Decay.* You enchant your weapon with the magical damage of necrotic.\n*Gloom.* You enchant your weapon with the magical damage of psychic.\n*Light.* You enchant your weapon with the magical damage of radiant.\n*Mystic.* You enchant your weapon with the magical damage of force.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Spellcasting__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n2nd-level spellsword feature\n\nYour arcane research grants you the ability to cast spells. See chapter 10 of the Basic Rules for the general rules of spellcasting and chapter 11 for the spellsword spell list.\n\n**Cantrips (0-Level Spells)**\nYou know two cantrips of your choice from the spellsword spell list. You learn additional spellsword cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Spellsword table.\n\n**Magicka**\nThe Spellsword table shows how much magicka you have to cast your spellsword spells of 1st level and higher. To cast one of these spells, you must expend magicka, as noted in the spell's description and the Magicka Cost table found in chapter 10 of the Basic Rules. You regain all expended magicka when you finish a long rest. For example, if you know the 1st-level spell witch bolt and have a spell level of 2nd, you can use magicka to cast witch bolt at either level.\n\n**Spells Known of 1st Level and Higher**\nYou know three 1st-level spells of your choice from the spellsword spell list.\n\nThe Spells Known column of the Spellsword table shows when you learn more spellsword spells of your choice. Each of these spells must be of a level for which you can cast, as shown on the table's Spell Level column for your spellsword level. For instance, when you reach 6th level in this class, you can learn one new spell of 1st or 2nd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the spellsword spells you know and replace it with another spell from the spellsword spell list, which also must be of a level that you can cast.\n\nWhenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the spellsword spell list. The new spell must be the same level as the spell you replace.\n\n**Spellcasting Attribute**\nIntelligence is your spellcasting attribute for your spellsword spells, so you use your Intelligence whenever a spell refers to your spellcasting attribute. In addition, you use your Intelligence modifier when setting the saving throw DC for a spellsword spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Mystic Path__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n3rd-level spellsword feature\n\nChoose a mystic path. Your path grants you features at 3rd level, and then again at 6th, 14th, and 20th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Extra Attack__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n5th-level spellsword feature\n\nYou can attack twice, instead of once, whenever you take the Attack action on your turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Spell Weaving__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n7th-level spellsword feature\n\nWhen you use your action to cast a cantrip, you can make one weapon attack as a bonus action.\n\n__**Improved Spell Weaving**__\n\n18th-level spellsword feature\n\nWhen you use your action to cast a spell, you can make one weapon attack as a bonus action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Reliable Knowledge__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n10th-level spellsword feature\n\nYou gain a specific talent for understanding the world around you. Whenever you make an Intelligence attribute check, you can treat a d20 roll of a 9 or lower as a 10.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Eldritch Strike__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n11th-level spellsword feature\n\nYou learn how to make your weapon strikes undercut a creature's ability to resist your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Spellsword: Arcane Might__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Spellsword\n\n15th-level spellsword feature\n\nYou can draw upon the arcane to heighten your physical capabilities. When you make a Strength, Agility, or Endurance attribute check, you can add your Intelligence modifier to the roll.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/0/0f/Spellsword-banner.png"
+    },
+    {
+        "name": "**__Thief: Exceptional Speed__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n1st-level thief feature\n\nYour agile nature increases your speed by 5. This amount increases as you level. Refer to the Exceptional Speed column of the Thief table.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Legerdemain__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n1st-level thief feature\n\nYou gain advantage when making Agility (Sleight of Hand) skill checks..",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Sneak Attack__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n1st-level thief feature\n\nYou know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on an attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of the extra damage increases as you gain levels, as shown on the Sneak Attack column of the Thief table.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Cunning Action__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n2nd-level thief feature\n\nYour quick thinking and dexterity allow you to move quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.\n\nYou are also able to use the bonus action to make an Agility (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Archetype__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n3rd-level thief feature\n\nChoose one archetype. Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Uncanny Dodge__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n5th-level thief feature\n\nWhen an attacker you see hits you with an attack, you can use your reaction to halve the damage against you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Treasure Hunter__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n6th-level thief feature\n\nYou have a keen eye for hidden treasures, noticing subtle clues, such as worn surfaces or conspicuous items, that others might miss. Whether it's a cache of relics in an ancient ruin or the prized possession of a humble merchant, you're familiar with where and how things might be hidden. You gain advantage whenever you make a Willpower (Perception) check to search for hidden items or secret doors.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Evasion__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n7th-level thief feature\n\nYour instinctive agility lets you dodge out of the way of certain area effects, such as a fireball spell. When you are subjected to an effect that allows you to make an Agility saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Muffled Movement__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n10th-level thief feature\n\nYou have advantage on an Agility (Stealth) check if you move no more than half your speed on the same turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Distraction__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n11th-level thief feature\n\nYou can use the bonus action granted by your Cunning Action to distract one enemy that is within 30 feet of you that can see and hear you, granting advantage on the next attack made by a creature other than you against that target until the start of the targets next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Cunning Manipulator__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n14th-level thief feature\n\nYou can talk your way out of virtually anything. You gain advantage on Personality (Deception) and Personality (Persuasion) skill checks.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Blindsense__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n15th-level thief feature\n\nIf you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Elusive__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n18th-level thief feature\n\nNo enemy is able to to gain the upper hand on you. No attack roll has advantage on you while you are conscious.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Thief: Thief’s Reflexes__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Thief\n\n20th-level thief feature\n\nYou become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can not use this ability if surprised.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/1/15/Thief-banner.png"
+    },
+    {
+        "name": "**__Warden: Spellcasting__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warden\n\n1st-level warden feature\n\nDrawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See chapter 10 of the Basic Rules for the general rules of spellcasting and chapter 11 for the warden spell list.\n\n**Cantrips (0-Level Spells)**\nYou know two cantrips of your choice from the warden spell list. You learn additional warden cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warden table.\n\n**Magicka**\nThe Warden table shows how much magicka you have to cast your warden spells of 1st level and higher. To cast one of these spells, you must expend magicka, as noted in the spell's description and the Magicka Cost table found in chapter 10 of the Basic Rules. You regain all expended magicka when you finish a long rest. For example, if you know the 1st-level spell goodberry and have a spell level of 2nd, you can use magicka to cast goodberry at either level.\n\n**Preparing and Casting Spells**\nYou prepare the list of warden spells that are available for you to cast, choosing from the warden spell list. When you do so, choose a number of warden spells equal to your Willpower modifier + your warden level (minimum of one spell). The spells must be of a level for which you can cast.\n\nFor example, if you are a 3rd-level warden, you have 17 magicka and can cast 2nd level spells. With a Willpower of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st level spell cure wounds, you can cast it at 1st-level or 2nd-level. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can also change your list of prepared spells when you finish a long rest. Preparing a new list of warden spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list.\n\n**Spellcasting Attribute**\nWillpower is your spellcasting attribute for your warden spells, since your magic draws upon your devotion and attunement to nature. You use your Willpower whenever a spell refers to your spellcasting attribute. In addition, you use your Willpower modifier when setting the saving throw DC for a warden spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Willpower modifier\n\nSpell attack modifier = your proficiency bonus + your Willpower modifier\n\n**Ritual Casting**\nYou can cast a warden spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\n**Spellcasting Focus**\nYou can use an arcane focus (see chapter 5, 'Equipment' of the 5e Core Rules) as a spellcasting focus for your warden spells.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden: Mark of Balance__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warden\n\n2nd-level warden feature\n\nYou gain a supernatural connection with the circle of nature, which requires a balance between life and death. As a bonus action you can mark a creature as either an Ally or an Enemy. A marked creature gains certain benefits. Your mark may gain additional effects determined by your conclave.\n\nYou can use this feature twice. You regain expended uses when you finish a short or long rest.\n\nThe mark lasts for 1 hour, unless you use a bonus action to end it, or if you fall unconscious. As a bonus action, you can move the Mark of Balance to another creature and choose to mark them as an Ally or Enemy.\n\n**Ally.**  Whenever you cast a spell of 1st level or higher on a creature marked as an ally, they gain hit points equal to your Willpower modifier. If the marked creature is a plant this healing is doubled.\n\n**Enemy.**  Whenever you cast a spell of 1st level or higher on a creature marked as an enemy, you deal additional necrotic damage equal to your Willpower modifier. If the marked creature is a plant the additional damage is doubled.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden: Warden Conclave__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warden\n\n2nd-level warden feature\n\nYou choose to identify with a conclave of wardens, each detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden: Timeless Body__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warden\n\n18th-level warden feature\n\nThe primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden: Mark of Harmony__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warden\n\n18th-level warden feature\n\nWhen you use your Mark of Balance feature, you can also choose any number of creatures that you can see within 60 feet of you and mark them as either an Ally or an Enemy. Creatures marked in this way remain marked for 1 minute, or until you are knocked unconscious.\n\nOnce you use this feature, you must finish a long rest before you can do so again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warden: Archwarden__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warden\n\n20th-level warden feature\n\nYou can use your Mark of Balance an unlimited number of times.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/d/dd/Warden-banner.png"
+    },
+    {
+        "name": "**__Warrior: Warrior Style__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warrior\n\n1st-level warrior feature\n\nAs a warrior, you have trained in both offensive and defensive fighting styles, realizing that not all battles are won with the blade alone.\n\nYou learn either one defensive style or one fighting style.\n\n**Defensive Style**\nYou adopt a particular style of defense as your specialty. Choose one of the following options. You can't take a Defensive Style option more than once, even if you later get to choose again.\n\n*Defense.* While you are wearing armor, your AC is increased by +1.\n*Protection.* When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.\n*Stalwart Defense.* When you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this feature, you can't use this again until you finish a long rest.\n*Titan.* While you are wearing armor, you are immune to being frightened, staggered, or stunned. Also, when you suffer from exhaustion, you feel the effects of the previous level of exhaustion. For example, at level 1, you feel no effects, but at level 3, you would suffer from the effects of level 2.\n\n**Fighting Style**\nYou adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.\n\n*Archery.* You gain a +2 bonus to attack rolls you make with ranged weapons.\n*Dueling.* When you are wielding a melee weapon in one hand and no other weapons, you gain + 2 to damage rolls with that weapon.\n*Great Weapon Fighting.* When you roll a 1 or a 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if it is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n*Two-Weapon Fighting.* When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/70/Warrior-banner.png"
+    },
+    {
+        "name": "**__Warrior: Second Wind__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warrior\n\n1st-level warrior feature\n\nYou have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your warrior level. Once you use this feature, you must finish a short or long rest before you can use it again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/70/Warrior-banner.png"
+    },
+    {
+        "name": "**__Warrior: Action Surge__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warrior\n\n2nd-level warrior feature\n\nYou can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.\n\nOnce you use this feature you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/70/Warrior-banner.png"
+    },
+    {
+        "name": "**__Warrior: Warrior Archetype__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warrior\n\n3rd-level warrior feature\n\nYou choose an archetype that you strive to emulate in your combat styles and techniques. The archetype you choose also grants you features at 3rd level, and again at 7th, 10th, 15th, and 18th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/70/Warrior-banner.png"
+    },
+    {
+        "name": "**__Warrior: Extra Attack__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warrior\n\n5th-level warrior feature\n\nYou can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level, and to four when you reach 20th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/70/Warrior-banner.png"
+    },
+    {
+        "name": "**__Warrior: Indomitable__**",
+        "desc": "https://wiki.uestrpg.com/wiki/BR:Warrior\n\n9th-level warrior feature\n\nYou can reroll a saving throw you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.\n\nYou can use this feature twice between long rests starting at 13th level and three times between longs rests beginning at 17th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/7/70/Warrior-banner.png"
+    }
+]

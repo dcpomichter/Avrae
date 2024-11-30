@@ -1,0 +1,305 @@
+[
+    {
+        "gend": "***Error:*** *`<name>` is a required argument that is missing\n\nTry `!esrpg subfeat nightblade <name>` using the name of a subclasses feature to find specific information.*\n\nFor a Full list of options see:\nhttps://wiki.uestrpg.com/wiki/BR:Nightblade#Path_of_Darkness_2"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Betrayer: Path Spells__**",
+        "desc": "*1st-Level Betrayer feature*\n\nThe path of shadow that you follow grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to path spells.\n\nOnce you gain access to a path spell, you always know it, and it doesn't count against the number of spells you know. If you gain access to a spell that doesn't appear on the nightblade spell list, the spell is nonetheless a nightblade spell for you.\n\nBetrayer Spells \n```\nNightblade Level| Path Spells\n------------------------------\n1st             | disguise self, ice knife\n3rd             | detect thoughts, knock\n5th             | clairvoyance, nondetection\n7th             | greater invisibility, vitriolic sphere\n9th             | cloud kill, dominate person\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/89/Betrayer-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Betrayer: Venomous Blades__**",
+        "desc": "*1st-Level Betrayer feature*\n\nStarting at 1st level when you choose this path, you gain the ability to magically make your weapon attacks toxic for a moment. Once per turn, when you hit a creature with a weapon attack, you can deal an extra 1d6 poison damage to one creature you hit with an attack if you have advantage on the attack roll.\n\nYou don't need advantage on an attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe additional damage increases when you reach certain levels in this class, increasing to 2d6 at 5th level, 3d6 at 10th level, and 4d6 at 15th level.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/89/Betrayer-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Betrayer: Venoumous Words__**",
+        "desc": "*6th-Level Betrayer feature*\n\nAt 6th level, you learn to infuse innocent seeming words with an insidious magic. A creature that hears you speak can become plunged into fear and paranoia.\n\nIf you speak to a humanoid alone for at least 10 minutes, you can attempt to seed paranoia and fear into its mind. At the end of the conversation, the target must succeed on a Willpower saving throw against your spell save DC or be frightened for the next hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged. While frightened in this way, the target is paranoid and tries to avoid the company of others, including its allies. The target seeks out what it considers the safest, most secret place available to it and hides there.\n\nIf the target succeeds on its save, the target has no hint that you tried to frighten it.\n\nOnce you use this feature, you can’t use it again until you finish a short rest or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/89/Betrayer-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Betrayer: Mantle of Whispers__**",
+        "desc": "*10th-Level Betrayer feature*\n\nAt 10th level, you gain the ability to adopt a creature’s persona. When you slay a creature with an attack or a spell or a creature dies within 5 feet of you, you can magically capture its shadow using your reaction. You can capture only the shadow of a creature that is your creature type, such as humanoid, and your size (you can capture a Small or Medium shadow if you’re Small), and you can have only one shadow captured at a time.\n\nAfter you capture a creature’s shadow, you can use your magic to weave it into a disguise that allows you to take on its appearance and gain access to its surface memories. As an action, you take on the creature’s appearance for 1 hour or until you end this effect as a bonus action.\n\nDuring that hour, you gain access to all information that the creature would freely share with a casual acquaintance. Information includes general details on its background and personal life, but does not include secrets. The information is enough that you can pass yourself off as the creature by drawing on its memories.\n\nAnother creature can see through this disguise by making a Willpower (Insight) check opposed by your Personality (Deception) check, though you gain a +5 bonus to your check.\n\nThe disguise and the knowledge it grants disappears when this ability’s duration ends.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/89/Betrayer-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Betrayer: Shadow Lore__**",
+        "desc": "*14th-Level Betrayer feature*\n\nAt 14th level, you gain the ability to weave dark magic into your words and tap into a creature’s deepest fears.\n\nAs an action, you magically whisper a phrase that only one creature of your choice within 30 feet of you can hear. The target must make a Willpower saving throw against your spell save DC. It automatically succeeds if it doesn’t share a language with you or if it can’t hear you. On a successful saving throw, your whisper sounds like unintelligible mumbling and has no effect. If the target fails its saving throw, it is charmed by you for the next 8 hours or until you or your allies attack or damage it. It interprets the whispers as a description of its most mortifying secret. While you gain no knowledge of this secret, the target is convinced you know it.\n\nWhile charmed in this way, the creature obeys your commands for fear that you will reveal its secret. It won’t risk its life for you or fight for you, unless it was already inclined to do so. It grants you favors and gifts it would offer to a close friend.\n\nWhen the effect ends, the creature has no understanding of why it held you in such fear. Once you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/8/89/Betrayer-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Deathless: Path Spells__**",
+        "desc": "*1st-Level Deathless feature*\n\nThe path of shadow that you follow grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to path spells.\n\nOnce you gain access to a path spell, you always know it, and it doesn't count against the number of spells you know. If you gain access to a spell that doesn't appear on the nightblade spell list, the spell is nonetheless a nightblade spell for you.\n\nDeathless Spells \n```\nNightblade Level| Path Spells\n------------------------------\n1st             | false life, ray of sickness\n3rd             | blindness/deafness, silence\n5th             | feign-death, speak with dead\n7th             | aura of life, death ward\n9th             | contagion, legend lore\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/ca/Deathless-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Deathless: Among the Dead__**",
+        "desc": "*1st-Level Deathless feature*\n\nStarting at 1st level, you learn the spare the dying cantrip, which counts as a nightblade cantrip for you. You also have advantage on saving throws against disease.\n\nAdditionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Willpower saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/ca/Deathless-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Deathless: Defy Death__**",
+        "desc": "*6th-Level Deathless feature*\n\nStarting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You regain hit points equal to 1d8 + your Endurance modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with spare the dying.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/ca/Deathless-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Deathless: Undying Nature__**",
+        "desc": "*10th-Level Deathless feature*\n\nBeginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests.\n\nIn addition, you age at a slower rate. For every 10 years that pass, you body only ages 1 year, and you are immune to being magically aged.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/ca/Deathless-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Deathless: Indestructible Life__**",
+        "desc": "*14th-Level Deathless feature*\n\nWhen you reach 14th level, you partake of some of the true secrets of the deathless. On your turn, you can use a bonus action to regain hit points equal to 1d8 + your nightblade level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/c/ca/Deathless-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Seeker: Path Spells__**",
+        "desc": "*1st-Level Seeker feature*\n\nThe path of shadow that you follow grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to path spells.\n\nOnce you gain access to a path spell, you always know it, and it doesn't count against the number of spells you know. If you gain access to a spell that doesn't appear on the nightblade spell list, the spell is nonetheless a nightblade spell for you.\n\nSeeker Spells \n```\nNightblade Level| Path Spells\n------------------------------\n1st             | feather fall, jump\n3rd             | levitate, locate object\n5th             | clairvoyance, sending\n7th             | arcane eye, locate creature\n9th             | legend lore, paswall\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/28/Seeker-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Seeker: Shielding Aura__**",
+        "desc": "*1st-Level Seeker feature*\n\nStarting at 1st level, you can invoke shadow magic to protect you from harm. As a bonus action, you create a whirling aura of dark energy that swirls around you. Until the end of your next turn, you gain resistance to all damage, and if a hostile creature ends its turn within 10 feet of you, it takes necrotic damage equal to your nightblade level + your Personality modifier.\n\nOnce you use this feature, you can’t use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/28/Seeker-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Seeker: Shadow Refuge__**",
+        "desc": "*6th-Level Seeker feature*\n\nAt 6th level, you gain the ability to step into a shadow refuge. As an action, you disappear from the world for a brief moment and enter the Shadow Realm, taking advantage of its timeless nature. While in your shadow refuge, you can take two actions to cast spells that target only you. After using those two actions, you return to the space you occupied and your turn ends. Once you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/28/Seeker-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Seeker: Far Wanderer__**",
+        "desc": "*10th-Level Seeker feature*\n\nAt 10th level, you no longer need to breathe, and you gain resistance to fire damage and cold damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/28/Seeker-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Seeker: Umbral Sequestration__**",
+        "desc": "*14th-Level Seeker feature*\n\nStarting at 14th level, you gain the ability to sequester yourself and your allies in the Shadow Realm\n\nBy performing a special ritual over the course of 5 minutes, you shift yourself and up to ten willing creatures you can see to the Shadow Realm. You and those creatures gain the benefits of a short rest while sequestered on the Shadow Realm. You then return to the spaces you all occupied when you used this ability, with no time having passed in the world.\n\nDuring this short rest, you and the creatures you sequester can make use of any options available during a rest that affect only you and the creatures you sequester.\n\nOnce you use this ability, you cannot use it again until you complete a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/2/28/Seeker-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Shadowmage: Path Spells__**",
+        "desc": "*1st-Level Shadowmage feature*\n\nThe path of shadow that you follow grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to path spells.\n\nOnce you gain access to a path spell, you always know it, and it doesn't count against the number of spells you know. If you gain access to a spell that doesn't appear on the nightblade spell list, the spell is nonetheless a nightblade spell for you.\n\nShadowmage Spells \n```\nNightblade Level| Path Spells\n------------------------------\n1st             | burning hands, sleep\n3rd             | calm emotions, phantasmal force\n5th             | blink, stinking cloud\n7th             | dominate beast, greater invisibility\n9th             | dominate person, seeming\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/48/Shadowmage-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Shadowmage: Drain Essence__**",
+        "desc": "*1st-Level Shadowmage feature*\n\nStarting at 1st level, your study of the dark arts allows you to extract vitality from another creature as it nears its demise. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Personality modifier + your nightblade level (minimum of 1 temporary hit point).",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/48/Shadowmage-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Shadowmage: Child of Darkness__**",
+        "desc": "*1st-Level Shadowmage feature*\n\nAlso at 1st level, you find yourself being the most comfortable while surrounded in darkness. While you are in dim light, darkness, or magical darkness, you gain the following benefits:\n- You ignore difficult terrain.\n- You have advantage on initiative rolls.\n- On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/48/Shadowmage-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Shadowmage: Shadowy Escape__**",
+        "desc": "*6th-Level Shadowmage feature*\n\nStarting at 6th level, you can vanish in a puff of smoke in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/48/Shadowmage-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Shadowmage: Cloak of Shadows__**",
+        "desc": "*10th-Level Shadowmage feature*\n\nBy 10th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/48/Shadowmage-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Shadowmage: Delirium__**",
+        "desc": "*14th-Level Shadowmage feature*\n\nStarting at 14th level, you can plunge a creature into an illusory shadow realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Willpower saving throw against your nightblade spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.\n\nUntil this illusion ends, the creature thinks it is lost in a shadow realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.\n\nYou must finish a short or long rest before you can use this feature again.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/48/Shadowmage-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Trickster: Path Spells__**",
+        "desc": "*1st-Level Trickster feature*\n\nThe path of shadow that you follow grants you the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to path spells.\n\nOnce you gain access to a path spell, you always know it, and it doesn't count against the number of spells you know. If you gain access to a spell that doesn't appear on the nightblade spell list, the spell is nonetheless a nightblade spell for you.\n\nTrickster Spells \n```\nNightblade Level| Path Spells\n------------------------------\n1st             | dissonant whispers, hideous laughter\n3rd             | detect thoughts, phantasmal force\n5th             | clairvoyance, sending\n7th             | dominate beast, black tentacles\n9th             | dominate person, telekinesis\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/59/Trickster-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Trickster: Dark Presence__**",
+        "desc": "*1st-Level Trickster feature*\n\nStarting at 1st level, you have the ability to project the beguiling and fearsome presence of the darkness. As an action, you can cause each creature in a 10-foot cube originating from you to make a Willpower saving throw against your nightblade spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.\n\nOnce you use this feature, you can’t use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/59/Trickster-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Trickster: Entropic Ward__**",
+        "desc": "*6th-Level Trickster feature*\n\nAt 6th level, you learn to magically ward yourself against attack and to turn an enemy’s failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.\n\nOnce you use this feature, you can’t use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/59/Trickster-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Trickster: Shadowy Defenses__**",
+        "desc": "*10th-Level Trickster feature*\n\nBeginning at 10th level, your learn how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Willpower saving throw against your nightblade spell save DC or be charmed by you for 1 minute or until the creature takes any damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/59/Trickster-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Trickster: Mind Taking__**",
+        "desc": "*14th-Level Trickster feature*\n\nAt 14th level, you gain the ability to make a creature unaware of your magical influence on it. When you cast a spell or use an ability to charm one or more creatures, you can alter one creature's understanding so that it remains unaware that it is being charmed.\n\nAdditionally, once before the spell or effect expires, you can use your action to try to modify the chosen creature's memory of some of the time it spent while charmed. The creature must succeed on an Intelligence saving throw against your nightblade spell save DC. On a failed save, you can modify a number of hours of its memories equal to 1 + your Personality modifier (minimum 1). You can choose to modify less time if desired, and the amount of time can't exceed the duration of your illusion spell.\n\nA modified memory doesn’t necessarily affect how a creature behaves, particularly if the memory contradicts the creature’s natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature in a significant manner.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/5/59/Trickster-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Night Mother’s Shadow: Path Spells__**",
+        "desc": "*1st-level Night Mother’s Shadow feature*\n\nYou gain path spells at the nightblade levels listed in the Night Mother’s Shadow Path Spells table. See the Path Spells class feature for how path spells work.\n\nNight Mother’s Shadow Path Spells \n```\nNightblade Level| Spells\n------------------------------\n1st             | bane, disguise self\n3rd             | darkness, silence\n5th             | bestow curse, spirit guardians\n7th             | freedom of movement, greater invisibility\n9th             | dominate person, hold monster\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/43/Night-mothers-shadow-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Night Mother’s Shadow: A Kiss, Sweet Mother__**",
+        "desc": "*1st-level Night Mother’s Shadow feature*\n\nYour life has become the will of the Brotherhood. From the moment you joined the Dark Brotherhood, you gained a supernatural ability to sense life forces around you.\n\nAs an action, you can cast detect life on yourself without expending any magicka points.\n\nYou can use this feature a number of times equal to your proficiency bonus and you regain all expended uses once you have finished a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/43/Night-mothers-shadow-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Night Mother’s Shadow: Assassin's Blade__**",
+        "desc": "*1st-level Night Mother’s Shadow feature*\n\nYou have received a boon to deliver swift death to your prey. You are granted the use of a magical short sword or dagger (your choice) known as the assassin’s blade. You are bonded to this weapon and it counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\nYou can summon your assassin’s blade as a bonus action, which appears in your free hand. As a bonus action, you can dismiss the weapon, shunting it into an extradimensional space. Your assassin’s blade disappears if it is more than 5 feet away from you for 1 minute, if you dismiss the weapon (no action required), if you use a bonus action to summon it again, or if you fall unconscious.\n\nWhen you attack and hit a creature that is surprised with the assassin’s blade, the target takes an extra 2d6 damage from the attack. As your nightblade level increases, so does your assassin’s blade’s power. At certain levels your assassin’s blade gains new properties that increases its attack and damage rolls. At 6th level, you have a +1 bonus to attack and damage rolls made with this weapon. This increases by +1 at 10th level (to +2), and again at 14th level (+3).",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/43/Night-mothers-shadow-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Night Mother’s Shadow: Surprise Attack__**",
+        "desc": "*6th-level Night Mother’s Shadow feature*\n\nWhen you use your Shadow Step feature, and hit a target before the start of your next turn, the target is silenced and it is incapable of uttering a sound until the start of your next turn. While silenced, casting a spell including a verbal component is impossible.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/43/Night-mothers-shadow-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Night Mother’s Shadow: Spectral Assassin__**",
+        "desc": "*10th-level Night Mother’s Shadow feature*\n\nWhen you reduce a creature to 0 hit points, you become shrouded with darkness as a gift from Sithis. Until the end of your next turn, you are invisible, and you can move up to half your movement speed as part of this action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/43/Night-mothers-shadow-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Night Mother’s Shadow: Voidcaster__**",
+        "desc": "*14th-level Night Mother’s Shadow feature*\n\nYou are recognized for your mastery over ending another’s life, allowing you to siphon a portion of their life force. You gain a special black soul gem that only you can possess. If the soul gem is ever further than 100 feet from your person, it magically transports back into your ownership, in a packet, bag, pouch, or next to you after finishing a rest.\n\nAs a reaction to a humanoid dying within 30 feet of you, you can claim its soul in the name of Sithis, trapping its essence in the soul gem. The soul gem can only contain the essence of one creature at a time and you can use a bonus action to expend the essence to gain one of the following effects:\n- You can expend the essence to gain 2d10 temporary hit points.\n- You can infuse your next weapon attack and deal an additional 3d8 damage the next time you hit a creature within the next minute.\n- You can regain a number of expended magicka points equal to your proficiency bonus.\n\nOnce you use a black soul gem in this manner, you can’t do so again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/43/Night-mothers-shadow-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade: Path Spells__**",
+        "desc": "*1st-level Phantomblade feature*\n\nYou gain path spells at the nightblade levels listed in the Phantomblade Path Spells table. See the Path Spells class feature for how path spells work.\n\nPhantomblade Path Spells\n```\nNightblade Level| Spells\n------------------------------\n1st             | unseen servant, death scythe\n3rd             | enthrall, grim focus\n5th             | fear, spirit guardians\n7th             | death ward, phantasmal killer\n9th             | detonating siphon, reincarnate\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade: Spiritual Offerings__**",
+        "desc": "*1st-level Phantomblade feature*\n\nYou are given special abilities by the spirit that granted you power. You gain 2 spiritual offerings of your choice. Your spiritual offerings options are detailed at the end of this subclass description. You learn additional spiritual offerings when you gain certain nightblade levels. You gain one additional spiritual offering of your choice at 6th level, at 10th, and again at 14th level.\n\nAs an action, if the Spiritual Offering has no duration listed, you can touch any willing creature to grant them the power for 8 hours. When you do this, you do not benefit from the ability. You can revoke the ability at any time to regain the power.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade: Spirit Wound__**",
+        "desc": "*6th-level Phantomblade feature*\n\nAs a bonus action, your weapon attacks deal necrotic damage until the start of your next turn, instead of the damage type they would normally deal. Alternatively, you can use a reaction when you see an ally make a weapon attack to turn the damage they deal from the attack into necrotic damage.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade: Aid From Beyond__**",
+        "desc": "*10th-level Phantomblade feature*\n\nAs an action, you can summon a spirit from beyond the veil. The spirit appears in an unoccupied space of your choice that you can see within 30 feet of you. The spirit is friendly to you and your companions and obeys your commands. See this creature’s game statistics in the Phantasmal Spirit stat block, which uses your proficiency bonus (PB) in several places. The spirit takes a vaguely humanoid form, which is determined by the GM.\n\nIn combat, it shares your initiative count, but it takes its turn immediately after yours. It obeys any verbal commands that you issue to it (no action required). Its actions are listed on its stat block, or it can take some other action. If you don't issue any commands to the spirit, it takes the Dodge action and uses its move to avoid danger. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.\n\n## Phantasmal Spirit\n```\nMedium Undead\nArmor Class: 16 (natural armor)\nHit Points: (5 + five times your nightblade level)\nSpeed: 40 ft.\n\nSTR |AGI |END |INT |WIL |PER\n18  |14  |16  |10  |10  | 8\n(+4)|(+2)|(+3)|(+0)|(+0)|(-1)\n\nDamage Immunities   | poison\nCondition Immunities| charmed, exhaustion, frightened, poisoned\nSenses              | darkvision 60 ft., passive Perception 10\nLanguages           | understands the languages you speak\nChallenge           | -\nProficiency Bonus   | equals your bonus\n\nImmutable Form. The spirit is immune to any spell or effect that would alter its form.\n\n==Actions==\nForce-empowered Slam. Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + PB force damage.\n```",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade: Spectral Movement__**",
+        "desc": "*14th-level Phantomblade feature*\n\nYou have the ability to phase through walls or objects up to 2 feet thick. You can’t move through creatures using this ability. In addition, difficult terrain no longer affects you and you can use a bonus action to gain a flying speed equal to half your movement speed until the end of your turn. When your turn ends, you fall if still aloft, unless you can stop the fall. If you end your turn in an object or creature, you are shunted to the nearest unoccupied space, taking 1d6 force damage for every 5 feet you are moved.\n\nAt 18th level, you can move through walls or objects that are up to 5 feet thick.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Assassin's Will__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs a bonus action, you summon a phantom weapon in your free hand, which takes the form of your choice. While you wield this weapon, you are considered proficient with it. If you summon a ranged weapon it also creates a bundle of ammunition alongside it. All ammunition disappears once the weapon vanishes.\n\nYou use your spell attack bonus to make attacks with this weapon and it deals necrotic damage equal 1d8 + your Personality modifier. The weapon’s damage increases by 1d8 when you reach 10th level (2d8), 15th level (3d8), and 18th level (4d8).\n\nThe weapon lasts for 1 minute. Once you use this feature, you can’t use it again until you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Corruption Barrier__**",
+        "desc": "As a reaction to being hit by an attack that deals necrotic damage, you become resistant to necrotic damage until the start of your next turn.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Ethereal Sight__**",
+        "desc": "*Prerequisite: 10th level*\n\nYour passive Perception increases by +5. You are able to see invisible creatures within 30 feet of you and you can not be surprised while conscious.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Ghost Armor__**",
+        "desc": "*Prerequisite: 6th level*\n\nWhen obscured by dim light or darkness, the shadows cling to your form, providing a +2 bonus to your AC.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Malefic Offering__**",
+        "desc": "Whenever you deal necrotic or psychic damage with a spell or weapon attack, the damage ignores enemy resistances. Targets that are normally immune to necrotic or psychic damage are instead considered resistant this damage.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Phantasmal Restoration__**",
+        "desc": "*Prerequisite: 6th level*\n\nAs an action, you restore either 4d6 hit points or 2d4 magicka points, or you can gain half as much to each. Once you use this feature, you can not use it again until finishing a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Phantom Senses__**",
+        "desc": "You gain proficiency in the Perception, Investigation, or Insight skill (your choice). If you are already proficient in the chosen skill, your proficiency bonus is doubled for any attribute check you make with it.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Possession__**",
+        "desc": "*Prerequisite: 6th level*\n\nYou can cast Charm Person without expending magicka. You can do this a number of times equal to your Personality modifier (minimum of 1), and you regain all expended uses of it when you finish a long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Silent Whispers__**",
+        "desc": "When you cast a spell, you can cast it without somatic or verbal components. If the spell would normally make a sound, it is now silent. Once you use this feature, you can’t use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Spectral Shield__**",
+        "desc": "*Prerequisite: 10th level*\n\nWhen a weapon attack hits you, you can use your reaction to reduce the damage by 1d10 + your Personality modifier. If you reduce the damage to 0, the attack phases through your body as if you were ethereal.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Spiritual Guidance__**",
+        "desc": "As a bonus action, you and up to three other willing creatures within 30 feet of you gain a +2 bonus to all saving throws for the next minute. Once you use this feature, you can’t use it again until you finish a short or long rest.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Spiritual Healing__**",
+        "desc": "Whenever you cast a spell granted by your Phantom Path Spells, your spirit restores itself. You regain 1 hit point for each level the spell is cast at.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    },
+    {
+        "name": "**__Nightblade__**\n**__Phantomblade Offerings: Void Step__**",
+        "desc": "*Prerequisite: 6th level*\n\nYou no longer set off traps that trigger due to weight, such as pressure plates, unless you wish to. In addition, whenever you use the Disengage action, you can also take the Dash action as part of this action.",
+        "iurl": "",
+        "thum": "https://wiki.uestrpg.com/images/4/45/Phantomblade-banner.png"
+    }
+]
