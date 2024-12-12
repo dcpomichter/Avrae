@@ -28,14 +28,16 @@ classes = merge_dicts(classes, cvar_classes)
 
 hit_dice = {}
 
-for cls in ch.get_cvar('class', None):
-  if cls:
-    cls_info = classes.get(cls, {})
-    size = cls_info.get("hit_die", 0)
-    if size:
-        if not hit_dice.get(size):
-            hit_dice[size] = {'str': ""}
-        hit_dice[size]['str'] += f"+{cls}"
+selfClass=ch.get_cvar('class', None)
+if selfClass:
+    for cls in selfClass:
+        if cls:
+            cls_info = classes.get(cls, {})
+            size = cls_info.get("hit_die", 0)
+            if size:
+                if not hit_dice.get(size):
+                    hit_dice[size] = {'str': ""}
+                hit_dice[size]['str'] += f"+{cls}"
 
 for size, num in hit_dice.items():
   cc_name = f"Hit Dice (d{size})"
@@ -63,6 +65,10 @@ if not parsed.last('i'):
         for item_type, amount in rations_bag[1].items():
             if "Ration" in item_type:
                 rationed_bag, *_=bag.modify_item(myBags, item="Ration",quantity=-total,create_on_fail=False,recursive_search=True)
+                remaining=amount-total
+                item=item_type
+            if "ration" in item_type:
+                rationed_bag, *_=bag.modify_item(myBags, item="ration",quantity=-total,create_on_fail=False,recursive_search=True)
                 remaining=amount-total
                 item=item_type
     bag.save_bags(myBags)

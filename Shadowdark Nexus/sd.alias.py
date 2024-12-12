@@ -59,8 +59,6 @@ if arg:
                         props=f''' {caster.title()} '''
                 stat=check.title()
                 break
-        else:
-            stat=''
 bonus+=misc
 dice=['1d20','2d20kh1','2d20kl1'][adv]
 check=vroll(f'''{dice}+{bonus}''')
