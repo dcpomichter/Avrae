@@ -1,0 +1,487 @@
+{
+    "Barbarian": {
+        "Battleworn": [
+            {
+                "level": 10,
+                "action": {
+                    "_v": 2,
+                    "name": "Reckless Abandon",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "temphp",
+                                    "amount": "{{max(caster.stats.get_mod('con'),1)}}"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "when you use Reckless Attack while raging, you also gain temporary hit points equal to your Endurance modifier (minimum of 1). They vanish if any of them are left when your rage ends."
+                        }
+                    ],
+                    "verb": "uses",
+                    "proper": true,
+                    "activation_type": 8
+                }
+            }
+        ],
+        "Reaver": [
+            {
+                "level": 10,
+                "action": {
+                    "_v": 2,
+                    "name": "Dread Warrior",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Dread Warrior",
+                                    "duration": "10",
+                                    "conc": true,
+                                    "desc": "This effect lasts up to 1 minute, and requires concentration to maintain.",
+                                    "save_as": "dread",
+                                    "target_self": true
+                                },
+                                {
+                                    "type": "condition",
+                                    "condition": "choice and choice.lower() in \"mental\"",
+                                    "onTrue": [
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "Dreading {{caster.name}}",
+                                            "effects": {
+                                                "check_dis": [
+                                                    "wisdom",
+                                                    "charisma"
+                                                ]
+                                            },
+                                            "parent": "dread"
+                                        }
+                                    ],
+                                    "onFalse": [
+                                        {
+                                            "type": "condition",
+                                            "condition": "choice and choice.lower() in \"physical\"",
+                                            "onTrue": [
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Dreading {{caster.name}}",
+                                                    "effects": {
+                                                        "check_dis": [
+                                                            "strength",
+                                                            "dexterity"
+                                                        ]
+                                                    },
+                                                    "parent": "dread"
+                                                }
+                                            ],
+                                            "onFalse": [
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Bolstered by {{caster.name}}",
+                                                    "effects": {
+                                                        "check_adv": [
+                                                            "intimidation"
+                                                        ]
+                                                    },
+                                                    "parent": "dread",
+                                                    "target_self": true
+                                                },
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Bolstered by {{caster.name}}",
+                                                    "effects": {
+                                                        "check_adv": [
+                                                            "intimidation"
+                                                        ]
+                                                    },
+                                                    "parent": "dread"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "if this is not the effect you are looking for try using `-choice` next time.\n`mental` will inflict the Disadvantage on Willpower and Personality\n`physical` will inflict the Disadvantage on Strength and Agility",
+                                                    "title": "Next Time..."
+                                                }
+                                            ],
+                                            "errorBehaviour": "false"
+                                        }
+                                    ],
+                                    "errorBehaviour": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "You can use a bonus action to make yourself appear exceptionally fearful. Every creature within 10 feet of you suffers from one of the following effects of your choice:\n\n- Disadvantage on Strength and Agility checks\n- Disadvantage on Willpower and Personality checks\n- All intimidation checks by you and your allies have advantage.\n\nThis effect lasts up to 1 minute, and requires concentration to maintain. Once you use this feature, you cannot use it again until you finish a short or long rest."
+                        }
+                    ],
+                    "verb": "is",
+                    "proper": false,
+                    "activation_type": 3
+                }
+            }
+        ],
+        "Savage": [
+            {
+                "level": 10,
+                "action": {
+                    "_v": 2,
+                    "name": "Uppercut",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "save",
+                                    "stat": "str",
+                                    "fail": [
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "Prone",
+                                            "effects": {
+                                                "attack_advantage": "-1"
+                                            },
+                                            "buttons": [
+                                                {
+                                                    "automation": [
+                                                        {
+                                                            "type": "remove_ieffect"
+                                                        }
+                                                    ],
+                                                    "label": "Stand Up",
+                                                    "verb": "stands up"
+                                                }
+                                            ],
+                                            "desc": "A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition"
+                                        }
+                                    ],
+                                    "success": [
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "Dazed",
+                                            "duration": "1",
+                                            "effects": {
+                                                "attack_advantage": "-1"
+                                            },
+                                            "tick_on_caster": true
+                                        }
+                                    ],
+                                    "dc": "8+proficiencyBonus+strengthMod"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "If the attack hits a creature, you deal damage as normal and it must make a Strength saving throw with a DC of 8 + your proficiency bonus + your Strength modifier. On a failed save, the target is knocked back 10 feet and left prone. On a successful save, the creature has disadvantage on attacks until the start of your next turn. This ability can only affect large or smaller creatures."
+                        }
+                    ],
+                    "verb": "strikes with an",
+                    "proper": true,
+                    "activation_type": 8
+                }
+            }
+        ],
+        "Wilds": [
+            {
+                "level": 3,
+                "action": {
+                    "_v": 2,
+                    "name": "Cloak of the Wild",
+                    "automation": [
+                        {
+                            "type": "condition",
+                            "condition": "choice and choice in \"action\"",
+                            "onTrue": [
+                                {
+                                    "type": "counter",
+                                    "counter": "Cloak of the Wild",
+                                    "amount": "1"
+                                },
+                                {
+                                    "type": "variable",
+                                    "name": "time",
+                                    "value": "100",
+                                    "onError": "100"
+                                }
+                            ],
+                            "onFalse": [
+                                {
+                                    "type": "variable",
+                                    "name": "time",
+                                    "value": "10",
+                                    "onError": "10"
+                                }
+                            ],
+                            "errorBehaviour": "false"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Camoflauged",
+                                    "buttons": [
+                                        {
+                                            "label": "Remove Cloak",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ],
+                                            "verb": "loses their cloak",
+                                            "style": "1"
+                                        }
+                                    ],
+                                    "duration": "time",
+                                    "desc": "You gain the camouflaged condition. \n- While camouflaged, you can use a bonus action to take the Hide action on each of your turns, and your rage does not end early as long as you are hiding from a creature that you can see or hear."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "When you enter your rage, your physical form changes, manifesting a cloak of the wild, adjusting to fit into your surroundings. Until the rage ends, you gain the camouflaged condition. While camouflaged, you can use a bonus action to take the Hide action on each of your turns, and your rage does not end early as long as you are hiding from a creature that you can see or hear.\n\nAdditionally, you can use an action to gain the camouflaged condition while not raging. This effect lasts for 10 minutes or until you use an action to make an attack. Once you use this feature in this way, you can’t use it again until you finish a short rest."
+                        }
+                    ],
+                    "verb": "manifests",
+                    "proper": false,
+                    "activation_type": 8
+                }
+            },
+            {
+                "level": 10,
+                "action": {
+                    "name": "Camoflauged Hunter",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Marking {{target.name}}",
+                                    "buttons": [
+                                        {
+                                            "label": "Hurt Mark",
+                                            "automation": [
+                                                {
+                                                    "type": "target",
+                                                    "target": "children",
+                                                    "effects": [
+                                                        {
+                                                            "type": "damage",
+                                                            "damage": "1d6 [weapon]"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "verb": "deals damage to their mark",
+                                            "style": "1"
+                                        },
+                                        {
+                                            "label": "End Mark",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect",
+                                                    "removeParent": "always"
+                                                }
+                                            ],
+                                            "verb": "removes their Mark",
+                                            "style": "4"
+                                        }
+                                    ],
+                                    "save_as": "mark",
+                                    "target_self": true,
+                                    "desc": "Once on each of your turns, you deal an extra 1d6 damage when you hit the marked target with a weapon attack.\n"
+                                },
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Marked by {{caster.name}}",
+                                    "parent": "mark"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "While camouflaged, you can use a bonus action to mark a creature as your prey, which lasts as long as you are camouflaged. Once on each of your turns, you deal an extra 1d6 damage when you hit the marked target with a weapon attack.\n"
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "is",
+                    "activation_type": 3
+                }
+            }
+        ],
+        "None": [
+            {
+                "level": 1,
+                "action": {
+                    "_v": 2,
+                    "name": "Rage",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "variable",
+                                    "name": "bonus",
+                                    "value": "4 if caster.levels.get(\"Barbarian\")>=16 else 3 if caster.levels.get(\"Barbarian\")>=9 else 2",
+                                    "onError": "2"
+                                },
+                                {
+                                    "type": "condition",
+                                    "condition": "choice and choice.lower() in \"damage\"",
+                                    "onTrue": [
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "Rage",
+                                            "duration": "10",
+                                            "effects": {
+                                                "damage_bonus": "{{bonus}}",
+                                                "resistances": [
+                                                    "bludgeoning",
+                                                    "piercing",
+                                                    "slashing"
+                                                ],
+                                                "save_adv": [
+                                                    "str"
+                                                ],
+                                                "check_adv": [
+                                                    "strength"
+                                                ]
+                                            },
+                                            "buttons": [
+                                                {
+                                                    "automation": [
+                                                        {
+                                                            "type": "remove_ieffect"
+                                                        }
+                                                    ],
+                                                    "label": "End Rage",
+                                                    "verb": "ends their Rage",
+                                                    "style": "4"
+                                                }
+                                            ],
+                                            "desc": "You have advantage on Strength checks and Strength saving throws.\n- When you make a melee weapon attack using Strength, you gain a +{{bonus}} bonus to the damage roll\n- You have resistance to bludgeoning, piercing, and slashing damage."
+                                        }
+                                    ],
+                                    "onFalse": [
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "Rage",
+                                            "duration": "10",
+                                            "effects": {
+                                                "resistances": [
+                                                    "bludgeoning",
+                                                    "piercing",
+                                                    "slashing"
+                                                ],
+                                                "save_adv": [
+                                                    "str"
+                                                ],
+                                                "check_adv": [
+                                                    "strength"
+                                                ]
+                                            },
+                                            "buttons": [
+                                                {
+                                                    "automation": [
+                                                        {
+                                                            "type": "remove_ieffect"
+                                                        }
+                                                    ],
+                                                    "label": "End Rage",
+                                                    "verb": "ends their Rage",
+                                                    "style": "1"
+                                                }
+                                            ],
+                                            "desc": "You have advantage on Strength checks and Strength saving throws.\n- When you make a melee weapon attack using Strength, you gain a +{{bonus}} bonus to the damage roll, use `-d {{bonus}}` to add this bonus to an attack\n- You have resistance to bludgeoning, piercing, and slashing damage."
+                                        }
+                                    ],
+                                    "errorBehaviour": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "counter",
+                            "counter": "Rage",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "text",
+                            "text": "In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. \n\nWhile raging, you gain the following benefits if you aren’t wearing heavy armor:\n\n- You have advantage on Strength checks and Strength saving throws.\n- When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n\nIf you are able to cast spells, you can’t cast them or concentrate on them while raging. Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action."
+                        }
+                    ],
+                    "verb": "uses",
+                    "proper": true,
+                    "activation_type": 3
+                }
+            },
+            {
+                "level": 10,
+                "action": {
+                    "_v": 2,
+                    "name": "Relentless Rage",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Relentless Rage",
+                            "amount": "0",
+                            "allowOverflow": false,
+                            "errorBehaviour": "warn"
+                        },
+                        {
+                            "type": "variable",
+                            "name": "dc",
+                            "value": "10+lastCounterRemaining",
+                            "onError": "10"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "save",
+                                    "stat": "con",
+                                    "fail": [],
+                                    "success": [
+                                        {
+                                            "type": "damage",
+                                            "damage": "-1 [replaced]",
+                                            "overheal": false
+                                        }
+                                    ],
+                                    "dc": "dc"
+                                },
+                                {
+                                    "type": "counter",
+                                    "counter": "Relentless Rage",
+                                    "amount": "-5",
+                                    "allowOverflow": false,
+                                    "errorBehaviour": "warn"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Endurance saving throw. If you succeed, you drop to 1 hit point instead.\n\nEach time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "verb": "uses",
+                    "proper": true,
+                    "activation_type": 8
+                }
+            }
+        ]
+    }
+}

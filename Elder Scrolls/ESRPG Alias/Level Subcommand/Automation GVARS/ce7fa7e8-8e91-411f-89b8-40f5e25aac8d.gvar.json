@@ -1,0 +1,2036 @@
+{
+    "Crusader": {
+        "Knight": [
+            {
+                "level": 3,
+                "action": {
+                    "name": "Knight’s Confidence",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Confident",
+                                    "duration": "100",
+                                    "effects": {
+                                        "check_adv": [
+                                            "intimidation",
+                                            "persuasion"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you can use your Channel Divinity to exude a noble and trustworthy presence. For the next 10 minutes, you have advantage on Personality (Intimidation) and Personality (Persuasion) checks."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "speaks with",
+                    "activation_type": 1
+                }
+            },
+            {
+                "level": 7,
+                "action": {
+                    "name": "Aura of the Aegis",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "range",
+                            "value": "10 if CrusaderLevel<=17 else 30",
+                            "onError": "10"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Aura of the Aegis",
+                                    "desc": "As a reaction, an ally within {{range}} feet of you uses your AC instead of their own, unless their AC is greater.",
+                                    "save_as": "aura",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Spread Aura of the Aegis",
+                                                "automation": [
+                                                    {
+                                                        "type": "variable",
+                                                        "name": "range",
+                                                        "value": "10 if CrusaderLevel<=17 else 30",
+                                                        "onError": "10"
+                                                    },
+                                                    {
+                                                        "type": "target",
+                                                        "target": "each",
+                                                        "effects": [
+                                                            {
+                                                                "type": "ieffect2",
+                                                                "name": "In the Aura",
+                                                                "desc": "Lasts while within {{range}} feet of {{caster.name}}",
+                                                                "parent": "ieffect",
+                                                                "buttons": [
+                                                                    {
+                                                                        "label": "Leave Aura",
+                                                                        "verb": "leaves the range of the Aura",
+                                                                        "style": "4",
+                                                                        "automation": [
+                                                                            {
+                                                                                "type": "remove_ieffect"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "begins to",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "each",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "In the Aura",
+                                    "desc": "Lasts while within {{range}} feet of {{caster.name}}",
+                                    "parent": "aura",
+                                    "buttons": [
+                                        {
+                                            "label": "Leave Aura",
+                                            "verb": "leaves the range of the Aura",
+                                            "style": "4",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "When a creature within 10 feet of you is targeted by an attack, you can use your reaction to impose a spectral projection of yourself between the target and their attacker. The creature uses your AC instead of their own, unless their AC is greater.\n\nAt 18th level, the range of this aura increases to 30 feet."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "has an",
+                    "activation_type": 2
+                }
+            },
+            {
+                "level": 20,
+                "action": {
+                    "name": "Exemplar’s Ward",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Exemplar’s Ward",
+                            "amount": "1",
+                            "errorBehaviour": "ignore"
+                        },
+                        {
+                            "type": "condition",
+                            "condition": "lastCounterUsedAmount==1",
+                            "onTrue": [],
+                            "onFalse": [
+                                {
+                                    "type": "counter",
+                                    "counter": "Magicka",
+                                    "amount": "7",
+                                    "errorBehaviour": "raise"
+                                }
+                            ],
+                            "errorBehaviour": "true"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Exemplar",
+                                    "duration": "10",
+                                    "desc": "When you or a creature of your choice within 30 feet takes damage, the total damage dealt is reduced by an amount equal to your Personality modifier.\n- If you or a creature within 30 feet of you fails a saving throw, it can use its reaction to reroll it. It must use this new roll.",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Ward Creature",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "damage",
+                                                                "damage": "-{{charismaMod}} [reduced]"
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "tries to",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As a bonus action you gain the following benefits for 1 minute:\n\n- When you or a creature of your choice within 30 feet takes damage, the total damage dealt is reduced by an amount equal to your Personality modifier.\n- If you or a creature within 30 feet of you fails a saving throw, it can use its reaction to reroll it. It must use this new roll.\n\nOnce you use this feature, you can't use it again until you finish a long rest, unless you expend magicka as though you had cast a 5th-level spell to use it again."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false
+                }
+            }
+        ],
+        "Templar": [
+            {
+                "level": 3,
+                "action": {
+                    "name": "Radiant Destruction",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "roll",
+                            "dice": "2d10+{{CrusaderLevel}} [radiant]",
+                            "name": "damage"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "save",
+                                    "stat": "dex",
+                                    "fail": [
+                                        {
+                                            "type": "condition",
+                                            "condition": "target.hp<(target.max_hp//2)",
+                                            "onTrue": [
+                                                {
+                                                    "type": "damage",
+                                                    "damage": "{damage}+1d10 [radiant]"
+                                                }
+                                            ],
+                                            "onFalse": [
+                                                {
+                                                    "type": "damage",
+                                                    "damage": "{damage}"
+                                                }
+                                            ],
+                                            "errorBehaviour": "false"
+                                        }
+                                    ],
+                                    "success": [
+                                        {
+                                            "type": "condition",
+                                            "condition": "target.hp<(target.max_hp//2)",
+                                            "onTrue": [
+                                                {
+                                                    "type": "damage",
+                                                    "damage": "({damage}+1d10 [radiant])/2"
+                                                }
+                                            ],
+                                            "onFalse": [
+                                                {
+                                                    "type": "damage",
+                                                    "damage": "({damage})/2"
+                                                }
+                                            ],
+                                            "errorBehaviour": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you conjure a ray of light in a 30-foot line that is 5 feet wide. Each creature in that line must make an Agility saving throw. A creature takes radiant damage equal to 2d10 + your crusader level on a failed saving throw, and half as much damage on a successful one. A creature that is below half its maximum hit points takes an additional 1d10 damage."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "activation_type": 1
+                }
+            },
+            {
+                "level": 3,
+                "action": {
+                    "name": "Illuminating Spirit",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "counter",
+                                    "counter": "Magicka",
+                                    "amount": "-(CrusaderLevel//2)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you use your Channel Divinity to cause light to shine down on you, restoring a number of magicka points equal to half your Crusader level, rounded down."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "has an",
+                    "activation_type": 1
+                }
+            },
+            {
+                "level": 15,
+                "action": {
+                    "name": "Burning Light",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "damage",
+                            "value": "charismaMod",
+                            "onError": "0"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "condition",
+                                    "condition": "target.creature_type and ('undead' in target.creature_type.lower() or 'fiend' in target.creature_type.lower() or 'daedra' in target.creature_type.lower())",
+                                    "onTrue": [
+                                        {
+                                            "type": "damage",
+                                            "damage": "{{damage}}*2 [{{choice if choice and choice.lower() in (\"fire\" or \"radiant\") else \"fire\"}}]"
+                                        }
+                                    ],
+                                    "onFalse": [
+                                        {
+                                            "type": "damage",
+                                            "damage": "{{damage}} [{{choice if choice and choice.lower() in (\"fire\" or \"radiant\") else \"fire\"}}]"
+                                        }
+                                    ],
+                                    "errorBehaviour": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "You gain mastery with the effects of sunlight. Whenever you cast a spell that deals fire or radiant damage, you can add your Personality modifier to the damage. This amount is doubled against undead or fiends."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "activation_type": 8
+                }
+            },
+            {
+                "level": 20,
+                "action": {
+                    "name": "Radiant Ward",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Surrounded by Light",
+                                    "buttons": [
+                                        {
+                                            "label": "Start Turn",
+                                            "automation": [
+                                                {
+                                                    "type": "target",
+                                                    "target": "self",
+                                                    "effects": [
+                                                        {
+                                                            "type": "condition",
+                                                            "condition": "caster.temp_hp<10",
+                                                            "onTrue": [
+                                                                {
+                                                                    "type": "temphp",
+                                                                    "amount": "10"
+                                                                }
+                                                            ],
+                                                            "onFalse": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "You already have greater than 10 Temporary HP"
+                                                                }
+                                                            ],
+                                                            "errorBehaviour": "true"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "verb": "starts their turn in the light",
+                                            "style": "1"
+                                        }
+                                    ],
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Retaliating Light",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "damage",
+                                                                "damage": "charismaMod [radiant]"
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ],
+                                    "desc": "While surrounded by the light, at the start of each of your turns, you gain 10 temporary hit points.\n- Additionally, each time you take damage from a melee weapon attack, you pulse with violent light, and the attacker takes radiant damage equal to your Personality modifier."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "You surround yourself with solar rays. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.\n\nWhile surrounded by the light, at the start of each of your turns, you gain 10 temporary hit points. Additionally, each time you take damage from a melee weapon attack, you pulse with violent light, and the attacker takes radiant damage equal to your Personality modifier."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "activates",
+                    "activation_type": 3
+                }
+            }
+        ],
+        "Witchhunter": [
+            {
+                "level": 3,
+                "action": {
+                    "name": "Hunter’s Ire",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Marking {{target.name",
+                                    "duration": "11",
+                                    "save_as": "mark",
+                                    "target_self": true,
+                                    "desc": "you can add 1d6 to each attack roll made against the creature target. \n- Additionally, you can add 1d6 whenever the target forces you to make a saving throw, or when you make an attribute check related to the target.",
+                                    "buttons": [
+                                        {
+                                            "label": "End Ire",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect",
+                                                    "removeParent": "always"
+                                                }
+                                            ],
+                                            "verb": "ends their Ire",
+                                            "style": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Marked by {{caster.name}}",
+                                    "parent": "mark"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As a bonus action, you can channel your focus against a creature you can see within 30 feet of you, using your Channel Divinity. For the next minute, or until the creature drops to 0 hit points, you can add 1d6 to each attack roll made against the creature target. Additionally, you can add 1d6 whenever the target forces you to make a saving throw, or when you make an attribute check related to the target."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "activation_type": 3
+                }
+            },
+            {
+                "level": 3,
+                "action": {
+                    "name": "Turn Evil",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "condition",
+                                    "condition": "target.creature_type and ('undead' in target.creature_type.lower() or 'fiend' in target.creature_type.lower() or 'daedra' in target.creature_type.lower())",
+                                    "onTrue": [
+                                        {
+                                            "type": "save",
+                                            "stat": "wis",
+                                            "fail": [
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Turned from {{caster.name}}",
+                                                    "duration": "10",
+                                                    "desc": "must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of {{caster.name}}.\n- It also can’t take reactions. \n- For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+                                                    "buttons": [
+                                                        {
+                                                            "label": "Take Damage",
+                                                            "automation": [
+                                                                {
+                                                                    "type": "remove_ieffect"
+                                                                }
+                                                            ],
+                                                            "verb": "takes damage",
+                                                            "style": "4"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "success": []
+                                        }
+                                    ],
+                                    "onFalse": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Willpower saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "activation_type": 1,
+                    "verb": "tries to"
+                }
+            },
+            {
+                "level": 15,
+                "action": {
+                    "name": "Stop the Wicked",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "save",
+                                    "stat": "wis",
+                                    "fail": [
+                                        {
+                                            "type": "text",
+                                            "text": "",
+                                            "title": "The Spell Fails"
+                                        }
+                                    ],
+                                    "success": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "When you see a creature casting a spell, you can use your reaction to move up to half your movement speed toward the spellcaster. If the creature is within range, you can make a melee weapon attack against it as part of this reaction. If the attack hits, the creature must succeed on a Willpower saving throw against your spell save DC, or its spell fails and is wasted."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "attempts to",
+                    "activation_type": 4
+                }
+            },
+            {
+                "level": 20,
+                "action": {
+                    "name": "Paragon of Protection",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Paragon of Protection",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Paragon",
+                                    "duration": "10",
+                                    "desc": "You impose disadvantage to all attacks made against you and any of your allies within 15 feet of you.\n- The first time a fiend or undead creature comes within 15 feet of you or starts its turn there, you can force the creature to make a Willpower saving throw. On a failed save, it becomes frightened for 1 minute or until it takes any damage.\n- Attack rolls made against any creature frightened by you have advantage.",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Aura of Fear",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "condition",
+                                                                "condition": "target.creature_type and ('undead' in target.creature_type.lower() or 'fiend' in target.creature_type.lower() or 'daedra' in target.creature_type.lower())",
+                                                                "onTrue": [
+                                                                    {
+                                                                        "type": "save",
+                                                                        "stat": "wis",
+                                                                        "fail": [
+                                                                            {
+                                                                                "type": "ieffect2",
+                                                                                "name": "Frightened by {{caster.name}}",
+                                                                                "duration": "10",
+                                                                                "buttons": [
+                                                                                    {
+                                                                                        "label": "Take Damage",
+                                                                                        "automation": [
+                                                                                            {
+                                                                                                "type": "remove_ieffect"
+                                                                                            }
+                                                                                        ],
+                                                                                        "verb": "takes damage",
+                                                                                        "style": "4"
+                                                                                    }
+                                                                                ],
+                                                                                "desc": "it becomes frightened for 1 minute or until it takes any damage.\n- Attack rolls made against any creature frightened by {{caster.name}} have advantage."
+                                                                            }
+                                                                        ],
+                                                                        "success": []
+                                                                    }
+                                                                ],
+                                                                "onFalse": [],
+                                                                "errorBehaviour": "false"
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "has an",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Your very being becomes branded with the magical energy of supernatural protection. You can use your action to gain the following benefits for 1 minute:\n\n- You impose disadvantage to all attacks made against you and any of your allies within 15 feet of you.\n- The first time a fiend or undead creature comes within 15 feet of you or starts its turn there, you can force the creature to make a Willpower saving throw. On a failed save, it becomes frightened for 1 minute or until it takes any damage.\n- Attack rolls made against any creature frightened by you have advantage.\n\nOnce you use this feature, you can't use it again until you finish a long rest."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "is",
+                    "activation_type": 1
+                }
+            }
+        ],
+        "Blackguard": [
+            {
+                "level": 3,
+                "action": {
+                    "name": "Conjure Duplicate",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Visually Duplicated",
+                                    "duration": "10",
+                                    "desc": "For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. \n- Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how uncanny the illusion is."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you create a visual illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space of your choice that you can see within 30 feet of you. The illusion looks exactly like you; it is silent; it is your size, is insubstantial, and doesn’t occupy its space; and it is unaffected by attacks and damage. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but the illusion must remain within 120 feet of you.\n\nFor the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how uncanny the illusion is."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "manifests",
+                    "activation_type": 1
+                }
+            },
+            {
+                "level": 3,
+                "action": {
+                    "name": "Poison Strike",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Prepared Poison",
+                                    "duration": "10",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Poison Hit",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "condition",
+                                                                "condition": "choice and choice.lower() in \"advantage\"",
+                                                                "onTrue": [
+                                                                    {
+                                                                        "type": "damage",
+                                                                        "damage": "20+{{CrusaderLevel}} [poison]"
+                                                                    }
+                                                                ],
+                                                                "onFalse": [
+                                                                    {
+                                                                        "type": "damage",
+                                                                        "damage": "2d10+{{CrusaderLevel}} [poison]"
+                                                                    }
+                                                                ],
+                                                                "errorBehaviour": "false"
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "activation_type": 8
+                                            }
+                                        }
+                                    ],
+                                    "desc": "The next time you hit a target with an attack using that weapon or ammunition, the target takes poison damage immediately after the attack. The poison damage equals 2d10 + your crusader level, or 20 + your crusader level if you had advantage on the attack roll."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "You can use your Channel Divinity to make a weapon deadlier. As a bonus action, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison lasts for 1 minute. The next time you hit a target with an attack using that weapon or ammunition, the target takes poison damage immediately after the attack. The poison damage equals 2d10 + your crusader level, or 20 + your crusader level if you had advantage on the attack roll."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "prepares",
+                    "activation_type": 3
+                }
+            },
+            {
+                "level": 15,
+                "action": {
+                    "name": "Blackguard's Escape",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Blackguard's Escape",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Invisible",
+                                    "duration": "1",
+                                    "end": true,
+                                    "effects": {
+                                        "attack_advantage": "1"
+                                    },
+                                    "buttons": [
+                                        {
+                                            "label": "End Invisibility",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ],
+                                            "verb": "ends their invisibility",
+                                            "style": "4"
+                                        }
+                                    ],
+                                    "desc": "You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw.\n\nOnce you use this feature, you must finish a short or long rest before you can use it again."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "makes",
+                    "activation_type": 4
+                }
+            },
+            {
+                "level": 20,
+                "action": {
+                    "name": "Icon of Deceit",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Icon of Deceit",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Icon of Deceit",
+                                    "duration": "10",
+                                    "effects": {
+                                        "attack_advantage": "1"
+                                    },
+                                    "desc": "You are invisible.\n- If a creature damages you on its turn, it must succeed on a Willpower saving throw (DC equal to your spell save DC) or you control its next action, provided that you aren’t incapacitated when it takes the action. A creature automatically succeeds on the save if the creature is immune to being charmed.\n- If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your crusader level.",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Deceitful Retribution",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "save",
+                                                                "stat": "wis",
+                                                                "fail": [
+                                                                    {
+                                                                        "type": "ieffect2",
+                                                                        "name": "Deceived by {{caster.name}}",
+                                                                        "duration": "2",
+                                                                        "end": true,
+                                                                        "desc": "{{caster.name}} controls its next action, provided that they aren’t incapacitated when it takes the action"
+                                                                    }
+                                                                ],
+                                                                "success": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "text",
+                                                        "text": "If a creature damages you on its turn, it must succeed on a Willpower saving throw (DC equal to your spell save DC) or you control its next action, provided that you aren’t incapacitated when it takes the action. A creature automatically succeeds on the save if the creature is immune to being charmed."
+                                                    }
+                                                ],
+                                                "verb": "reacts with",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        },
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Advantageous Strike",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "damage",
+                                                                "damage": "{{CrusaderLevel}} [weapon]"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "text",
+                                                        "text": "If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your crusader level."
+                                                    }
+                                                ],
+                                                "verb": "attacks with an",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you can magically become an avatar of deceit, gaining the following benefits for 1 minute:\n\n- You are invisible.\n- If a creature damages you on its turn, it must succeed on a Willpower saving throw (DC equal to your spell save DC) or you control its next action, provided that you aren’t incapacitated when it takes the action. A creature automatically succeeds on the save if the creature is immune to being charmed.\n- If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your crusader level.\n\nOnce you use this feature, you can’t use it again until you finish a long rest."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "is an",
+                    "activation_type": 1
+                }
+            }
+        ],
+        "Herald": [
+            {
+                "level": 3,
+                "action": {
+                    "name": "Shield the Faithful",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Shielded by Faith",
+                                    "duration": "1",
+                                    "effects": {
+                                        "to_hit_bonus": "1d4",
+                                        "save_bonus": "1d4",
+                                        "check_bonus": "1d4"
+                                    },
+                                    "desc": "Until the start of your next turn, the creature gains a 1d4 to all of their attack rolls, attribute checks, and saving throws.",
+                                    "save_as": "shield"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Shielded by Faith",
+                                    "duration": "1",
+                                    "tick_on_caster": true,
+                                    "desc": "Until the start of {{caster.name}}'s next turn, the creature gains a 1d4 to all of their attack rolls, attribute checks, and saving throws.",
+                                    "parent": "shield"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you present your holy symbol, and each friendly creature within 30 feet of you that can hear you gains renewed power. Until the start of your next turn, the creature gains a 1d4 to all of their attack rolls, attribute checks, and saving throws."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "bestows",
+                    "activation_type": 1
+                }
+            },
+            {
+                "level": 7,
+                "action": {
+                    "name": "Aura of Faith",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "range",
+                            "value": "10 if CrusaderLevel<=17 else 30",
+                            "onError": "10"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Aura of Faith",
+                                    "desc": "Allies within {{range}} feet of you can’t be charmed",
+                                    "save_as": "aura",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Spread Aura of Faith",
+                                                "automation": [
+                                                    {
+                                                        "type": "variable",
+                                                        "name": "range",
+                                                        "value": "10 if CrusaderLevel<=17 else 30",
+                                                        "onError": "10"
+                                                    },
+                                                    {
+                                                        "type": "target",
+                                                        "target": "each",
+                                                        "effects": [
+                                                            {
+                                                                "type": "ieffect2",
+                                                                "name": "In the Aura",
+                                                                "desc": "Lasts while within {{range}} feet of {{caster.name}}",
+                                                                "parent": "ieffect",
+                                                                "buttons": [
+                                                                    {
+                                                                        "label": "Leave Aura",
+                                                                        "verb": "leaves the range of the Aura",
+                                                                        "style": "4",
+                                                                        "automation": [
+                                                                            {
+                                                                                "type": "remove_ieffect"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "effects": {
+                                                                    "immunities": [
+                                                                        "Charmed"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "begins to",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "each",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "In the Aura",
+                                    "desc": "Lasts while within {{range}} feet of {{caster.name}}",
+                                    "parent": "aura",
+                                    "buttons": [
+                                        {
+                                            "label": "Leave Aura",
+                                            "verb": "leaves the range of the Aura",
+                                            "style": "4",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "effects": {
+                                        "immunities": [
+                                            "Charmed"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Friendly creatures within 10 feet of you cannot be charmed while you are conscious.\n\nAt 18th level, the range of this aura increases to 30 feet."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "has an",
+                    "activation_type": 2
+                }
+            },
+            {
+                "level": 15,
+                "action": {
+                    "name": "Divine Ward",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "temphp",
+                                    "amount": "{{max(caster.temp_hp, (2d6+wisdomMod))}}"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Whenever you succeed a saving throw against a magical effect, you gain temporary hit points equal to 2d6 + your Willpower attribute modifier"
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "has",
+                    "activation_type": 2
+                }
+            },
+            {
+                "level": 20,
+                "action": {
+                    "name": "Divine Emissary",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Divine Emissary",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Aura of the Emissary",
+                                    "duration": "10",
+                                    "desc": "You have resistance to all damage.\n- You shed bright light out to 60 feet, and dim light an additional 60 feet.\n- Allies within 30 feet of you gain 2d10 temporary hit points at the start of your turns.\n- As a bonus action on each of your turns, a creature, other than yourself, within 30 feet of you gains a d8. The target can use this d8 to add to any roll of their choosing before the start of your next turn.",
+                                    "save_as": "aura",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Spread Aura",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "each",
+                                                        "effects": [
+                                                            {
+                                                                "type": "ieffect2",
+                                                                "name": "In the Aura",
+                                                                "desc": "Lasts while within 30 feet of {{caster.name}}",
+                                                                "parent": "ieffect",
+                                                                "buttons": [
+                                                                    {
+                                                                        "label": "Leave Aura",
+                                                                        "verb": "leaves the range of the Aura",
+                                                                        "style": "4",
+                                                                        "automation": [
+                                                                            {
+                                                                                "type": "remove_ieffect"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "begins to",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        },
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Emissary's Blessing",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "ieffect2",
+                                                                "name": "Blessed by {{caster.name}}",
+                                                                "duration": "1",
+                                                                "tick_on_caster": true,
+                                                                "desc": "The target gains a d8. \n- They can use this d8 to add to any roll of their choosing before the start of your next turn. \n- The creature loses this d8 at the start of your next turn if it was not used."
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "bestows an",
+                                                "proper": true,
+                                                "activation_type": 3
+                                            }
+                                        }
+                                    ],
+                                    "buttons": [
+                                        {
+                                            "label": "Start Turn",
+                                            "automation": [
+                                                {
+                                                    "type": "roll",
+                                                    "dice": "2d10",
+                                                    "name": "temp",
+                                                    "displayName": "Temporary Hitpoints"
+                                                },
+                                                {
+                                                    "type": "target",
+                                                    "target": "children",
+                                                    "effects": [
+                                                        {
+                                                            "type": "temphp",
+                                                            "amount": "{{max(target.temp_hp, temp)}}"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "verb": "starts their turn",
+                                            "style": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "each",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "In the Aura",
+                                    "desc": "Lasts while within 30 feet of {{caster.name}}",
+                                    "parent": "aura",
+                                    "buttons": [
+                                        {
+                                            "label": "Leave Aura",
+                                            "verb": "leaves the range of the Aura",
+                                            "style": "4",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:\n\n- You have resistance to all damage.\n- You shed bright light out to a range of 60 feet, and dim light out an additional 60 feet.\n- Allies within 30 feet of you gain 2d10 temporary hit points at the start of each of your turns.\n- As a bonus action on each of your turns, a creature of your choosing (other than yourself) within 30 feet of you gains a d8. The target can use this d8 to add to any roll of their choosing before the start of your next turn. The creature loses this d8 at the start of your next turn if it was not used.\n\nOnce you use this feature, you can’t use it again until you finish a long rest."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "is",
+                    "activation_type": 1
+                }
+            }
+        ],
+        "Zealot": [
+            {
+                "level": 3,
+                "action": {
+                    "name": "Turn the Faithless",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "condition",
+                                    "condition": "target.creature_type and ('fey' in target.creature_type.lower() or 'fiend' in target.creature_type.lower() or 'daedra' in target.creature_type.lower() or 'aberrations' in target.creature_type.lower())",
+                                    "onTrue": [
+                                        {
+                                            "type": "save",
+                                            "stat": "wis",
+                                            "fail": [
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Turned from {{caster.name}}",
+                                                    "duration": "10",
+                                                    "desc": "must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of {{caster.name}}.\n- It also can’t take reactions. \n- For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+                                                    "buttons": [
+                                                        {
+                                                            "label": "Take Damage",
+                                                            "automation": [
+                                                                {
+                                                                    "type": "remove_ieffect"
+                                                                }
+                                                            ],
+                                                            "verb": "takes damage",
+                                                            "style": "4"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "success": []
+                                        }
+                                    ],
+                                    "onFalse": [],
+                                    "errorBehaviour": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "You can use your Channel Divinity to utter divine words that are painful for aberrations, fey, and fiends to hear. As an action, you present your holy symbol, and each fey, fiend, or aberration within 30 feet of you that can hear you must make a Willpower saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.\n\nIf the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "activation_type": 1,
+                    "verb": "tries to"
+                }
+            },
+            {
+                "level": 3,
+                "action": {
+                    "name": "Aetherial Blessing",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Channel Divinity",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Aetherial Blessing",
+                                    "duration": "10",
+                                    "desc": "whenever you make a damage roll, you can add your Willpower attribute modifier to weapon attacks (minimum of 1)",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Aetherial Strike",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "damage",
+                                                                "damage": "{{max(wisdomMod,1)}} [weapon]"
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "hits with an",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As a bonus action, you present your holy symbol, whenever you make a damage roll, you can add your Willpower attribute modifier to weapon attacks (minimum of 1) for the next minute"
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "makes an",
+                    "activation_type": 3
+                }
+            },
+            {
+                "level": 7,
+                "action": {
+                    "name": "Aura of Fury",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "range",
+                            "value": "10 if CrusaderLevel<=17 else 30",
+                            "onError": "10"
+                        },
+                        {
+                            "type": "variable",
+                            "name": "bonus",
+                            "value": "max(wisdomMod,1)",
+                            "onError": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Aura of Fury",
+                                    "desc": "Allies within {{range}} feet of you add your Willpower attribute modifier to a damage roll (minimum of 1) once per turn.",
+                                    "save_as": "aura",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Spread Aura of Fury",
+                                                "automation": [
+                                                    {
+                                                        "type": "variable",
+                                                        "name": "range",
+                                                        "value": "10 if CrusaderLevel<=17 else 30",
+                                                        "onError": "10"
+                                                    },
+                                                    {
+                                                        "type": "variable",
+                                                        "name": "bonus",
+                                                        "value": "max(wisdomMod,1)",
+                                                        "onError": "1"
+                                                    },
+                                                    {
+                                                        "type": "target",
+                                                        "target": "each",
+                                                        "effects": [
+                                                            {
+                                                                "type": "ieffect2",
+                                                                "name": "In the Aura",
+                                                                "desc": "Lasts while within {{range}} feet of {{caster.name}} \n- You gain a +{{bonus}} to damage rolls once per turn",
+                                                                "parent": "ieffect",
+                                                                "buttons": [
+                                                                    {
+                                                                        "label": "Leave Aura",
+                                                                        "verb": "leaves the range of the Aura",
+                                                                        "style": "4",
+                                                                        "automation": [
+                                                                            {
+                                                                                "type": "remove_ieffect"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "begins to",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "each",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "In the Aura",
+                                    "desc": "Lasts while within {{range}} feet of {{caster.name}} \n- You gain a +{{bonus}} to damage rolls once per turn",
+                                    "parent": "aura",
+                                    "buttons": [
+                                        {
+                                            "label": "Leave Aura",
+                                            "verb": "leaves the range of the Aura",
+                                            "style": "4",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Friendly creatures within 10 feet of you add your Willpower attribute modifier to a damage roll  (minimum of 1) once per turn.\n\nAt 18th level, the range of this aura increases to 30 feet."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "has an",
+                    "activation_type": 2
+                }
+            },
+            {
+                "level": 20,
+                "action": {
+                    "name": "Zealous Fury",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Zealous Fury",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Aura of the Zealot",
+                                    "duration": "10",
+                                    "desc": "Affects allies within 30 feet of you",
+                                    "save_as": "aura",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Spread Aura",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "each",
+                                                        "effects": [
+                                                            {
+                                                                "type": "ieffect2",
+                                                                "name": "In the Aura",
+                                                                "duration": "ieffect.remaining",
+                                                                "desc": "Lasts while within 30 feet of {{caster.name}}\n- You can reroll a missed attack but must use the new roll. A creature can only make this roll once per round.",
+                                                                "parent": "ieffect",
+                                                                "buttons": [
+                                                                    {
+                                                                        "label": "Leave Aura",
+                                                                        "verb": "leaves the range of the Aura",
+                                                                        "style": "4",
+                                                                        "automation": [
+                                                                            {
+                                                                                "type": "remove_ieffect"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "begins to",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        },
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Reactive Resistance",
+                                                "automation": [
+                                                    {
+                                                        "type": "counter",
+                                                        "counter": "thiscounterdoesnotexist",
+                                                        "amount": "0",
+                                                        "errorBehaviour": "ignore"
+                                                    },
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "damage",
+                                                                "damage": "-{{lastCounterRequestedAmount//2}} [reduced]"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "text",
+                                                        "text": "As a reaction on your turn, when a creature within 30 feet of you is harmed by radiant, necrotic, psychic, or force damage, you can grant that target resistance to that damage roll."
+                                                    },
+                                                    {
+                                                        "type": "condition",
+                                                        "condition": "lastCounterRequestedAmount>0",
+                                                        "onTrue": [],
+                                                        "onFalse": [
+                                                            {
+                                                                "type": "text",
+                                                                "text": "Use `-amt` to set the damage taken and recover the appropriate amount.",
+                                                                "title": "Next Time..."
+                                                            }
+                                                        ],
+                                                        "errorBehaviour": "false"
+                                                    }
+                                                ],
+                                                "verb": "imposes",
+                                                "activation_type": 4
+                                            }
+                                        },
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Zealous Healing",
+                                                "automation": [
+                                                    {
+                                                        "type": "target",
+                                                        "target": "all",
+                                                        "effects": [
+                                                            {
+                                                                "type": "damage",
+                                                                "damage": "-2d4 [heal]"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "text",
+                                                        "text": "As a bonus action on each of your turns, a creature of your choosing within 30 feet of you regains 2d4 hit points."
+                                                    }
+                                                ],
+                                                "verb": "uses",
+                                                "proper": true,
+                                                "activation_type": 3
+                                            }
+                                        }
+                                    ],
+                                    "effects": {
+                                        "resistances": [
+                                            "radiant",
+                                            "psychic",
+                                            "necrotic",
+                                            "force"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "each",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "In the Aura",
+                                    "duration": "10",
+                                    "desc": "Lasts while within 30 feet of {{caster.name}}\n- You can reroll a missed attack but must use the new roll. A creature can only make this roll once per round.",
+                                    "parent": "aura",
+                                    "buttons": [
+                                        {
+                                            "label": "Leave Aura",
+                                            "verb": "leaves the range of the Aura",
+                                            "style": "4",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:\n\n- You have resistance to radiant, necrotic, psychic, and force damage. As a reaction on your turn, when a creature within 30 feet of you is harmed by radiant, necrotic, psychic, or force damage, you can grant that target resistance to that damage roll.\n- When an ally within 30 feet of you misses a target with a weapon attack, they can reroll the attack but must they use the new roll. A creature can only make this roll once per round.\n- As a bonus action on each of your turns, a creature of your choosing within 30 feet of you regains 2d4 hit points. \n\nOnce you use this feature, you can’t use it again until you finish a long rest."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "activation_type": 1
+                }
+            }
+        ],
+        "None": [
+            {
+                "level": 1,
+                "action": {
+                    "name": "Divine Sense",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Divine Sense",
+                            "amount": "1"
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial (aedra), fiend (daedra), or undead within 60 feet of you that is not behind total cover. You know the type of any being whose presence you sense, but not its identity. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "verb": "uses",
+                    "activation_type": 1
+                }
+            },
+            {
+                "level": 1,
+                "action": {
+                    "name": "Lay on Hands",
+                    "automation": [
+                        {
+                            "type": "condition",
+                            "condition": "choice and choice.lower() in 'disease'",
+                            "onTrue": [
+                                {
+                                    "type": "counter",
+                                    "counter": "Lay on Hands",
+                                    "amount": "5"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one."
+                                }
+                            ],
+                            "onFalse": [
+                                {
+                                    "type": "counter",
+                                    "counter": "Lay on Hands",
+                                    "amount": "1"
+                                },
+                                {
+                                    "type": "target",
+                                    "target": "all",
+                                    "effects": [
+                                        {
+                                            "type": "damage",
+                                            "damage": "-{{lastCounterUsedAmount}} [heal]"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "errorBehaviour": "false"
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.\n\nAlternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.\n\nThis feature has no effect on undead and constructs."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "begins to",
+                    "activation_type": 1
+                }
+            },
+            {
+                "level": 2,
+                "action": {
+                    "name": "Divine Smite",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Magicka",
+                            "amount": "2"
+                        },
+                        {
+                            "type": "variable",
+                            "name": "dice",
+                            "value": "2 if lastCounterUsedAmount==2 else 3 if lastCounterUsedAmount==3 else 4 if lastCounterUsedAmount==5 else 5",
+                            "onError": "2"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "condition",
+                                    "condition": "target.creature_type and ('undead' in target.creature_type.lower() or 'fiend' in target.creature_type.lower() or 'daedra' in target.creature_type.lower())",
+                                    "onTrue": [
+                                        {
+                                            "type": "damage",
+                                            "damage": "{{dice}}d8+1d8 [magical radiant]"
+                                        }
+                                    ],
+                                    "onFalse": [
+                                        {
+                                            "type": "damage",
+                                            "damage": "{{dice}}d8 [magical radiant]"
+                                        }
+                                    ],
+                                    "errorBehaviour": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "When you hit a creature with a melee weapon attack, you can expend magicka points to deal radiant damage to the target, in addition to the weapon’s damage. The extra damage is 2d8 for a 1st level spell, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": false,
+                    "activation_type": 8
+                }
+            },
+            {
+                "level": 6,
+                "action": {
+                    "name": "Aura of Protection",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "range",
+                            "value": "10 if CrusaderLevel<=17 else 30",
+                            "onError": "10"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Aura of Protection",
+                                    "desc": "Allies within {{range}} feet of you gain a +{{max(charismaMod,1)}} bonus to saving throws",
+                                    "save_as": "aura",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Spread Aura of Protection",
+                                                "automation": [
+                                                    {
+                                                        "type": "variable",
+                                                        "name": "mod",
+                                                        "value": "charismaMod",
+                                                        "onError": "1"
+                                                    },
+                                                    {
+                                                        "type": "variable",
+                                                        "name": "range",
+                                                        "value": "10 if CrusaderLevel<=17 else 30",
+                                                        "onError": "10"
+                                                    },
+                                                    {
+                                                        "type": "target",
+                                                        "target": "each",
+                                                        "effects": [
+                                                            {
+                                                                "type": "ieffect2",
+                                                                "name": "In the Aura",
+                                                                "desc": "Lasts while within {{range}} feet of {{caster.name}}",
+                                                                "parent": "ieffect",
+                                                                "buttons": [
+                                                                    {
+                                                                        "label": "Leave Aura",
+                                                                        "verb": "leaves the range of the Aura",
+                                                                        "style": "4",
+                                                                        "automation": [
+                                                                            {
+                                                                                "type": "remove_ieffect"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "effects": {
+                                                                    "save_bonus": "{{mod}}"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "begins to",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "each",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "In the Aura",
+                                    "desc": "Lasts while within {{range}} feet of {{caster.name}}",
+                                    "parent": "aura",
+                                    "buttons": [
+                                        {
+                                            "label": "Leave Aura",
+                                            "verb": "leaves the range of the Aura",
+                                            "style": "4",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "effects": {
+                                        "save_bonus": "{{charismaMod}}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Personality modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.\n\nAt 18th level, the range of this aura increases to 30 feet."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "has an",
+                    "activation_type": 2
+                }
+            },
+            {
+                "level": 10,
+                "action": {
+                    "name": "Aura of Courage",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "range",
+                            "value": "10 if CrusaderLevel<=17 else 30",
+                            "onError": "10"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Aura of Courage",
+                                    "desc": "Allies within {{range}} feet of you can’t be frightened",
+                                    "save_as": "aura",
+                                    "attacks": [
+                                        {
+                                            "attack": {
+                                                "_v": 2,
+                                                "name": "Spread Aura of Courage",
+                                                "automation": [
+                                                    {
+                                                        "type": "variable",
+                                                        "name": "range",
+                                                        "value": "10 if CrusaderLevel<=17 else 30",
+                                                        "onError": "10"
+                                                    },
+                                                    {
+                                                        "type": "target",
+                                                        "target": "each",
+                                                        "effects": [
+                                                            {
+                                                                "type": "ieffect2",
+                                                                "name": "In the Aura",
+                                                                "desc": "Lasts while within {{range}} feet of {{caster.name}}",
+                                                                "parent": "ieffect",
+                                                                "buttons": [
+                                                                    {
+                                                                        "label": "Leave Aura",
+                                                                        "verb": "leaves the range of the Aura",
+                                                                        "style": "4",
+                                                                        "automation": [
+                                                                            {
+                                                                                "type": "remove_ieffect"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "effects": {
+                                                                    "immunities": [
+                                                                        "Frightened"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "verb": "begins to",
+                                                "proper": true,
+                                                "activation_type": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "each",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "In the Aura",
+                                    "desc": "Lasts while within {{range}} feet of {{caster.name}}",
+                                    "parent": "aura",
+                                    "buttons": [
+                                        {
+                                            "label": "Leave Aura",
+                                            "verb": "leaves the range of the Aura",
+                                            "style": "4",
+                                            "automation": [
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "effects": {
+                                        "immunities": [
+                                            "Frightened"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "You and friendly creatures within 10 feet of you can’t be frightened while you are conscious.\n\nAt 18th level, the range of this aura increases to 30 feet."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "has an",
+                    "activation_type": 2
+                }
+            },
+            {
+                "level": 11,
+                "action": {
+                    "name": "Improved Divine Smite",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "damage",
+                                    "damage": "1d8 [radiant]"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite."
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "attacks with an",
+                    "activation_type": 2
+                }
+            }
+        ]
+    }
+}

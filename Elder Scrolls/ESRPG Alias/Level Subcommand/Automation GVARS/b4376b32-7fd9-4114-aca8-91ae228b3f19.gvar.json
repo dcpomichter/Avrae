@@ -1,0 +1,837 @@
+{
+    "Bard": {
+        "Reveries": [
+            {
+                "level": 14,
+                "action": {
+                    "name": "Compelling Inspiration",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Bardic Inspiration",
+                            "amount": "1",
+                            "allowOverflow": false,
+                            "errorBehaviour": "warn"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "save",
+                                    "stat": "wis",
+                                    "fail": [
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "Compelled by {{caster.name}}",
+                                            "duration": "2",
+                                            "effects": {
+                                                "attack_advantage": "-1"
+                                            },
+                                            "attacks": [],
+                                            "buttons": [],
+                                            "end": true,
+                                            "conc": false,
+                                            "desc": "The compelled creature has disadvantage on all attack rolls, and all attacks made against the compelled creature have advantage.",
+                                            "stacking": false,
+                                            "save_as": null,
+                                            "parent": null,
+                                            "target_self": false,
+                                            "tick_on_caster": true
+                                        }
+                                    ],
+                                    "success": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "At 14th level, your inspiring performances can compel even your harshest critics. You can use your Bardic Inspiration on a creature within 60 feet of you and force it to make a Willpower saving throw. On a failed save, the creature is compelled by you until the start of your next turn. The compelled creature has disadvantage on all attack rolls, and all attacks made against the compelled creature have advantage.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2,
+                    "verb": "performs",
+                    "activation_type": 3
+                }
+            }
+        ],
+        "Solitude": [
+            {
+                "level": 6,
+                "action": {
+                    "name": "Disarming Charm",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Disarming Charm",
+                            "amount": "1",
+                            "allowOverflow": false,
+                            "errorBehaviour": "warn"
+                        },
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "variable",
+                                    "name": "bard",
+                                    "value": "2 if caster.level.get('Bard')<=16 else 4",
+                                    "onError": "2"
+                                },
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Charming",
+                                    "duration": "1",
+                                    "effects": {
+                                        "ac_bonus": "bard"
+                                    },
+                                    "attacks": [],
+                                    "buttons": [],
+                                    "end": false,
+                                    "conc": false,
+                                    "desc": "you gain a +{{bard}} bonus to your AC until the start of your next turn.",
+                                    "stacking": false,
+                                    "save_as": null,
+                                    "parent": null,
+                                    "target_self": false,
+                                    "tick_on_caster": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As a reaction, when a creature attacks you with a melee strike, you gain a +2 bonus to your AC until the start of your next turn.\n\nYou can use this feature an amount of times equal to your personality modifier. You regain any expended uses when you finish a long rest.\n\nBeginning at 17th level, you gain a +4 bonus to your AC when you use this feature.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2,
+                    "verb": "has",
+                    "activation_type": 4
+                }
+            },
+            {
+                "level": 14,
+                "action": {
+                    "name": "Battle Anthem",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Battle Anthem",
+                            "amount": "1",
+                            "allowOverflow": false,
+                            "errorBehaviour": "warn"
+                        },
+                        {
+                            "type": "condition",
+                            "condition": "choice and choice.lower() in \"war\"",
+                            "onTrue": [
+                                {
+                                    "type": "target",
+                                    "target": "all",
+                                    "effects": [
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "Anthem of War",
+                                            "duration": "10",
+                                            "effects": null,
+                                            "attacks": [],
+                                            "buttons": [],
+                                            "end": false,
+                                            "conc": true,
+                                            "desc": null,
+                                            "stacking": false,
+                                            "save_as": "war",
+                                            "parent": null,
+                                            "target_self": true,
+                                            "tick_on_caster": false
+                                        },
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "War Anthem",
+                                            "duration": null,
+                                            "effects": {
+                                                "attack_advantage": "1"
+                                            },
+                                            "attacks": [],
+                                            "buttons": [],
+                                            "end": false,
+                                            "conc": false,
+                                            "desc": null,
+                                            "stacking": false,
+                                            "save_as": null,
+                                            "parent": "war",
+                                            "target_self": false,
+                                            "tick_on_caster": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Each ally that can see and hear you gains advantage on attack rolls for the duration.",
+                                    "title": "Anthem of War"
+                                }
+                            ],
+                            "onFalse": [
+                                {
+                                    "type": "condition",
+                                    "condition": "choice and choice.lower() in \"protection\"",
+                                    "onTrue": [
+                                        {
+                                            "type": "target",
+                                            "target": "all",
+                                            "effects": [
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Anthem of Protection",
+                                                    "duration": "10",
+                                                    "effects": null,
+                                                    "attacks": [],
+                                                    "buttons": [],
+                                                    "end": false,
+                                                    "conc": true,
+                                                    "desc": null,
+                                                    "stacking": false,
+                                                    "save_as": "protect",
+                                                    "parent": null,
+                                                    "target_self": true,
+                                                    "tick_on_caster": false
+                                                },
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Protection Anthem",
+                                                    "duration": null,
+                                                    "effects": {
+                                                        "ac_bonus": "2"
+                                                    },
+                                                    "attacks": [],
+                                                    "buttons": [],
+                                                    "end": false,
+                                                    "conc": false,
+                                                    "desc": null,
+                                                    "stacking": false,
+                                                    "save_as": null,
+                                                    "parent": "protect",
+                                                    "target_self": false,
+                                                    "tick_on_caster": false
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "Each ally that can see and hear you gains a +2 bonus to their AC for the duration.",
+                                            "title": "Anthem of Protection"
+                                        }
+                                    ],
+                                    "onFalse": [
+                                        {
+                                            "type": "condition",
+                                            "condition": "choice and choice.lower() in \"intimidation\"",
+                                            "onTrue": [
+                                                {
+                                                    "type": "target",
+                                                    "target": "all",
+                                                    "effects": [
+                                                        {
+                                                            "type": "ieffect2",
+                                                            "name": "Anthem of Intimidation",
+                                                            "duration": "10",
+                                                            "effects": null,
+                                                            "attacks": [],
+                                                            "buttons": [],
+                                                            "end": false,
+                                                            "conc": true,
+                                                            "desc": null,
+                                                            "stacking": false,
+                                                            "save_as": "intimidate",
+                                                            "parent": null,
+                                                            "target_self": true,
+                                                            "tick_on_caster": false
+                                                        },
+                                                        {
+                                                            "type": "ieffect2",
+                                                            "name": "Intimidation Anthem",
+                                                            "duration": null,
+                                                            "effects": {
+                                                                "save_dis": [
+                                                                    "all"
+                                                                ]
+                                                            },
+                                                            "attacks": [],
+                                                            "buttons": [],
+                                                            "end": false,
+                                                            "conc": false,
+                                                            "desc": null,
+                                                            "stacking": false,
+                                                            "save_as": null,
+                                                            "parent": "intimidate",
+                                                            "target_self": false,
+                                                            "tick_on_caster": false
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "Each enemy that can see and hear you has disadvantage on saving throws for the duration.",
+                                                    "title": "Anthem of Intimidation"
+                                                }
+                                            ],
+                                            "onFalse": [
+                                                {
+                                                    "type": "target",
+                                                    "target": "self",
+                                                    "effects": [
+                                                        {
+                                                            "type": "ieffect2",
+                                                            "name": "Battle Anthem",
+                                                            "duration": "10",
+                                                            "effects": null,
+                                                            "attacks": [],
+                                                            "buttons": [],
+                                                            "end": false,
+                                                            "conc": true,
+                                                            "desc": "Each ally or Enemy within 30 ft gains one the following conditions:\n- Each ally that can see and hear you gains advantage on attack rolls for the duration.\n- Each ally that can see and hear you gains a +2 bonus to their AC for the duration.\n- Each enemy that can see and hear you has disadvantage on saving throws for the duration.\nAs an action on your following turns you can change the effect of your Battle Anthem.",
+                                                            "stacking": false,
+                                                            "save_as": null,
+                                                            "parent": null,
+                                                            "target_self": false,
+                                                            "tick_on_caster": false
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "use `-choice` to select the effect and target the recipients.",
+                                                    "title": "Next Time..."
+                                                }
+                                            ],
+                                            "errorBehaviour": "false"
+                                        }
+                                    ],
+                                    "errorBehaviour": "false"
+                                }
+                            ],
+                            "errorBehaviour": "true"
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, all allies or enemies within 60 feet of you that can see and hear you, gain one effect of your choice for the duration of the anthem. The effect lasts up to 1 minute, as though you are concentrating on a spell. As an action on your following turns you can change the effect of your Battle Anthem.\n\nOnce you use this feature, you must finish a long rest to be able to use it again.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2,
+                    "verb": "performs",
+                    "activation_type": 1
+                }
+            }
+        ],
+        "Courtesy": [
+            {
+                "level": 3,
+                "action": {
+                    "name": "Battlefield Etiquette",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Bardic Inspiration",
+                            "amount": "1",
+                            "allowOverflow": false,
+                            "errorBehaviour": "warn"
+                        },
+                        {
+                            "type": "condition",
+                            "condition": "choice and choice.lower() in \"parley\"",
+                            "onTrue": [
+                                {
+                                    "type": "target",
+                                    "target": "all",
+                                    "effects": [
+                                        {
+                                            "type": "save",
+                                            "stat": "cha",
+                                            "fail": [
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Calming Emotions",
+                                                    "duration": "10",
+                                                    "effects": null,
+                                                    "attacks": [],
+                                                    "buttons": [],
+                                                    "end": false,
+                                                    "conc": true,
+                                                    "desc": null,
+                                                    "stacking": false,
+                                                    "save_as": "calm",
+                                                    "parent": null,
+                                                    "target_self": true,
+                                                    "tick_on_caster": false
+                                                },
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Calmed by {{caster.name}}",
+                                                    "duration": null,
+                                                    "effects": null,
+                                                    "attacks": [],
+                                                    "buttons": [],
+                                                    "end": false,
+                                                    "conc": false,
+                                                    "desc": null,
+                                                    "stacking": false,
+                                                    "save_as": null,
+                                                    "parent": "calm",
+                                                    "target_self": false,
+                                                    "tick_on_caster": false
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "If a creature fails its saving throw, choose one of the following two effects:\n\n- You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.\n\n- Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise.",
+                                                    "title": "Effect"
+                                                }
+                                            ],
+                                            "success": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "onFalse": [
+                                {
+                                    "type": "condition",
+                                    "condition": "choice and choice.lower() in \"duel\"",
+                                    "onTrue": [
+                                        {
+                                            "type": "target",
+                                            "target": "all",
+                                            "effects": [
+                                                {
+                                                    "type": "save",
+                                                    "stat": "wis",
+                                                    "fail": [
+                                                        {
+                                                            "type": "ieffect2",
+                                                            "name": "Compelled to Duel",
+                                                            "duration": "10",
+                                                            "effects": null,
+                                                            "attacks": [],
+                                                            "buttons": [],
+                                                            "end": false,
+                                                            "conc": false,
+                                                            "desc": "The target has disadvantage on attacks made against any creature that isn’t that ally for the next minute.",
+                                                            "stacking": false,
+                                                            "save_as": null,
+                                                            "parent": null,
+                                                            "target_self": false,
+                                                            "tick_on_caster": false
+                                                        }
+                                                    ],
+                                                    "success": []
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "onFalse": [
+                                        {
+                                            "type": "target",
+                                            "target": "all",
+                                            "effects": [
+                                                {
+                                                    "type": "temphp",
+                                                    "amount": "{{caster.levels.get('Bard')}}+{{charismaMod}}"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "Not the effect you were looking for?\nuse `-choice` to select which effect to use.\n`parley`- to cast Calm Emotions\n`duel`- to impose a duel against enemies",
+                                            "title": "Next Time..."
+                                        }
+                                    ],
+                                    "errorBehaviour": "false"
+                                }
+                            ],
+                            "errorBehaviour": "false"
+                        },
+                        {
+                            "type": "text",
+                            "text": "As a bonus action, you can expend one of your Bardic Inspiration dice in order to produce one of the following options:\n\nParley. You cast calm emotions without expending magicka.\n\nDuel. You force a number of hostile creatures up to your Personality attribute modifier (minimum of 1) that can hear and understand you to duel an ally of your choice. Each target must make a Willpower saving throw equal to your spell save DC. On a failed save, the target has disadvantage on attacks made against any creature that isn’t that ally for the next minute.\n\nDiscipline. You bestow your allies with temporary hit points equal to your bard level + your Personality modifier for the next minute.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2,
+                    "proper": true,
+                    "verb": "has",
+                    "activation_type": 3
+                }
+            },
+            {
+                "level": 6,
+                "action": {
+                    "name": "Graceful Redress",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "bard",
+                            "value": "6 if caster.levels.get('Bard')<=4 else 8 if caster.levels.get('Bard')<=9 else 10 if caster.levels.get('Bard')<=14 else 12"
+                        },
+                        {
+                            "type": "roll",
+                            "dice": "1d{{bard}}",
+                            "name": "Bardic Inspiration",
+                            "hidden": false
+                        },
+                        {
+                            "type": "condition",
+                            "condition": "choice and choice.lower() in \"graceful redress\"",
+                            "onTrue": [
+                                {
+                                    "type": "counter",
+                                    "counter": "Graceful Redress",
+                                    "amount": "1",
+                                    "allowOverflow": false,
+                                    "errorBehaviour": "warn"
+                                }
+                            ],
+                            "onFalse": [
+                                {
+                                    "type": "counter",
+                                    "counter": "Bardic Inspiration",
+                                    "amount": "1",
+                                    "allowOverflow": false,
+                                    "errorBehaviour": "warn"
+                                }
+                            ],
+                            "errorBehaviour": "false"
+                        },
+                        {
+                            "type": "text",
+                            "text": "When you or an ally that you can see and hear fails a Deception, Intimidation, or Persuasion skill check, you can use your reaction to expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to the skill check, using the new result in place of the failed one, possibly changing the result.\n\nAdditionally, you when you make any Personality skill check, you can add a Bardic Inspiration die to the roll without expending a use. Once you use this feature in this way, you can’t use it again until you finish a short or long rest.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2,
+                    "verb": "enacts",
+                    "activation_type": 8
+                }
+            }
+        ],
+        "Divines": [
+            {
+                "level": 6,
+                "action": {
+                    "name": "Blessing of Music",
+                    "automation": [
+                        {
+                            "type": "counter",
+                            "counter": "Blessing of Music",
+                            "amount": "1",
+                            "allowOverflow": false,
+                            "errorBehaviour": "warn"
+                        },
+                        {
+                            "type": "condition",
+                            "condition": "choice and choice.lower() in \"heroism\"",
+                            "onTrue": [
+                                {
+                                    "type": "target",
+                                    "target": "all",
+                                    "effects": [
+                                        {
+                                            "type": "variable",
+                                            "name": "temp",
+                                            "value": "charismaMod",
+                                            "onError": "1"
+                                        },
+                                        {
+                                            "type": "ieffect2",
+                                            "name": "Heroism",
+                                            "duration": "10",
+                                            "effects": {
+                                                "immunities": [
+                                                    "Frightened"
+                                                ]
+                                            },
+                                            "attacks": [],
+                                            "buttons": [
+                                                {
+                                                    "label": "Start Turn",
+                                                    "automation": [
+                                                        {
+                                                            "type": "target",
+                                                            "target": "self",
+                                                            "effects": [
+                                                                {
+                                                                    "type": "temphp",
+                                                                    "amount": "{{max(caster.temp_hp,spell_attack_bonus)}}"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "verb": "starts their turn feeling Heroic",
+                                                    "style": "1",
+                                                    "defaultAttackBonus": "temp"
+                                                }
+                                            ],
+                                            "end": false,
+                                            "conc": false,
+                                            "desc": "",
+                                            "stacking": false,
+                                            "save_as": null,
+                                            "parent": null,
+                                            "target_self": false,
+                                            "tick_on_caster": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "onFalse": [
+                                {
+                                    "type": "condition",
+                                    "condition": "choice and choice.lower() in \"divine favor\"",
+                                    "onTrue": [
+                                        {
+                                            "type": "target",
+                                            "target": "all",
+                                            "effects": [
+                                                {
+                                                    "type": "ieffect2",
+                                                    "name": "Divine Favor",
+                                                    "duration": "10",
+                                                    "effects": null,
+                                                    "attacks": [
+                                                        {
+                                                            "attack": {
+                                                                "name": "Divine Favor",
+                                                                "automation": [
+                                                                    {
+                                                                        "type": "target",
+                                                                        "target": "all",
+                                                                        "effects": [
+                                                                            {
+                                                                                "type": "damage",
+                                                                                "damage": "1d4 [radiant]",
+                                                                                "overheal": false
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "_v": 2,
+                                                                "proper": true
+                                                            },
+                                                            "defaultDC": null,
+                                                            "defaultAttackBonus": null,
+                                                            "defaultCastingMod": null
+                                                        }
+                                                    ],
+                                                    "buttons": [],
+                                                    "end": false,
+                                                    "conc": false,
+                                                    "desc": null,
+                                                    "stacking": false,
+                                                    "save_as": null,
+                                                    "parent": null,
+                                                    "target_self": false,
+                                                    "tick_on_caster": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "onFalse": [
+                                        {
+                                            "type": "text",
+                                            "text": "use `-choice` to select your effect and apply it to your target.",
+                                            "title": "Next Time..."
+                                        }
+                                    ],
+                                    "errorBehaviour": "false"
+                                }
+                            ],
+                            "errorBehaviour": "true"
+                        },
+                        {
+                            "type": "text",
+                            "text": "When a creature you can see uses your Bardic Inspiration, you can use your reaction to have them gain the effects of your choice of the divine favor or heroism spell. These effects use your spellcasting modifier and they do not require concentration to maintain them.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2
+                }
+            }
+        ],
+        "None": [
+            {
+                "level": 1,
+                "action": {
+                    "name": "Bardic Inspiration",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "bard",
+                            "value": "6 if caster.levels.get('Bard')<=4 else 8 if caster.levels.get('Bard')<=9 else 10 if caster.levels.get('Bard')<=14 else 12",
+                            "onError": "6"
+                        },
+                        {
+                            "type": "counter",
+                            "counter": "Bardic Inspiration",
+                            "amount": "1",
+                            "allowOverflow": false,
+                            "errorBehaviour": "warn"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "variable",
+                                    "name": "bard",
+                                    "value": "6 if caster.levels.get('Bard')<=4 else 8 if caster.levels.get('Bard')<=9 else 10 if caster.levels.get('Bard')<=14 else 12",
+                                    "onError": "6"
+                                },
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Inspired by {{caster.name}} (d{{bard}})",
+                                    "duration": "100",
+                                    "effects": null,
+                                    "attacks": [],
+                                    "buttons": [
+                                        {
+                                            "label": "Roll Inspiration",
+                                            "automation": [
+                                                {
+                                                    "type": "roll",
+                                                    "dice": "1d{{bard}}",
+                                                    "name": "Bardic Inspiration",
+                                                    "hidden": false
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "The creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes.",
+                                                    "title": "Effect"
+                                                },
+                                                {
+                                                    "type": "remove_ieffect"
+                                                }
+                                            ],
+                                            "verb": "rolls their d{{bard}} inspiration",
+                                            "style": "1",
+                                            "defaultDC": null,
+                                            "defaultAttackBonus": null,
+                                            "defaultCastingMod": null
+                                        }
+                                    ],
+                                    "end": false,
+                                    "conc": false,
+                                    "desc": "you can roll the die and add the number rolled to one ability check, attack roll, or saving throw",
+                                    "stacking": false,
+                                    "save_as": null,
+                                    "parent": null,
+                                    "target_self": false,
+                                    "tick_on_caster": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "You use a bonus action on your turn to choose one creature, other than yourself, within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.\n\nOnce within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2,
+                    "verb": "passes on",
+                    "activation_type": 3
+                }
+            },
+            {
+                "level": 2,
+                "action": {
+                    "name": "Song of Rest",
+                    "automation": [
+                        {
+                            "type": "variable",
+                            "name": "bard",
+                            "value": "6 if caster.levels.get('Bard')<=8 else 8 if caster.levels.get('Bard')<=12 else 10 if caster.levels.get('Bard')<=16 else 12",
+                            "onError": "6"
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "damage",
+                                    "damage": "-1d{{bard}} [heal]",
+                                    "overheal": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "You can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one more more Hit Dice, each of those creatures regains an extra 1d6 hit points.\n\nThe extra hit points increase when you reach certain levels in the class to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2,
+                    "verb": "performs",
+                    "activation_type": 8
+                }
+            },
+            {
+                "level": 6,
+                "action": {
+                    "name": "Countercharm",
+                    "automation": [
+                        {
+                            "type": "target",
+                            "target": "self",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Countercharming",
+                                    "duration": "2",
+                                    "effects": null,
+                                    "attacks": [],
+                                    "buttons": [],
+                                    "end": true,
+                                    "conc": false,
+                                    "desc": "you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed.",
+                                    "stacking": false,
+                                    "save_as": "charm",
+                                    "parent": null,
+                                    "target_self": false,
+                                    "tick_on_caster": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "target",
+                            "target": "all",
+                            "effects": [
+                                {
+                                    "type": "ieffect2",
+                                    "name": "Countercharmed",
+                                    "duration": null,
+                                    "effects": null,
+                                    "attacks": [],
+                                    "buttons": [],
+                                    "end": false,
+                                    "conc": false,
+                                    "desc": "you have advantage on saving throws against being frightened or charmed.",
+                                    "stacking": false,
+                                    "save_as": null,
+                                    "parent": "charm",
+                                    "target_self": false,
+                                    "tick_on_caster": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain the benefit, The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).",
+                            "title": "Effect"
+                        }
+                    ],
+                    "_v": 2,
+                    "verb": "performs",
+                    "activation_type": 1
+                }
+            }
+        ]
+    }
+}
