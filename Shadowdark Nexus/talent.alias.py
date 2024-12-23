@@ -17,4 +17,6 @@ for args in arg:
 ch.set_cvar('meleeCheck',melee)
 ch.set_cvar('rangedCheck',ranged)
 ch.set_cvar('spellCheck',spell)
-</drac2>
+text=f''' -title "{name} has a talent for checks" -f "Melee Checks|{ch.get_cvar('meleeCheck',0)}" -f "Ranged Checks|{ch.get_cvar('rangedCheck',0)}" -f "Spellcasting Checks|{ch.get_cvar('spellCheck',0)}"'''
+return text
+</drac2> -thumb {{image}} -footer "{{ctx.prefix}}{{ctx.alias}} [args]| created by @dcpomichter"

@@ -49,4 +49,4 @@ else:
     ch.create_cc_nx(GG, 0, int(max(strength,10)), None, "square", desc=desc10, initial_value=0)
 text=f''' -title "{name} is ready for Nexus!" -f "{ee}|{ch.cc_str(ee)}" -f "{GG}|{ch.cc_str(GG)}" {hit_die}'''
 return text
-</drac2> -thumb {{image}}
+</drac2> -thumb {{image}} -footer "{{ctx.prefix}}{{ctx.alias}} [class]| created by @dcpomichter"
