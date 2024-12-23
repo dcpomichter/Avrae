@@ -27,7 +27,7 @@ if arg:
             if check==checks[0]:
                 for args in arg:
                     if args in properties[1]:
-                        bonus=ch.stats.get_mod(max(stats[0],stats[1]))
+                        bonus=max(ch.stats.get_mod(stats[0]),ch.stats.get_mod(stats[1]))
                         props=f''' {properties[1]} '''
                         break
                     else:
@@ -37,7 +37,7 @@ if arg:
             if check==checks[1]:
                 for args in arg:
                     if args in properties[0]:
-                        bonus=ch.stats.get_mod(max(stats[0],stats[1]))
+                        bonus=max(ch.stats.get_mod(stats[0]),ch.stats.get_mod(stats[1]))
                         props=f''' {properties[0]} '''
                         break
                     else:
@@ -49,14 +49,17 @@ if arg:
                     if caster in ch.get_cvar('class').lower():
                         bonus=ch.stats.get_mod(stats[4])
                         props=f''' {caster.title()} '''
+                        break
                 for caster in intCaster:
                     if caster in ch.get_cvar('class').lower():
                         bonus=ch.stats.get_mod(stats[3])
                         props=f''' {caster.title()} '''
+                        break
                 for caster in chaCaster:
                     if caster in ch.get_cvar('class').lower():
                         bonus=ch.get_mod(stats[5])
                         props=f''' {caster.title()} '''
+                        break
                 stat=check.title()
                 break
 bonus+=misc
