@@ -11,6 +11,9 @@ chaCaster=['bard','knight of st ydris','witch',]
 adv=args.adv()
 misc=args.last('b',0,int)
 DC=args.last('dc',0,int)
+mastery=args.get('mastery')
+if mastery:
+    misc+=1+ch.levels.total_level//2
 stat=''
 props=' '
 bonus=0
@@ -32,6 +35,8 @@ if arg:
                         break
                     else:
                         bonus=ch.stats.get_mod(stats[0])
+                talents=int(ch.get_cvar('meleeCheck', 0))
+                bonus+=talents
                 stat=check.title()
                 break
             if check==checks[1]:
@@ -42,6 +47,8 @@ if arg:
                         break
                     else:
                         bonus=ch.stats.get_mod(stats[1])
+                talents=int(ch.get_cvar('rangedCheck', 0))
+                bonus+=talents
                 stat=check.title()
                 break
             if check==checks[2]:
@@ -60,6 +67,8 @@ if arg:
                         bonus=ch.get_mod(stats[5])
                         props=f''' {caster.title()} '''
                         break
+                talents=int(ch.get_cvar('spellCheck', 0))
+                bonus+=talents
                 stat=check.title()
                 break
 bonus+=misc

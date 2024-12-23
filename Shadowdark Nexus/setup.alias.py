@@ -37,6 +37,9 @@ if args:
             ch.create_cc_nx(hitDie)
             hit_die=f'''-f "{hitDie}|{ch.cc_str(hitDie)}"'''
             break
+ch.set_cvar_nx('meleeCheck', 0)
+ch.set_cvar_nx('rangedCheck', 0)
+ch.set_cvar_nx('spellCheck', 0)
 if ch.get_cvar('class')=='Fighter':
     if ch.stats.constitution>=10:
         ch.create_cc_nx(GG, 0, int(max(strength,10)+ch.stats.get_mod(con)), None, "square", desc=desc10, initial_value=0)
