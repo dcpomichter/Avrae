@@ -48,34 +48,34 @@ compact = parsed.last('h',parsed.last('compact',False))
 counters = ch.consumables
 counterNames = [x.name for x in counters]
 
-rations=''
+supply=''
 total=parsed.last('n', 1, int)
 if not parsed.last('i'):
-    rations_bag=bag.find_bag_with_item(secondBags, item="Ration")
-    if rations_bag:
-        if rations_bag[0]=="Storage":
+    supply_bag=bag.find_bag_with_item(secondBags, item="Supply")
+    if supply_bag:
+        if supply_bag[0]=="Storage":
             bag.swap_pos(secondBags, bag_name="Storage", position=9)
-            rations_bag=bag.find_bag_with_item(secondBags, item="Ration")
-    rationed_bag=bag.find_bag_with_item(myBags, item="Ration")
-    if rationed_bag:
-        if rationed_bag[0]=="Storage":
+            supply_bag=bag.find_bag_with_item(secondBags, item="Supply")
+    supplied_bag=bag.find_bag_with_item(myBags, item="Supply")
+    if supplied_bag:
+        if supplied_bag[0]=="Storage":
             bag.swap_pos(myBags, bag_name="Storage", position=9)
-            rationed_bag=bag.find_bag_with_item(myBags, item="Ration")
-    if rations_bag and rations_bag[0]!="Storage":
-        for item_type, amount in rations_bag[1].items():
-            if "Ration" in item_type:
-                rationed_bag, *_=bag.modify_item(myBags, item="Ration",quantity=-total,create_on_fail=False,recursive_search=True)
+            supplied_bag=bag.find_bag_with_item(myBags, item="Supply")
+    if supply_bag and supply_bag[0]!="Storage":
+        for item_type, amount in supply_bag[1].items():
+            if "Supply" in item_type:
+                supplied_bag, *_=bag.modify_item(myBags, item="Supply",quantity=-total,create_on_fail=False,recursive_search=True)
                 remaining=amount-total
                 item=item_type
-            if "ration" in item_type:
-                rationed_bag, *_=bag.modify_item(myBags, item="ration",quantity=-total,create_on_fail=False,recursive_search=True)
+            if "supply" in item_type:
+                supplied_bag, *_=bag.modify_item(myBags, item="supply",quantity=-total,create_on_fail=False,recursive_search=True)
                 remaining=amount-total
                 item=item_type
     bag.save_bags(myBags)
-    if rationed_bag and rationed_bag[0]!="Storage":
-        rations=f''' -f "{rationed_bag[0]}|{remaining} {item} (-{total})" '''
+    if supplied_bag and supplied_bag[0]!="Storage":
+        supply=f''' -f "{supplied_bag[0]}|{remaining} {item} (-{total})" '''
 
-if rations!='' or parsed.last('i'):
+if supply!='' or parsed.last('i'):
     outText = f'-title "{name} takes a Rest!" '
     sleptInArmor = parsed.last('armor',False)
     hpGain = hp-character().hp
@@ -120,7 +120,7 @@ if rations!='' or parsed.last('i'):
             counterFields[counterField] += counterText
         counterFields = [field.strip(', ') for field in counterFields if field]
         outText += ', ' if compact else f''' -f "Reset Counters|{''.join(counterFields)}"'''
-    outText+=rations
+    outText+=supply
 else:
     outText = f'-title "{name} cannot takes a Rest!" -f "Resting|To rest, a character must consume a ration and sleep for 8 hours."'
 
