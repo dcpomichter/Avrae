@@ -4,12 +4,18 @@ parsed = argparse(&ARGS&)
 arguments = &ARGS&
 n = '\n'
 ch = character()
+c = combat()
 using(bag="4119d62e-6a98-4153-bea9-0a99bb36da2c")
 myBags=bag.load_bags()
 secondBags=bag.save_state(myBags)
 classes    = load_json(get_gvar("938be0a3-f225-4c1f-a8e5-51643299c43e"))
 explain='When an Explorer does not have the basic needs of the Wilds Exhaustion begins to set in. Each time you gain a level of Exhaustion roll 1d6. The Explorer has disadvantage on all checks with the corresponding attribute. On a repeat, reroll. If the explorer would gain another level of Exhaustion beyond the sixth they die.'
 ch.create_cc_nx('Exhaustion',maxVal=6,minVal=0,desc=explain,reset_by=-1,dispType="bubble",initial_value=0)
+stats=['strength','dexterity','constitution','intelligence','wisdom','charisma']
+if c:
+    cb = c.get_combatant(ch.name)
+else:
+    cb = ch.name
 
 def merge_dicts(dict1, dict2):
   for class_name, details in dict2.items():
@@ -126,26 +132,34 @@ if supply!='' or parsed.last('i'):
 
     if ch.cc_exists('Exhaustion'):
         absRemaining=abs(remaining)
-        if ch.get_cc('Exhaustion') and not parsed.last('i'):
-            if remaining>=0:
+        if remaining>=0:
+            if ch.get_cc('Exhaustion'):
                 exhaustionDecreased = True
                 ch.mod_cc('Exhaustion',-1)
-            else:
-                exhaustionIncreased = True
-                if ch.cc('Exhaustion').value==6:
-                    outText=f'-title "{name} dies in their sleep!" '
-                    exhaustionIncreased = False
-                ch.mod_cc('Exhaustion',+abs(remaining))
         elif not parsed.last('i'):
-            if remaining<0:
-                exhaustionIncreased = True
-                if ch.cc('Exhaustion').value==6:
-                    outText=f'-title "{name} dies in their sleep!" '
-                    exhaustionIncreased = False
+            exhaustionIncreased = True
+            if ch.cc('Exhaustion').value==6 or (ch.cc('Exhaustion').value+absRemaining)>6:
+                outText=f'-title "{name} dies in their sleep!" '
+                exhaustionIncreased = False
+            else:
                 ch.mod_cc('Exhaustion',+abs(remaining))
+                i=0
+                if c:
+                    while i<absRemaining:
+                        remainingStats=[]
+                        for option in stats:
+                            if not cb.get_effect(f'Exhaustion ({option.title()})'):
+                                remainingStats.append(option)
+                        rolls=vroll(f'1d{len(remainingStats)}-1')
+                        rollTotal=rolls.total
+                        stat=remainingStats[rollTotal]
+                        # Generate and Apply ieffect
+                        exDesc= "The character suffers disadvantage when rolling with anything that has to do with the stat."
+                        exArgs = {"check_dis":[stat]}
+                        cb.add_effect(f'Exhaustion ({stat.title()})', desc = exDesc, passive_effects = exArgs)
+                        i+=1
         outText += ', Exhaustion Level' if compact else f''' -f "Exhaustion|{ch.cc_str('Exhaustion')}{' (-1)' if get('exhaustionDecreased')  else ' (+'+absRemaining+')' if get('exhaustionIncreased') else ''}|inline" '''
 
-    outText+=supply
 else:
     outText = f'-title "{name} takes an exhausting Rest!" '
     hpGain = hp-character().hp
@@ -189,16 +203,29 @@ else:
     if ch.cc_exists('Exhaustion'):
         absRemaining=abs(remaining)
         exhaustionIncreased = True
-        if ch.cc('Exhaustion').value==6:
+        if ch.cc('Exhaustion').value==6 or (ch.cc('Exhaustion').value+absRemaining)>6:
             outText=f'-title "{name} dies in their sleep!" '
             exhaustionIncreased = False
-            ch.mod_cc('Exhaustion',+abs(remaining))
         else:
-            exhaustionIncreased = True
             ch.mod_cc('Exhaustion',+abs(remaining))
+            i=0
+            if c:
+                while i<absRemaining:
+                    remainingStats=[]
+                    for option in stats:
+                        if not cb.get_effect(f'Exhaustion ({option.title()})'):
+                            remainingStats.append(option)
+                    rolls=vroll(f'1d{len(remainingStats)}-1')
+                    rollTotal=rolls.total
+                    stat=remainingStats[rollTotal]
+                    # Generate and Apply ieffect
+                    exDesc= "The character suffers disadvantage when rolling with anything that has to do with the stat."
+                    exArgs = {"check_dis":[stat]}
+                    cb.add_effect(f'Exhaustion ({stat.title()})', desc = exDesc, passive_effects = exArgs)
+                    i+=1
         outText += ', Exhaustion Level' if compact else f''' -f "Exhaustion|{ch.cc_str('Exhaustion')}{' (+'+absRemaining+')' if get('exhaustionIncreased') else ''}|inline" '''
 
-    outText+=supply
+outText+=supply
 
 return outText+f' -thumb {image} -color {color} -footer "{name}: <{character().hp_str()}>"'
 </drac2>
