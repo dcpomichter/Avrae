@@ -8,7 +8,7 @@ wisCaster=['priest','seer','druid']
 intCaster=['wizard']
 chaCaster=['bard','knight of st ydris','witch',]
 adv=args.adv()
-bonus_arg=custom_args.get('b', 'b')
+bonus_arg=args.get('b', 'b')
 misc=''.join(args.get(bonus_arg,type_=lambda x: "+"+x if x[0] not in "+-" else x))
 checkDc=args.last('dc',0,int)
 mastery=args.get('mastery')
