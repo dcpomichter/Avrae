@@ -14,9 +14,9 @@ else:
     character().mod_cc(cc,-1)
     remain=character().get_cc(cc)
     if remain>=2:
-        text+ =f'''-f "{cc}|{ammo+' (**Expended**)'}" -f "{cc} Counter|{character().get_cc(cc)+' (-1)'}"'''
+        text +=f'''-f "{cc}|{ammo+' (**Expended**)'}" -f "{cc} Counter|{character().get_cc(cc)+' (-1)'}"'''
     elif remain==1:
-        text+ =f'''-f "{cc}|{ammo+' (**Expended**)'}" -f "{cc} Counter|{character().get_cc(cc)+' (-1)'}" -f "You have 1 left, make it count"'''
+        text +=f'''-f "{cc}|{ammo+' (**Expended**)'}" -f "{cc} Counter|{character().get_cc(cc)+' (-1)'}" -f "You have 1 left, make it count"'''
     else:
         text +=f'''-f "{cc}|{ammo+' (**Expended**)'}" -f "{cc} Counter|{character().get_cc(cc)+' (-1)'}" -f "Your Stack is Empty"'''
 return text

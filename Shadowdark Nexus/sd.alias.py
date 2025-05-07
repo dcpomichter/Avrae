@@ -8,8 +8,8 @@ wisCaster=['priest','seer','druid']
 intCaster=['wizard']
 chaCaster=['bard','knight of st ydris','witch',]
 adv=args.adv()
-bonus_arg=args.get('b', 'b')
-misc=''.join(args.get(bonus_arg,type_=lambda x: "+"+x if x[0] not in "+-" else x))
+bonus_arg=args.get('b', type_=lambda x: "+"+x if x[0] not in "+-" else x)
+misc=''.join(bonus_arg)
 checkDc=args.last('dc',0,int)
 mastery=args.get('mastery')
 stat=''
@@ -131,7 +131,7 @@ if arg:
                 stat=check.title()
                 break
 dice=['1d20','2d20kh1','2d20kl1'][adv]
-check=vroll(f'''{dice}+{bonus}+{misc}''')
+check=vroll(f'''{dice}+{bonus} {misc}''')
 difficulty=''
 text=f''' -title "{name} makes a{props}{stat} check!" -f "{check}" '''
 if checkDc>0:
