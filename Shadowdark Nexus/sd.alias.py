@@ -8,11 +8,10 @@ wisCaster=['priest','seer','druid']
 intCaster=['wizard']
 chaCaster=['bard','knight of st ydris','witch',]
 adv=args.adv()
-misc=args.last('b',0,int)
+bonus_arg=custom_args.get('b', 'b')
+misc=''.join(args.get(bonus_arg,type_=lambda x: "+"+x if x[0] not in "+-" else x))
 checkDc=args.last('dc',0,int)
 mastery=args.get('mastery')
-if mastery:
-    misc+=1+ch.levels.total_level//2
 stat=''
 props=' '
 bonus=0
@@ -64,6 +63,8 @@ if arg:
                             if adv!=-1:
                                 adv-=1
                 talents=int(ch.get_cvar('meleeCheck', 0))
+                if mastery:
+                    bonus+=1+ch.levels.total_level//2
                 bonus+=talents
                 stat=check.title()
                 break
@@ -92,6 +93,8 @@ if arg:
                             if adv!=-1:
                                 adv-=1
                 talents=int(ch.get_cvar('rangedCheck', 0))
+                if mastery:
+                    bonus+=1+ch.levels.total_level//2
                 bonus+=talents
                 stat=check.title()
                 break
@@ -127,9 +130,8 @@ if arg:
                 bonus+=talents
                 stat=check.title()
                 break
-bonus+=misc
 dice=['1d20','2d20kh1','2d20kl1'][adv]
-check=vroll(f'''{dice}+{bonus}''')
+check=vroll(f'''{dice}+{bonus}+{misc}''')
 difficulty=''
 text=f''' -title "{name} makes a{props}{stat} check!" -f "{check}" '''
 if checkDc>0:
